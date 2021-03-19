@@ -8,12 +8,9 @@ ACCESSIONS = list(samples_df['accession'])
 
 rule all:
    input:
-      expand("{sample}_secretome.fasta", sample=SAMPLES),
-      #expand("leotio_proteins/{accession}.faa.gz" , accession=ACCESSIONS),
-      #expand("results/protein_comp/{sample}_secretome_comp.txt", sample=SAMPLES),
+      expand("{sample}_secretome.fasta", sample=SAMPLES), 
       expand("results/effectorp/{sample}_effectorp_parsed.txt", sample=SAMPLES),
-      #expand("{sample}_secretome_table.txt", sample=SAMPLES),
-      expand("{sample}_secretome_table_calls.txt", sample=SAMPLES),
+      #expand("{sample}_secretome_table_calls.txt", sample=SAMPLES),
       
 
 rule signalp:
