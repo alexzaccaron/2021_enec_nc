@@ -1,0 +1,173 @@
+
+# there would be sample.fasta to be analyzed
+SAMPLES=["enec_cstrain"]
+
+import pandas as pd
+samples_df = pd.read_table('leotio_proteins/proteome_links_leotio_non_erysiphales_genbank_20210318.txt').set_index("accession", drop=False)
+ACCESSIONS = list(samples_df['accession'])
+
+rule all:
+   input:
+      expand("{sample}_secretome.fasta", sample=SAMPLES),
+      #expand("leotio_proteins/{accession}.faa.gz" , accession=ACCESSIONS),
+      #expand("results/protein_comp/{sample}_secretome_comp.txt", sample=SAMPLES),
+      expand("results/effectorp/{sample}_effectorp_parsed.txt", sample=SAMPLES),
+      #expand("{sample}_secretome_table.txt", sample=SAMPLES),
+      expand("{sample}_secretome_table_calls.txt", sample=SAMPLES),
+      
+
+rule signalp:
+   input: "{sample}.fasta"
+   output: "results/signalp/{sample}_signalp.txt"
+   shell: """
+      PATH=$PATH:/home/azacca/programs/signalp-5.0b/bin/
+      signalp -fasta {input} -org euk -format short -stdout > {output}
+   """
+
+
+# rule to get fasta sequences of those with a signal peptide predicted by signalP5.0  ( SP(Sec/SPI) )
+rule get_secretome:
+   conda: "env.yml"
+   input: signalp="results/signalp/{sample}_signalp.txt", fasta="{sample}.fasta"
+   output: "{sample}_secretome.fasta"
+   shell: """
+   grep -v ^# {input.signalp} | 
+   awk '$2=="SP(Sec/SPI)"'    | 
+   cut -f 1                   |
+   seqtk subseq {input.fasta} - > {output} 
+   """
+
+
+
+
+rule get_prot_comp:
+   conda: "env.yml"
+   input: "{sample}_secretome.fasta"
+   output: "results/protein_comp/{sample}_secretome_comp.txt"
+   shell: """
+      seqkit fx2tab {input} | \
+         tr -d '\*'                 | \
+         awk -v OFS="\t" 'BEGIN{{print "id","length","cysteines_num","cysteines_perc"}} \
+            {{ for(i=1;i<=length($NF);i++) {{ if(substr($NF,i,1) == "C") c=c+1}}; print $1,length($NF),c,c/length($NF)*100; c=0 }}' > {output}
+   """
+
+
+rule run_effectorP:
+   input: "{sample}_secretome.fasta"
+   output: "results/effectorp/{sample}_effectorp.txt"
+   shell: """
+      EFFECTORP=/home/azacca/programs/EffectorP_2.0/Scripts/EffectorP.py
+      python2 $EFFECTORP -s -i {input} -o {output}
+   """
+
+
+
+rule parse_effectorP:
+   input: "results/effectorp/{sample}_effectorp.txt"
+   output: "results/effectorp/{sample}_effectorp_parsed.txt"
+   shell: """
+      cat {input}  | sed 's/Unlikely effector/Unlikely-effector/g' | grep -v ^# | awk -v OFS="\t" 'BEGIN{{print "id","EffectorP_res", "EffectorP_prob"}}{{print $1, $(NF-1), $NF}}' > {output}
+   """
+
+
+
+
+# MANUAL
+# rule to find and output the IDs of sequences with a transmembrane domain not within the first 40 aa.
+rule find_tmhs:
+    input: "results/tmhmm/{sample}_tmhmm.txt"
+    output: "results/tmhmm/{sample}_tmhmm_parsed.txt"
+    shell: """
+       awk '$2=="TMHMM2.0"' {input}  | \
+          cut -f 1 | \
+          sort -u  | \
+          while read ID; do \
+             grep -w ^$ID {input} | \
+                awk 'BEGIN{{TMH=0; sTMH=0}}{{if($3=="TMhelix"){{TMH++}}; if($3=="TMhelix" && $5<40){{sTMH++}}}}END{{print $1"\t"TMH"\t"sTMH}}'; done | \
+                   awk -v OFS="\t" 'BEGIN{{print "id", "TMH_num", "TMH_begin_num"}}{{print}}' > {output}
+
+    """
+rule parse_predgpi:
+    input: "results/predgpi/{sample}_predgpi.txt"
+    output: "results/predgpi/{sample}_predgpi_parsed.txt"
+    shell: """
+       grep "^>"  {input}  | sed 's/ .*FPrate:/ /g'  | tr -d '>' | awk 'BEGIN{{print "id\tpredGPI_FPrate"}}{{print $1"\t"$2}}' > {output}
+    """
+
+
+
+# RELATED TO HOMOLOGY SEARCH
+
+
+# rule to download leotiomycetes protein sequences
+rule download_sequences:
+    output: "leotio_proteins/{sample}.faa.gz"
+    params:
+        # dynamically grab the accession ID and taxID from the "accession" and "taxID" columns in the data frame
+        link = lambda wildcards: samples_df.loc[wildcards.sample, "prot_link"],
+        #taxID = lambda wildcards: samples_df.loc[wildcards.accession, "taxID"]
+    shell: """
+        curl -L {params.link} -o {output}
+        """
+
+# rule to concatenate all protein sequences to make a single blast db
+rule concatenate:
+   input: expand("leotio_proteins/{sample}.faa.gz" , sample=ACCESSIONS)
+   output: "leotio_proteins/concatenated.faa"
+   shell: """
+      zcat leotio_proteins/*.faa.gz > {output}
+   """
+
+# rule to make the blast db
+rule makeblastdb:
+   conda: "env.yml"
+   input:  "leotio_proteins/concatenated.faa"
+   output: "leotio_proteins/concatenated.faa.phr", "leotio_proteins/concatenated.faa.pin", "leotio_proteins/concatenated.faa.psq"
+   shell: """
+      makeblastdb -in {input} -dbtype prot
+   """
+
+# rule to run the blast search
+rule blastp:
+   conda: "env.yml"
+   input: fasta="{sample}_secretome.fasta", db="leotio_proteins/concatenated.faa", dbpart="leotio_proteins/concatenated.faa.phr"
+   output: "results/blast_results/{sample}_secretome_blastp.txt"
+   shell: """
+      blastp -query {input.fasta} -db {input.db} -evalue 1e-3 -max_target_seqs 20 -max_hsps 1 -outfmt 6 -out {output}
+   """
+
+rule count_blast_hits:
+   input: fasta="{sample}_secretome.fasta", blast_out="results/blast_results/{sample}_secretome_blastp.txt"
+   output: "results/blast_results/{sample}_secretome_blastp_counts.txt"
+   shell: """
+      grep "^>" {input.fasta} | \
+         tr -d '>' | \
+         awk '{{print $1}}' | \
+         while read ID; do \
+            COUNT=$(grep -wc $ID {input.blast_out}); echo $ID$'\t'$COUNT; done | \
+         awk  -v OFS="\t" 'BEGIN{{print "id","num_blast_hits"}}{{print $1,$2}}' > {output} || true
+   """
+
+
+rule merge_tables:
+   input: 
+      effectorp="results/effectorp/{sample}_effectorp_parsed.txt",
+      prot_comp="results/protein_comp/{sample}_secretome_comp.txt",
+      predgpi="results/predgpi/{sample}_predgpi_parsed.txt",
+      tmhmm="results/tmhmm/{sample}_tmhmm_parsed.txt",
+      blast_counts="results/blast_results/{sample}_secretome_blastp_counts.txt"
+   output: "{sample}_secretome_table.txt"
+   shell: """
+      Rscript scripts/merge_tables.R {input.prot_comp} {input.effectorp} {input.predgpi} {input.tmhmm} {input.blast_counts} {output}
+   """
+
+
+rule call_CEPs:
+   input: "{sample}_secretome_table.txt"
+   output: "{sample}_secretome_table_calls.txt"
+   shell: """
+      Rscript scripts/call_candidate_effectors.R {input} {output}
+   """
+
+
+
