@@ -1,0 +1,57 @@
+
+SAMPLES=["EnE101_chr_assembly_v3"]
+
+rule all:
+   input:
+      directory("Parsing-RepeatMasker-Outputs"),
+      expand("data/{sample}.fasta.align", sample=SAMPLES),
+      expand("data/{sample}.fasta.align.landscape.Div.Rclass.tab", sample=SAMPLES),
+      expand("plots/{sample}.fasta.align.landscape.Div.Rclass.edited.pdf", sample=SAMPLES)
+
+
+rule gitclone:
+   output: directory("Parsing-RepeatMasker-Outputs")
+   shell: """
+      git clone https://github.com/4ureliek/Parsing-RepeatMasker-Outputs
+   """
+
+
+rule repeatmasker:
+   conda: "env.yml"
+   input: fasta="data/{sample}.fasta", lib="data/{sample}_rm_lib.fasta"
+   output: "data/{sample}.fasta.align"
+   shell: """
+      RepeatMasker -xsmall -lib {input.lib} -gff -s -a -pa 6 {input.fasta}
+   """
+
+
+rule parseRM:
+   conda: "env.yml"
+   input: fasta="data/{sample}.fasta", lib="data/{sample}_rm_lib.fasta", aling="data/{sample}.fasta.align"
+   output: "data/{sample}.fasta.align.landscape.Div.Rclass.tab"
+   shell: """
+      perl Parsing-RepeatMasker-Outputs/parseRM.pl \
+         --in {input.aling}    \
+         --land 50,1           \
+         --parse               \
+         --fa                  \
+         --nrem                \
+         --rlib {input.lib}    \
+         -v
+   """
+
+rule parse_parseRM_output:
+   input: "data/{sample}.fasta.align.landscape.Div.Rclass.tab"
+   output: "data/{sample}.fasta.align.landscape.Div.Rclass.edited.tab"
+   shell: """
+      tail -n+4 {input} > {output}
+   """
+
+
+rule plot_rep_landscape:
+   conda: "env.yml"
+   input: "data/{sample}.fasta.align.landscape.Div.Rclass.edited.tab"
+   output: "plots/{sample}.fasta.align.landscape.Div.Rclass.edited.pdf"
+   shell: """
+      Rscript scripts/plot_repeat_landscape.R {input} {output}
+   """
