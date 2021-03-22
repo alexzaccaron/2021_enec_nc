@@ -1,0 +1,49 @@
+
+
+
+
+rule all:
+   input:
+      "plots/intergenic_heatmap.pdf"
+
+
+rule get_genes_bed:
+   input: "data/EnE101_chr_assembly_v3_genes_v01.agat.gff"
+   output: "data/EnE101_chr_assembly_v3_onlygenes_v01.agat.bed"
+   shell: """
+      awk '$3=="gene"' {input} | sort -k1,1 -k4,4n | sed 's/ID=//g' | sed 's/;.*//g' | awk '{{print $1"\t"$4-1"\t"$5"\t"$9"\t.\t"$7}}' > {output}
+   """
+
+rule bed_complement:
+   conda: "env.yml"
+   input: 
+      genome="data/EnE101_chr_assembly_v3_masked.txt", 
+      bed="data/EnE101_chr_assembly_v3_onlygenes_v01.agat.bed"
+   output: "data/EnE101_chr_assembly_v3_masked_complement.bed"
+   shell: """
+      sort -k1,1 {input.genome} | bedtools complement -i {input.bed} -g - > {output}
+   """
+
+
+rule get_intergenic_regions:
+   conda: "env.yml"
+   input: 
+      genes="data/EnE101_chr_assembly_v3_onlygenes_v01.agat.bed", 
+      complement="data/EnE101_chr_assembly_v3_masked_complement.bed"
+   output: upstream="data/intergenic_upstream.bed", downstream="data/intergenic_downstream.bed"
+   shell: """
+      bedtools closest -a {input.genes} -b {input.complement} -t first -D a -id > {output.upstream}
+      bedtools closest -a {input.genes} -b {input.complement} -t first -D a -iu > {output.downstream}
+   """
+
+
+rule plot_heatmap:
+   conda: "env.yml"
+   input: 
+      upstream="data/intergenic_upstream.bed", 
+      downstream="data/intergenic_downstream.bed", 
+      genes_interest="data/genes_interest.txt"
+   output: "plots/intergenic_heatmap.pdf"
+   shell: """
+      Rscript scripts/plot_intergenic_heatmap.R {input.upstream} {input.downstream} {input.genes_interest} {output}
+   """

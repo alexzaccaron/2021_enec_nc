@@ -1,0 +1,39 @@
+
+SAMPLES=["GCA_000798715.1"]
+
+rule all:
+   input:
+      expand("data/genomes/{sample}_genomic.fna", sample=SAMPLES),
+      expand("liftoff_out/{sample}/{sample}_genomic.gff", sample=SAMPLES)
+
+
+rule download_genomes:
+   output: "data/genomes/GCA_000798715.1_genomic.fna.gz"
+   shell: """
+      curl https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/798/715/GCA_000798715.1_ASM79871v1/GCA_000798715.1_ASM79871v1_genomic.fna.gz -o {output}
+   """
+
+rule gunzip:
+   input: "data/genomes/GCA_000798715.1_genomic.fna.gz"
+   output: "data/genomes/GCA_000798715.1_genomic.fna"
+   shell: """
+      gunzip -c {input} > {output}
+   """
+
+rule liftoff:
+   conda: "env.yml"
+   input: 
+      gff="data/ref/EnE101_chr_assembly_v3_genes_v01.agat.gff", 
+      ref="data/ref/EnE101_chr_assembly_v3_masked.fasta", 
+      target="data/genomes/{sample}_genomic.fna"
+   output: "liftoff_out/{sample}/{sample}_genomic.gff"
+   shell: """
+      liftoff \
+         -g {input.gff} \
+         -copies        \
+         -dir liftoff_out/{wildcards.sample}/intermediate_files    \
+         -u   liftoff_out/{wildcards.sample}/unmapped_features.txt \
+         -o {output}    \
+         {input.target} \
+         {input.ref} 
+   """
