@@ -1,0 +1,36 @@
+
+
+rule all:
+   input:
+      "genome_windows_gc_content.bed",
+      "plots/gc_hist/pdf"
+
+rule faidx:
+   conda: "env.yml"
+   input: "EnE101_chr_assembly_v3.fasta"
+   output: "EnE101_chr_assembly_v3.fasta.fai"
+   shell: """
+      samtools faidx {input}
+   """
+
+rule get_gc_windows:
+   conda: "env.yml"
+   input: fai="EnE101_chr_assembly_v3.fasta.fai", fasta="EnE101_chr_assembly_v3.fasta"
+   output: "genome_windows_gc_content.bed"
+   params: window_size=50000
+   shell: """
+      cut -f 1,2 {input.fai}  | \
+      bedtools makewindows -w {params.window_size} -g - | \
+      bedtools getfasta -fi {input.fasta} -bed -        | \
+      seqkit fx2tab --gc | \
+      awk '{{print $1"\t"$NF}}' | \
+      sed 's/[:|-]/\t/g' > {output}
+   """
+
+rule plot_gc_hist:
+   conda: "env.yml"
+   input: "genome_windows_gc_content.bed"
+   output: "plots/gc_hist/pdf"
+   shell: """
+      plot_gc_hist.R {input} {output}
+   """
