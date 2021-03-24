@@ -17,8 +17,8 @@ tab = read.table(table_fname, sep = '\t',
 #=================
 
 
-pdf(out_fname, width = 5, height = 5)
-ggplot(tab, aes(tab$gc)) + 
+pdf(out_fname, width = 1.5, height = 1.5)
+ggplot(tab, aes(gc)) + 
   geom_histogram(binwidth=0.3, aes(y = ..density..)) +
   theme_classic() +
   xlim(30,60) +

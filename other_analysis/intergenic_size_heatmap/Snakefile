@@ -4,7 +4,11 @@
 
 rule all:
    input:
-      "plots/intergenic_heatmap.pdf"
+      "data/intergenic_upstream_repeats.bed", 
+      "data/intergenic_downstream_repeats.bed", 
+      "plots/intergenic_heatmap.pdf",
+      "plots/intergenic_violin_length.pdf",
+      "plots/intergenic_violin_repeat.pdf"
 
 
 rule get_genes_bed:
@@ -42,8 +46,39 @@ rule plot_heatmap:
    input: 
       upstream="data/intergenic_upstream.bed", 
       downstream="data/intergenic_downstream.bed", 
-      genes_interest="data/genes_interest.txt"
+      genes_interest="data/gene_categories.txt"
    output: "plots/intergenic_heatmap.pdf"
    shell: """
       Rscript scripts/plot_intergenic_heatmap.R {input.upstream} {input.downstream} {input.genes_interest} {output}
    """
+
+
+
+rule get_repeat_contente_intergenic:
+   conda: "env.yml"
+   input: 
+      upstream="data/intergenic_upstream.bed", 
+      downstream="data/intergenic_downstream.bed", 
+      rm_gff="data/EnE101_chr_assembly_v3.fasta.out.gff"
+   output:
+      upstream="data/intergenic_upstream_repeats.bed", 
+      downstream="data/intergenic_downstream_repeats.bed", 
+   shell: """
+      cat {input.upstream}   | awk '{{print $7"\t"$8"\t"$9"\t"$4}}'  | bedtools coverage -a - -b {input.rm_gff} > {output.upstream}
+      cat {input.downstream} | awk '{{print $7"\t"$8"\t"$9"\t"$4}}'  | bedtools coverage -a - -b {input.rm_gff} > {output.downstream}
+   """
+
+
+rule plot_violin:
+   conda: "env.yml"
+   input: 
+      upstream="data/intergenic_upstream_repeats.bed", 
+      downstream="data/intergenic_downstream_repeats.bed", 
+      genes_interest="data/gene_categories.txt"
+   output: 
+      intergenic_length = "plots/intergenic_violin_length.pdf",
+      intergenic_repeat = "plots/intergenic_violin_repeat.pdf"
+   shell: """
+      Rscript scripts/plot_intergenic_violin.R {input.upstream} {input.downstream} {input.genes_interest} {output.intergenic_length} {output.intergenic_repeat}
+   """
+

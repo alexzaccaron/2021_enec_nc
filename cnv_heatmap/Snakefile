@@ -1,0 +1,20 @@
+
+
+rule all:
+   input:
+      "plots/cnv_heatmap.pdf",
+      "plots/cnv_dendrogram.pdf",
+      "plots/cnv_heatmap.txt"
+
+
+rule plot_cnv_heatmap:
+   conda: "env.yml"
+   input:
+      bed = "data/combined_all_genes_overlap_grouped_bygene.bed",
+   output:
+      heatmap = "plots/cnv_heatmap.pdf",
+      dendrogram = "plots/cnv_dendrogram.pdf",
+      tab = "plots/cnv_heatmap.txt"
+   shell: """
+      Rscript scripts/plot_cnv_heatmap.R {input} {output.heatmap} {output.dendrogram} {output.tab}
+   """

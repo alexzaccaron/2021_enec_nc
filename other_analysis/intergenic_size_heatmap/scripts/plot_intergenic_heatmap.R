@@ -1,3 +1,7 @@
+intergenic_upstream_fname   = 'data/intergenic_upstream.bed'
+intergenic_downstream_fname = 'data/intergenic_downstream.bed'
+genes_interest_fname        = 'data/gene_categories.txt'
+out_plot_fname              = ''
 
 
 library(ggplot2)
@@ -20,7 +24,8 @@ intergenic_upstream   = read.table(intergenic_upstream_fname,
 intergenic_downstream = read.table(intergenic_downstream_fname, 
                                    col.names=c("gene_chr", "gene_start", "gene_end", "gene_id", "gene_score", "gene_strand", "intergenic_chr", "intergenic_start", "intergenic_end", "distance")
 )
-genes_interest = readLines( genes_interest_fname )
+genes_interest = read.table( genes_interest_fname, col.names=c("gene_id","class") )
+genes_interest = subset(genes_interest, class == "CEP")[,'gene_id'] # select candidate effectors
 #====================
 
 
@@ -68,7 +73,7 @@ ggplot(intergenic, aes(x=inter_up_len, y=inter_down_len) ) +
   labs(x = " Upstream intergenic length (bp)", y = "Downstream intergenic length (bp)") +
   scale_x_continuous(labels = axlabels) +
   scale_y_continuous(labels = axlabels) +
-  geom_point(data = genes_interest, fill = "white", col = 'black', shape = 21, size=1.5, alpha=0.6) +
+  geom_point(data = genes_interest, fill = "white", col = 'black', shape = 21, size=1, alpha=0.6) +
   theme_bw()
 dev.off()
 

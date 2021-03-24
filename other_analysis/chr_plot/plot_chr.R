@@ -18,7 +18,7 @@ genome_size = read.table("chr_size.txt", col.names = c("scaffold", "length"))
 repeat_cov$fraction = round(repeat_cov$fraction*100)
 
 #png("Enec101_chromosomes.png", res=300, units = "in", width = 6, height = 7)
-pdf("Enec101_chromosomes.pdf", width = 6, height = 7)
+pdf("Enec101_chromosomes.pdf", width = 7, height = 6.6)
 plot(1, type="n", xlim=c(0,12000000), ylim=c(0,32), axes = F, ann = F)
 
 

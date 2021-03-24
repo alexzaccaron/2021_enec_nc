@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 19 of /Users/alexzaccaron/2021_enec_nc/other_analysis/intergenic_size_heatmap/Snakefile:
+Missing input files for rule bed_complement:
+data/EnE101_chr_assembly_v3_masked.txt

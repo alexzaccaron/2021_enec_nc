@@ -1,0 +1,20 @@
+Building DAG of jobs...
+Job counts:
+	count	jobs
+	1	all
+	1	get_repeat_contente_intergenic
+	2
+
+[Tue Mar 23 01:55:32 2021]
+rule get_repeat_contente_intergenic:
+    input: data/intergenic_upstream.bed, data/intergenic_downstream.bed, data/EnE101_chr_assembly_v3.fasta.out.gff
+    output: data/intergenic_upstream_repeats.bed, data/intergenic_downstream_repeats.bed
+    jobid: 1
+
+RuleException in line 53 of /Users/alexzaccaron/2021_enec_nc/other_analysis/intergenic_size_heatmap/Snakefile:
+NameError: The name 'print $7,$8,$9,$4' is unknown in this context. Please make sure that you defined that variable. Also note that braces not used for variable access have to be escaped by repeating them, i.e. {{print $1}}
+  File "/Users/alexzaccaron/miniconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 140, in run_jobs
+  File "/Users/alexzaccaron/miniconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 145, in run
+  File "/Users/alexzaccaron/miniconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 156, in _run
+  File "/Users/alexzaccaron/miniconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 176, in printjob
+  File "/Users/alexzaccaron/miniconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 162, in printjob

@@ -3,7 +3,7 @@
 rule all:
    input:
       "genome_windows_gc_content.bed",
-      "plots/gc_hist/pdf"
+      "plots/gc_hist.pdf"
 
 rule faidx:
    conda: "env.yml"
@@ -30,7 +30,7 @@ rule get_gc_windows:
 rule plot_gc_hist:
    conda: "env.yml"
    input: "genome_windows_gc_content.bed"
-   output: "plots/gc_hist/pdf"
+   output: "plots/gc_hist.pdf"
    shell: """
-      plot_gc_hist.R {input} {output}
+      Rscript scripts/plot_gc_hist.R {input} {output}
    """

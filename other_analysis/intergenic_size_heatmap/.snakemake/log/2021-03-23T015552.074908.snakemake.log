@@ -1,0 +1,39 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Job counts:
+	count	jobs
+	1	all
+	1	get_repeat_contente_intergenic
+	2
+Select jobs to execute...
+Failed to solve scheduling problem with ILP solver. Falling back to greedy solver. Run Snakemake with --verbose to see the full solver output for debugging the problem.
+
+[Tue Mar 23 01:55:52 2021]
+rule get_repeat_contente_intergenic:
+    input: data/intergenic_upstream.bed, data/intergenic_downstream.bed, data/EnE101_chr_assembly_v3.fasta.out.gff
+    output: data/intergenic_upstream_repeats.bed, data/intergenic_downstream_repeats.bed
+    jobid: 1
+
+
+      cat data/intergenic_upstream.bed   | awk -v FS="	" '{print $7,$8,$9,$4}'  | bedtools coverage -a - -b data/EnE101_chr_assembly_v3.fasta.out.gff > data/intergenic_upstream_repeats.bed
+      cat data/intergenic_downstream.bed | awk -v FS="	" '{print $7,$8,$9,$4}'  | bedtools coverage -a - -b data/EnE101_chr_assembly_v3.fasta.out.gff > data/intergenic_downstream_repeats.bed
+   
+[Tue Mar 23 01:55:52 2021]
+Error in rule get_repeat_contente_intergenic:
+    jobid: 1
+    output: data/intergenic_upstream_repeats.bed, data/intergenic_downstream_repeats.bed
+    shell:
+        
+      cat data/intergenic_upstream.bed   | awk -v FS="	" '{print $7,$8,$9,$4}'  | bedtools coverage -a - -b data/EnE101_chr_assembly_v3.fasta.out.gff > data/intergenic_upstream_repeats.bed
+      cat data/intergenic_downstream.bed | awk -v FS="	" '{print $7,$8,$9,$4}'  | bedtools coverage -a - -b data/EnE101_chr_assembly_v3.fasta.out.gff > data/intergenic_downstream_repeats.bed
+   
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job get_repeat_contente_intergenic since they might be corrupted:
+data/intergenic_upstream_repeats.bed
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/alexzaccaron/2021_enec_nc/other_analysis/intergenic_size_heatmap/.snakemake/log/2021-03-23T015552.074908.snakemake.log

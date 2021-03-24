@@ -1,0 +1,60 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Job counts:
+	count	jobs
+	1	all
+	1	bed_complement
+	1	get_genes_bed
+	1	get_intergenic_regions
+	4
+Select jobs to execute...
+Failed to solve scheduling problem with ILP solver. Falling back to greedy solver. Run Snakemake with --verbose to see the full solver output for debugging the problem.
+
+[Tue Mar 23 01:44:47 2021]
+rule get_genes_bed:
+    input: data/EnE101_chr_assembly_v3_genes_v01.agat.gff
+    output: data/EnE101_chr_assembly_v3_onlygenes_v01.agat.bed
+    jobid: 2
+
+[Tue Mar 23 01:44:48 2021]
+Finished job 2.
+1 of 4 steps (25%) done
+Select jobs to execute...
+Failed to solve scheduling problem with ILP solver. Falling back to greedy solver. Run Snakemake with --verbose to see the full solver output for debugging the problem.
+
+[Tue Mar 23 01:44:48 2021]
+rule bed_complement:
+    input: data/EnE101_chr_assembly_v3_masked.txt, data/EnE101_chr_assembly_v3_onlygenes_v01.agat.bed
+    output: data/EnE101_chr_assembly_v3_masked_complement.bed
+    jobid: 3
+
+[Tue Mar 23 01:44:48 2021]
+Finished job 3.
+2 of 4 steps (50%) done
+Select jobs to execute...
+Failed to solve scheduling problem with ILP solver. Falling back to greedy solver. Run Snakemake with --verbose to see the full solver output for debugging the problem.
+
+[Tue Mar 23 01:44:48 2021]
+rule get_intergenic_regions:
+    input: data/EnE101_chr_assembly_v3_onlygenes_v01.agat.bed, data/EnE101_chr_assembly_v3_masked_complement.bed
+    output: data/intergenic_upstream.bed, data/intergenic_downstream.bed
+    jobid: 1
+
+[Tue Mar 23 01:44:48 2021]
+Finished job 1.
+3 of 4 steps (75%) done
+Select jobs to execute...
+Failed to solve scheduling problem with ILP solver. Falling back to greedy solver. Run Snakemake with --verbose to see the full solver output for debugging the problem.
+
+[Tue Mar 23 01:44:48 2021]
+localrule all:
+    input: data/intergenic_upstream.bed, data/intergenic_downstream.bed, plots/intergenic_heatmap.pdf
+    jobid: 0
+
+[Tue Mar 23 01:44:48 2021]
+Finished job 0.
+4 of 4 steps (100%) done
+Complete log: /Users/alexzaccaron/2021_enec_nc/other_analysis/intergenic_size_heatmap/.snakemake/log/2021-03-23T014447.431519.snakemake.log

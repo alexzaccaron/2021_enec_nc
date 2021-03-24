@@ -1,0 +1,37 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Job counts:
+	count	jobs
+	1	all
+	1	plot_violin
+	2
+Select jobs to execute...
+Failed to solve scheduling problem with ILP solver. Falling back to greedy solver. Run Snakemake with --verbose to see the full solver output for debugging the problem.
+
+[Tue Mar 23 12:03:22 2021]
+rule plot_violin:
+    input: data/intergenic_upstream_repeats.bed, data/intergenic_downstream_repeats.bed, data/gene_categories.txt
+    output: plots/intergenic_violin_length.pdf, plots/intergenic_violin_repeat.pdf
+    jobid: 6
+
+
+      Rscript scripts/plot_intergenic_violin.R data/intergenic_upstream_repeats.bed data/intergenic_downstream_repeats.bed data/gene_categories.txt plots/intergenic_violin_length.pdf plots/intergenic_violin_repeat.pdf
+   
+[Tue Mar 23 12:03:24 2021]
+Finished job 6.
+1 of 2 steps (50%) done
+Select jobs to execute...
+Failed to solve scheduling problem with ILP solver. Falling back to greedy solver. Run Snakemake with --verbose to see the full solver output for debugging the problem.
+
+[Tue Mar 23 12:03:24 2021]
+localrule all:
+    input: data/intergenic_upstream_repeats.bed, data/intergenic_downstream_repeats.bed, plots/intergenic_heatmap.pdf, plots/intergenic_violin_length.pdf, plots/intergenic_violin_repeat.pdf
+    jobid: 0
+
+[Tue Mar 23 12:03:24 2021]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: /Users/alexzaccaron/2021_enec_nc/other_analysis/intergenic_size_heatmap/.snakemake/log/2021-03-23T120322.667416.snakemake.log
