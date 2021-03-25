@@ -4,7 +4,8 @@ SAMPLES=["GCA_000798715.1"]
 rule all:
    input:
       expand("data/genomes/{sample}_genomic.fna", sample=SAMPLES),
-      expand("liftoff_out/{sample}/{sample}_genomic.gff", sample=SAMPLES)
+      expand("liftoff_out/{sample}/{sample}_genomic.gff", sample=SAMPLES),
+      expand("liftoff_out/{sample}/{sample}_old_new_intersect.txt", sample=SAMPLES)
 
 
 rule download_genomes:
@@ -37,3 +38,40 @@ rule liftoff:
          {input.target} \
          {input.ref} 
    """
+
+
+rule download_gff:
+   output: "data/genomes/GCA_000798715.1_ASM79871v1_genomic.gff"
+   shell: """
+      curl -L https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/798/715/GCA_000798715.1_ASM79871v1/GCA_000798715.1_ASM79871v1_genomic.gff.gz -o {output}.gz
+      gunzip {output}.gz
+   """
+
+rule subset_genes:
+   input: liftoff_gff="liftoff_out/GCA_000798715.1/GCA_000798715.1_genomic.gff", old_gff="data/genomes/GCA_000798715.1_ASM79871v1_genomic.gff"
+   output: gff1="liftoff_out/GCA_000798715.1/GCA_000798715.1_genomic_genes.gff", gff2="data/genomes/GCA_000798715.1_ASM79871v1_genomic_genes.gff"
+   shell: """
+      awk '$3=="gene"' {input.liftoff_gff} > {output.gff1}
+      awk '$3=="gene"' {input.old_gff} > {output.gff2}
+   """
+
+
+rule intersect_gff:
+   conda: "env.yml"
+   input: gff1="liftoff_out/GCA_000798715.1/GCA_000798715.1_genomic_genes.gff", gff2="data/genomes/GCA_000798715.1_ASM79871v1_genomic_genes.gff"
+   output: "liftoff_out/{sample}/{sample}_old_new_intersect.gff"
+   shell: """
+      # intersect with at least 50% overlap with features in B file
+      bedtools intersect -F 0.5 -a {input.gff1} -b {input.gff2} -wao  | cut -f 1,4,5,7,9,13,14,16,18,19 > {output}
+   """
+
+   
+rule parse_output:
+   input: "liftoff_out/{sample}/{sample}_old_new_intersect.gff"
+   output: "liftoff_out/{sample}/{sample}_old_new_intersect.txt"
+   shell: """
+      # some commands/pipe to parse input and output a table
+      cat {input} | sed 's/;extra_copy_numb.*_[0-9]\t/\t/g' | tr ';' '\t' | sed 's/ID=//g' | sed 's/coverage=//g' | sed 's/sequence_//g' | sed 's/locus_tag=//g' | awk -v OFS="\t" '{{print $1,$2,$3,$4,$5,$6*100,$7*100,$(NF-1),$NF}}' > {output}
+   """
+
+   
