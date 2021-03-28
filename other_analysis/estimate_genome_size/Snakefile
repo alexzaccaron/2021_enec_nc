@@ -1,0 +1,62 @@
+SAMPLES=["EnFRAME1"]
+
+
+rule all:
+   input:
+     expand("output_files/kmercountexact_{sample}_peaks.txt", sample=SAMPLES),
+     expand("output_files/{sample}_genomescope/summary.txt", sample=SAMPLES)
+
+
+rule download_mt_genome:
+   conda: "env.yml"
+   output: "data/MT880588.fasta"
+   shell: "efetch -db nuccore -id MT880588.1 -format fasta > {output}"
+   
+
+
+# Remove reads with k-mer matching the mtDNA
+rule filter_mtDNA:
+  conda: "env.yml"
+  input: r1="data/{sample}_R1.fastq.gz", r2="data/{sample}_R2.fastq.gz", mt="data/MT880588.fasta"
+  output: r1="data/{sample}_mtless_R1.fastq.gz", r2="data/{sample}_mtless_R2.fastq.gz"
+  shell: """
+     bbduk.sh -Xmx12g in1={input.r1} in2={input.r2} out1={output.r1} out2={output.r2} ref={input.mt} k=29 threads=8
+  """
+
+
+# estimate genome size using mtDNA-filtered reads
+rule bbmap_estimate_wo_mtDNA:
+  conda: "env.yml"
+  input: r1="data/{sample}_mtless_R1.fastq.gz", r2="data/{sample}_mtless_R2.fastq.gz"
+  output: "output_files/kmercountexact_{sample}_peaks.txt"
+  shell: """
+     kmercountexact.sh -Xmx12g in1={input.r1} in2={input.r2} k=29 peaks={output} threads=8
+  """
+
+
+
+rule kmer_count_wo_mtDNA:
+   conda: "env.yml"
+   input: r1="data/{sample}_mtless_R1.fastq.gz", r2="data/{sample}_mtless_R2.fastq.gz"
+   output: "output_files/jellyfish_out/{sample}_reads.jf"
+   shell: """
+      jellyfish count -C -m 29 -s 100M -t 8 <(zcat {input.r1} {input.r2}) -o {output}
+   """
+
+
+rule kmer_hist_wo_mtDNA:
+   conda: "env.yml"
+   input: "output_files/jellyfish_out/{sample}_reads.jf"
+   output: "output_files/jellyfish_out/{sample}_reads_k29.histo"
+   shell: """
+      jellyfish histo -t 8 {input} > {output}
+   """
+
+
+rule genomescope:
+   conda: "env.yml"
+   input: "output_files/jellyfish_out/{sample}_reads_k29.histo"
+   output: "output_files/{sample}_genomescope/summary.txt"
+   shell: """
+      genomescope2 --input {input} --ploidy 1 --output output_files/{wildcards.sample}_genomescope --kmer_length 29 
+   """
