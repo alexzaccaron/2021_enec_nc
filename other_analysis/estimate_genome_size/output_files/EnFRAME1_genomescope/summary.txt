@@ -1,0 +1,13 @@
+GenomeScope version 2.0
+input file = output_files/jellyfish_out/EnFRAME1_reads_k29.histo
+output directory = output_files/EnFRAME1_genomescope
+p = 1
+k = 29
+
+property                      min               max               
+Homozygous (a)                100%              100%              
+Genome Haploid Length         75,344,117 bp     75,465,725 bp     
+Genome Repeat Length          32,246,838 bp     32,298,885 bp     
+Genome Unique Length          43,097,279 bp     43,166,840 bp     
+Model Fit                     58.7239%          97.246%           
+Read Error Rate               0.169809%         0.169809%         
