@@ -1,0 +1,51 @@
+
+rule all:
+   input:
+      "mafft/RNase_aligned.fasta",
+      "mafft/RNase_aligned.fasta.iqtree",
+      "signalp/RNase_signalp.txt",
+      "ncbi_cdd/RNase_CDD.txt",
+      "seqkit/RNase_seqkit.txt"
+
+
+rule mafft:
+   conda: "env.yml"
+   input: "RNase.fasta"
+   output: "mafft/RNase_aligned.fasta"
+   shell: """
+      mafft --globalpair --maxiterate 1000 {input} > {output}
+   """
+
+
+rule iqtree:
+   conda: "env.yml"
+   input: "mafft/RNase_aligned.fasta" 
+   output: "mafft/RNase_aligned.fasta.iqtree"
+   shell: """
+      iqtree -s {input}  -nt 4 -m JTT+F+I+G4 -B 1000
+   """
+
+
+rule signalp:
+   input: "RNase.fasta"
+   output: "signalp/RNase_signalp.txt"
+   shell: """
+      PATH=$PATH:/home/azacca/programs/signalp-5.0b/bin/
+      signalp -fasta {input} -org euk -format short -stdout > {output}
+   """
+
+rule NCBI_CDD:
+   input: "RNase.fasta"
+   output: "ncbi_cdd/RNase_CDD.txt"
+   shell: """
+      perl scripts/bwrpsb.pl < {input}  > {output}
+   """
+
+
+rule seqkit:
+   conda: "env.yml"
+   input: "RNase.fasta"
+   output: "seqkit/RNase_seqkit.txt"
+   shell: """
+      seqkit fx2tab --length {input}  > {output}
+   """

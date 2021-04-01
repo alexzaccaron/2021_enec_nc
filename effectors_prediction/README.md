@@ -31,3 +31,7 @@ At the end, the important file is `{sample}_secretome_table_calls.txt`, which co
 + `CEP_by_effectorP`: classified as effector by EffectorP (yes/no)
 + `CEP_by_prot_comp`: classified as effector by protein composition (yes/no)
 + `CEP_by_lack_homology`: classified as effector by lack of homology (yes/no)
+
+
+#### PHI BLASTp search
+The resulting secretome was searched with BLASTp (v2.6.0) against the [PHI database](http://www.phi-base.org/index.jsp) v4.10 with e-value < 1e-10. This BLAST search was not added to the Snakefile because there are restrictions to distribute the PHI database, although it is free to download for academic purposes. The BLASTp results are in `results/PHI_blast`

@@ -1,6 +1,6 @@
 
 # there would be sample.fasta to be analyzed
-SAMPLES=["enec_cstrain"]
+SAMPLES=["EnE101_chr_assembly_v3_protein_v01"]
 
 import pandas as pd
 samples_df = pd.read_table('leotio_proteins/proteome_links_leotio_non_erysiphales_genbank_20210318.txt').set_index("accession", drop=False)
@@ -10,7 +10,8 @@ rule all:
    input:
       expand("{sample}_secretome.fasta", sample=SAMPLES), 
       expand("results/effectorp/{sample}_effectorp_parsed.txt", sample=SAMPLES),
-      #expand("{sample}_secretome_table_calls.txt", sample=SAMPLES),
+      expand("{sample}_secretome_table_calls.txt", sample=SAMPLES),
+      expand("results/ncbi_cdd/{sample}_secretome_cdd.txt", sample=SAMPLES)
       
 
 rule signalp:
@@ -34,6 +35,13 @@ rule get_secretome:
    seqtk subseq {input.fasta} - > {output} 
    """
 
+rule run_NCBI_CDD:
+   conda: "env.yml"
+   input: "{sample}_secretome.fasta"
+   output: "results/ncbi_cdd/{sample}_secretome_cdd.txt"
+   shell: """
+      perl scripts/bwrpsb.pl < {input} > {output}
+   """
 
 
 

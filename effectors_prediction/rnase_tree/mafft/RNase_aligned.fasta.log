@@ -1,0 +1,255 @@
+IQ-TREE multicore version 2.0.3 for Linux 64-bit built Dec 20 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    c6-70 (AVX2, FMA3, 251 GB RAM)
+Command: iqtree -s mafft/RNase_aligned.fasta -nt 4 -m JTT+F+I+G4 -B 1000
+Seed:    776325 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Mar 26 00:09:58 2021
+Kernel:  AVX+FMA - 4 threads (4 CPU cores detected)
+
+Reading alignment file mafft/RNase_aligned.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 115 sequences with 1299 columns, 1152 distinct patterns
+608 parsimony-informative, 371 singleton sites, 320 constant sites
+             Gap/Ambiguity  Composition  p-value
+   1  BLGH_04740    82.68%    passed      8.85%
+   2  BLGH_01403    87.84%    passed     55.11%
+   3  BLGH_06327    87.37%    passed     72.33%
+   4  VCU41064.1    87.84%    passed     13.68%
+   5  VDB85747.1    87.53%    passed     59.61%
+   6  VDB85748.1    87.53%    passed     59.61%
+   7  VDB91192.1    82.68%    passed     10.38%
+   8  HI914_00229   85.91%    passed     78.57%
+   9  HI914_00233   85.91%    passed     12.71%
+  10  HI914_00488   87.37%    passed     89.31%
+  11  HI914_01767   58.97%    passed     30.72%
+  12  HI914_02612   61.28%    passed     64.00%
+  13  HI914_02669   61.05%    passed     57.19%
+  14  HI914_04544   84.76%    passed     12.73%
+  15  HI914_04981   53.43%    passed     23.47%
+  16  HI914_04983   53.12%    passed     35.69%
+  17  HI914_05265   86.76%    passed     37.24%
+  18  HI914_05279   84.91%    failed      0.08%
+  19  HI914_05281   85.99%    passed     81.93%
+  20  HI914_05393   86.45%    passed     83.38%
+  21  HI914_05395   86.22%    passed     43.36%
+  22  HI914_05398   83.14%    passed     10.15%
+  23  HI914_05399   83.29%    passed     14.13%
+  24  HI914_05400   84.68%    passed     47.30%
+  25  HI914_05402   83.14%    failed      4.04%
+  26  HI914_05403   83.14%    failed      4.04%
+  27  HI914_05404   85.84%    passed     10.52%
+  28  HI914_05405   84.99%    passed     76.06%
+  29  HI914_05406   85.68%    passed     18.81%
+  30  HI914_06252   60.74%    passed     88.10%
+  31  HI914_06253   61.74%    passed     33.97%
+  32  HI914_06259   61.05%    passed     39.13%
+  33  HI914_06262   61.05%    passed     83.46%
+  34  HI914_06264   60.05%    passed     60.07%
+  35  HI914_06266   61.20%    passed     93.38%
+  36  HI914_06271   60.97%    passed     41.46%
+  37  HI914_06287   65.74%    passed     18.89%
+  38  HI914_06289   60.82%    passed     96.88%
+  39  HI914_06291   60.82%    passed     97.33%
+  40  HI914_06294   68.67%    passed     99.34%
+  41  HI914_06295   60.82%    passed     99.24%
+  42  HI914_06298   68.82%    passed     61.65%
+  43  HI914_06757   61.20%    passed     70.47%
+  44  HI914_06831   62.05%    passed     85.45%
+  45  HI914_06836   61.20%    passed     59.30%
+  46  HI914_06931   85.07%    passed     21.86%
+  47  HI914_07016   85.30%    passed     16.98%
+  48  HI914_07461   85.37%    passed     29.96%
+  49  HI914_07492   51.04%    passed      5.84%
+  50  HI914_07494   53.12%    passed      5.36%
+  51  HI914_07495   53.12%    passed      5.37%
+  52  HI914_07503   53.12%    passed     29.63%
+  53  POS81790.1    85.68%    passed     14.16%
+  54  POS81866.1    92.99%    passed     53.92%
+  55  POS81929.1    84.83%    passed     65.19%
+  56  POS82221.1    87.61%    failed      3.07%
+  57  POS82233.1    81.52%    passed     98.71%
+  58  POS82443.1    72.44%    passed     76.91%
+  59  POS82467.1    63.90%    passed     73.49%
+  60  POS82495.1    83.14%    passed     19.26%
+  61  POS82546.1    68.44%    passed     95.51%
+  62  POS82557.1    66.97%    passed     89.08%
+  63  POS82657.1    74.83%    passed     94.65%
+  64  POS82658.1    61.35%    passed     72.34%
+  65  POS82662.1    68.98%    passed     94.83%
+  66  POS82812.1    61.74%    passed     97.33%
+  67  POS82823.1    82.14%    passed     14.62%
+  68  POS82888.1    52.50%    passed     19.93%
+  69  POS83029.1    61.35%    passed     37.02%
+  70  POS83081.1    60.74%    passed     35.88%
+  71  POS83138.1    54.58%    passed     88.62%
+  72  POS83145.1    70.44%    passed     76.20%
+  73  POS83161.1    61.89%    passed     71.13%
+  74  POS83238.1    51.73%    passed     98.02%
+  75  POS83239.1    61.89%    passed     56.29%
+  76  POS83269.1    44.80%    passed     94.89%
+  77  POS83658.1    40.18%    passed     12.64%
+  78  POS83737.1    62.59%    passed     97.83%
+  79  POS83788.1    72.52%    passed     72.97%
+  80  POS84311.1    66.36%    passed     92.32%
+  81  POS84713.1    65.36%    passed     87.85%
+  82  POS85323.1    73.13%    passed     53.00%
+  83  POS85426.1    66.13%    passed     93.92%
+  84  RKF72236.1    84.99%    passed     64.77%
+  85  RKF75416.1    80.91%    passed      9.33%
+  86  RKF80186.1    84.76%    passed     88.06%
+  87  RKF83002.1    83.53%    failed      0.36%
+  88  RKF83687.1    86.76%    passed     80.68%
+  89  TQS32572.1    86.76%    failed      0.03%
+  90  TQS32963.1    91.07%    passed     66.07%
+  91  TQS34662.1    90.07%    failed      0.37%
+  92  TQS35565.1    84.99%    passed     26.27%
+  93  TQS38636.1    83.37%    passed      6.24%
+  94  RKF53201.1    91.45%    passed     22.46%
+  95  RKF53488.1    84.30%    failed      0.08%
+  96  RKF53598.1    89.76%    passed     18.57%
+  97  RKF53743.1    82.91%    passed     48.98%
+  98  RKF54717.1    82.37%    passed     63.62%
+  99  RKF54795.1    90.07%    failed      0.05%
+ 100  RKF55558.1    88.91%    passed     97.64%
+ 101  RKF55559.1    77.60%    passed     99.65%
+ 102  RKF55647.1    86.14%    failed      1.46%
+ 103  RKF56207.1    83.83%    passed     35.92%
+ 104  RKF57567.1    86.84%    failed      0.00%
+ 105  RKF59011.1    88.61%    passed     94.93%
+ 106  RKF59062.1    91.69%    passed     68.51%
+ 107  RKF60326.1    92.38%    passed     52.86%
+ 108  RKF60327.1    93.69%    passed     49.76%
+ 109  RKF60549.1    63.66%    passed     24.17%
+ 110  RKF61750.1    85.37%    passed     84.72%
+ 111  RKF62966.1    86.45%    passed     50.90%
+ 112  RKF63886.1    83.06%    passed     39.80%
+ 113  RKF63887.1    82.45%    passed     24.09%
+ 114  RKF64842.1    88.38%    failed      3.90%
+ 115  RKF65345.1    86.53%    passed     37.41%
+WARNING: 113 sequences contain more than 50% gaps/ambiguity
+****  TOTAL         75.21%  12 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: VDB85748.1 is identical to VDB85747.1 but kept for subsequent analysis
+NOTE: HI914_05403 is identical to HI914_05402 but kept for subsequent analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.064 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 776325)...
+
+NOTE: 87 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.005, 2.523 / LogL: -52217.446
+Init pinv, alpha: 0.027, 1.000 / Estimate: 0.006, 2.528 / LogL: -52217.443
+Init pinv, alpha: 0.055, 1.000 / Estimate: 0.006, 2.528 / LogL: -52217.435
+Init pinv, alpha: 0.082, 1.000 / Estimate: 0.006, 2.529 / LogL: -52217.441
+Init pinv, alpha: 0.109, 1.000 / Estimate: 0.006, 2.528 / LogL: -52217.448
+Init pinv, alpha: 0.137, 1.000 / Estimate: 0.006, 2.529 / LogL: -52217.455
+Init pinv, alpha: 0.164, 1.000 / Estimate: 0.006, 2.529 / LogL: -52217.432
+Init pinv, alpha: 0.192, 1.000 / Estimate: 0.006, 2.527 / LogL: -52217.434
+Init pinv, alpha: 0.219, 1.000 / Estimate: 0.006, 2.528 / LogL: -52217.436
+Init pinv, alpha: 0.246, 1.000 / Estimate: 0.006, 2.528 / LogL: -52217.438
+Optimal pinv,alpha: 0.006, 2.529 / LogL: -52217.432
+
+Parameters optimization took 92.051 sec
+Computing ML distances based on estimated model parameters... 2.709 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.009 seconds
+Log-likelihood of BIONJ tree: -52413.750
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 8.465 second
+Computing log-likelihood of 98 initial trees ... 35.267 seconds
+Current best score: -52217.432
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -52138.898
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -52132.480
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -52125.728
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 6: -52120.935
+Iteration 10 / LogL: -52129.927 / Time: 0h:3m:52s
+Iteration 20 / LogL: -52134.087 / Time: 0h:5m:15s
+Finish initializing candidate tree set (20)
+Current best tree score: -52120.935 / CPU time: 218.032
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -52118.739
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -52118.299
+Iteration 30 / LogL: -52124.013 / Time: 0h:6m:49s (0h:21m:51s left)
+UPDATE BEST LOG-LIKELIHOOD: -52118.291
+Iteration 40 / LogL: -52118.291 / Time: 0h:8m:21s (0h:17m:46s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -52118.213
+Iteration 50 / LogL: -52123.173 / Time: 0h:9m:47s (0h:14m:34s left)
+Log-likelihood cutoff on original alignment: -52167.361
+Iteration 60 / LogL: -52120.733 / Time: 0h:11m:8s (0h:11m:54s left)
+Iteration 70 / LogL: -52120.504 / Time: 0h:12m:33s (0h:9m:38s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -52118.183
+Iteration 80 / LogL: -52122.121 / Time: 0h:13m:58s (0h:7m:36s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 84: -52117.736
+Iteration 90 / LogL: -52123.801 / Time: 0h:15m:29s (0h:16m:21s left)
+Iteration 100 / LogL: -52123.287 / Time: 0h:16m:56s (0h:14m:22s left)
+Log-likelihood cutoff on original alignment: -52166.641
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+Iteration 110 / LogL: -52118.969 / Time: 0h:18m:21s (0h:15m:9s left)
+Iteration 120 / LogL: -52118.532 / Time: 0h:19m:54s (0h:13m:23s left)
+Iteration 130 / LogL: -52123.204 / Time: 0h:21m:19s (0h:11m:34s left)
+Iteration 140 / LogL: -52127.055 / Time: 0h:22m:49s (0h:9m:51s left)
+Iteration 150 / LogL: -52125.665 / Time: 0h:24m:9s (0h:8m:6s left)
+Log-likelihood cutoff on original alignment: -52166.641
+Iteration 160 / LogL: -52124.434 / Time: 0h:25m:36s (0h:6m:26s left)
+Iteration 170 / LogL: -52117.789 / Time: 0h:27m:3s (0h:4m:48s left)
+Iteration 180 / LogL: -52118.489 / Time: 0h:28m:26s (0h:3m:10s left)
+TREE SEARCH COMPLETED AFTER 185 ITERATIONS / Time: 0h:29m:8s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -52117.736
+Optimal log-likelihood: -52117.735
+Proportion of invariable sites: 0.006
+Gamma shape alpha: 2.552
+Parameters optimization took 1 rounds (1.134 sec)
+BEST SCORE FOUND : -52117.735
+Creating bootstrap support values...
+Split supports printed to NEXUS file mafft/RNase_aligned.fasta.splits.nex
+Total tree length: 65.099
+
+Total number of iterations: 185
+CPU time used for tree search: 6561.052 sec (1h:49m:21s)
+Wall-clock time used for tree search: 1651.365 sec (0h:27m:31s)
+Total CPU time used: 6953.420 sec (1h:55m:53s)
+Total wall-clock time used: 1750.051 sec (0h:29m:10s)
+
+Computing bootstrap consensus tree...
+Reading input file mafft/RNase_aligned.fasta.splits.nex...
+115 taxa and 601 splits.
+Consensus tree written to mafft/RNase_aligned.fasta.contree
+Reading input trees file mafft/RNase_aligned.fasta.contree
+Log-likelihood of consensus tree: -52118.188
+
+Analysis results written to: 
+  IQ-TREE report:                mafft/RNase_aligned.fasta.iqtree
+  Maximum-likelihood tree:       mafft/RNase_aligned.fasta.treefile
+  Likelihood distances:          mafft/RNase_aligned.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          mafft/RNase_aligned.fasta.splits.nex
+  Consensus tree:                mafft/RNase_aligned.fasta.contree
+  Screen log file:               mafft/RNase_aligned.fasta.log
+
+Date and Time: Fri Mar 26 00:39:12 2021

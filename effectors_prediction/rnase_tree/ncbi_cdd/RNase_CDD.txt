@@ -1,0 +1,72 @@
+Search with Request-ID QM3-qcdsearch-2602F905A7764974-D0F76668036E4CA started.
+......Search has been completed, retrieving results ..
+===============================================================================
+
+#Batch CD-search tool	NIH/NLM/NCBI
+#cdsid	QM3-qcdsearch-2602F905A7764974-D0F76668036E4CA
+#datatype	hitsConcise Results
+#status	0
+#Start time	2021-03-26T18:16:02	Run time	0:00:00:34
+#status	success
+
+Query	Hit type	PSSM-ID	From	To	E-Value	Bitscore	Accession	Short name	Incomplete	Superfamily
+Q#1 - >BLGH_04740 pep supercontig:EF2:scaffold_12:1974786:1976220:1 gene:BLGH_04740 transcript:BLGH_04740 gene_biotype:protein_coding transcript_biotype:protein_coding	superfamily	412226	101	202	0.000302877	38.9671	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#2 - >BLGH_01403 pep supercontig:EF2:scaffold_18:1372052:1373847:1 gene:BLGH_01403 transcript:BLGH_01403 gene_biotype:protein_coding transcript_biotype:protein_coding	superfamily	412226	64	142	0.00165527	35.8855	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#4 - >VCU41064.1 BgtE-5816 [Blumeria graminis f. sp. tritici]	superfamily	412226	64	142	4.90174e-06	42.819	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#7 - >VDB91192.1 BgtE-5624 [Blumeria graminis f. sp. tritici]	superfamily	412226	155	202	0.00154752	36.6559	cl00212	microbial_RNases superfamily	N	 - 
+Q#10 - >HI914_00488	superfamily	412226	33	122	0.000577862	37.4263	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#11 - >HI914_01767	superfamily	412226	413	505	0.00058109	39.3523	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#12 - >HI914_02612	superfamily	412226	383	476	2.81471e-07	48.597	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#13 - >HI914_02669	superfamily	412226	388	468	1.2718e-09	55.1454	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#14 - >HI914_04544	superfamily	412226	123	164	6.95924e-07	45.9006	cl00212	microbial_RNases superfamily	N	 - 
+Q#15 - >HI914_04981	superfamily	412226	523	567	0.00814237	36.2707	cl00212	microbial_RNases superfamily	N	 - 
+Q#17 - >HI914_05265	superfamily	412226	82	134	2.0254e-06	43.9746	cl00212	microbial_RNases superfamily	N	 - 
+Q#18 - >HI914_05279	superfamily	412226	105	148	1.15097e-06	45.1302	cl00212	microbial_RNases superfamily	N	 - 
+Q#19 - >HI914_05281	superfamily	412226	52	154	3.9115e-07	46.2858	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#20 - >HI914_05393	superfamily	412226	74	166	5.38217e-07	45.9006	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#21 - >HI914_05395	superfamily	412226	74	161	1.12573e-05	42.0486	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#22 - >HI914_05398	superfamily	412226	122	203	0.00017554	39.3523	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#23 - >HI914_05399	superfamily	412226	120	201	0.000128529	39.7375	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#24 - >HI914_05400	superfamily	412226	80	159	0.000119337	39.7375	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#25 - >HI914_05402	superfamily	412226	122	214	3.81425e-07	46.671	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#26 - >HI914_05403	superfamily	412226	122	214	3.81425e-07	46.671	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#27 - >HI914_05404	superfamily	412226	83	162	5.37033e-08	48.597	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#29 - >HI914_05406	superfamily	412226	81	160	7.34506e-06	42.819	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#30 - >HI914_06252	superfamily	412226	400	460	0.00295516	37.0411	cl00212	microbial_RNases superfamily	C	 - 
+Q#31 - >HI914_06253	superfamily	412226	388	468	1.84497e-07	48.9822	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#32 - >HI914_06259	superfamily	412226	397	477	5.08314e-07	47.8266	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#33 - >HI914_06262	superfamily	412226	397	477	2.08746e-06	46.2858	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#35 - >HI914_06266	superfamily	412226	397	477	1.68799e-05	43.5894	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#36 - >HI914_06271	superfamily	412226	432	476	0.00107703	38.5819	cl00212	microbial_RNases superfamily	N	 - 
+Q#37 - >HI914_06287	superfamily	412226	361	418	0.000289702	39.7375	cl00212	microbial_RNases superfamily	N	 - 
+Q#37 - >HI914_06287	superfamily	412226	216	288	0.00343673	36.6559	cl00212	microbial_RNases superfamily	C	 - 
+Q#43 - >HI914_06757	superfamily	412226	400	477	1.34915e-05	43.9746	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#46 - >HI914_06931	superfamily	412226	116	172	0.000583231	37.8115	cl00212	microbial_RNases superfamily	N	 - 
+Q#47 - >HI914_07016	superfamily	412226	43	131	7.23514e-05	40.1227	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#48 - >HI914_07461	superfamily	412226	59	149	0.00413115	35.1151	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#49 - >HI914_07492	superfamily	412226	512	609	5.40698e-09	53.9898	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#50 - >HI914_07494	superfamily	412226	486	566	0.00470873	36.6559	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#59 - >POS82467.1 hypothetical protein EPUL_005220, partial [Erysiphe pulchra]	superfamily	412226	382	461	1.05277e-07	49.7526	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#64 - >POS82658.1 hypothetical protein EPUL_004040 [Erysiphe pulchra]	superfamily	412226	373	454	2.46591e-06	45.9006	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#65 - >POS82662.1 hypothetical protein EPUL_005255, partial [Erysiphe pulchra]	superfamily	412226	296	377	0.000517551	38.9671	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#66 - >POS82812.1 hypothetical protein EPUL_004402 [Erysiphe pulchra]	superfamily	412226	374	463	0.000653843	38.9671	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#68 - >POS82888.1 hypothetical protein EPUL_004393, partial [Erysiphe pulchra]	superfamily	412226	265	347	3.645e-06	45.9006	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#69 - >POS83029.1 hypothetical protein EPUL_003302 [Erysiphe pulchra]	superfamily	412226	374	454	1.79922e-05	43.5894	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#70 - >POS83081.1 hypothetical protein EPUL_003737 [Erysiphe pulchra]	superfamily	412226	386	465	9.53189e-06	44.3598	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#72 - >POS83145.1 hypothetical protein EPUL_005412, partial [Erysiphe pulchra]	superfamily	412226	272	365	1.8937e-09	54.375	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#73 - >POS83161.1 hypothetical protein EPUL_005012 [Erysiphe pulchra]	superfamily	412226	371	452	0.000168115	40.5079	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#74 - >POS83238.1 hypothetical protein EPUL_004198, partial [Erysiphe pulchra]	superfamily	412226	357	438	9.7888e-05	41.6635	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#75 - >POS83239.1 hypothetical protein EPUL_005081, partial [Erysiphe pulchra]	superfamily	412226	374	455	3.51582e-06	45.5154	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#76 - >POS83269.1 hypothetical protein EPUL_004641, partial [Erysiphe pulchra]	superfamily	412226	335	380	3.31356e-05	43.2042	cl00212	microbial_RNases superfamily	N	 - 
+Q#77 - >POS83658.1 hypothetical protein EPUL_004335 [Erysiphe pulchra]	superfamily	412226	375	457	1.60835e-05	44.3598	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#78 - >POS83737.1 hypothetical protein EPUL_003166, partial [Erysiphe pulchra]	superfamily	412226	371	460	0.0010688	38.1967	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#79 - >POS83788.1 hypothetical protein EPUL_005250, partial [Erysiphe pulchra]	superfamily	412226	292	341	8.83981e-08	49.3674	cl00212	microbial_RNases superfamily	N	 - 
+Q#81 - >POS84713.1 hypothetical protein EPUL_002454 [Erysiphe pulchra]	superfamily	412226	321	402	0.00681171	35.8855	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#83 - >POS85426.1 hypothetical protein EPUL_001982, partial [Erysiphe pulchra]	superfamily	412226	291	377	5.56896e-05	42.0486	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#84 - >RKF72236.1 putative secreted effector protein [Golovinomyces cichoracearum]	superfamily	412226	99	191	0.00207363	36.2707	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#86 - >RKF80186.1 putative csep0475 effector protein [Golovinomyces cichoracearum]	superfamily	412226	69	164	2.08002e-06	44.3598	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#99 - >RKF54795.1 putative secreted effector protein, partial [Oidium neolycopersici]	superfamily	412226	16	96	7.34687e-05	38.9671	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#101 - >RKF55559.1 putative guanyl-specific ribonuclease f1 [Oidium neolycopersici]	superfamily	412226	155	238	5.66818e-05	41.2783	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#102 - >RKF55647.1 putative secreted effector protein [Oidium neolycopersici]	superfamily	412226	85	175	0.00243212	35.8855	cl00212	microbial_RNases superfamily	 - 	 - 
+Q#103 - >RKF56207.1 hypothetical protein OnM2_083046 [Oidium neolycopersici]	superfamily	412226	81	173	3.50599e-05	41.2783	cl00212	microbial_RNases superfamily	 - 	 - 
+

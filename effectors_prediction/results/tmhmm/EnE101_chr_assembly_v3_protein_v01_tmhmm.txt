@@ -1,0 +1,3978 @@
+TMHMM result
+
+HELP with output formats
+# HI914_00003A Length: 76
+# HI914_00003A Number of predicted TMHs:  0
+# HI914_00003A Exp number of AAs in TMHs: 5.67864
+# HI914_00003A Exp number, first 60 AAs:  5.67864
+# HI914_00003A Total prob of N-in:        0.19612
+HI914_00003A	TMHMM2.0	outside	     1    76
+# HI914_00018A Length: 406
+# HI914_00018A Number of predicted TMHs:  0
+# HI914_00018A Exp number of AAs in TMHs: 13.03648
+# HI914_00018A Exp number, first 60 AAs:  12.85233
+# HI914_00018A Total prob of N-in:        0.62646
+# HI914_00018A POSSIBLE N-term signal sequence
+HI914_00018A	TMHMM2.0	outside	     1   406
+# HI914_00036A Length: 880
+# HI914_00036A Number of predicted TMHs:  1
+# HI914_00036A Exp number of AAs in TMHs: 27.6728
+# HI914_00036A Exp number, first 60 AAs:  4.61979
+# HI914_00036A Total prob of N-in:        0.22068
+HI914_00036A	TMHMM2.0	outside	     1   736
+HI914_00036A	TMHMM2.0	TMhelix	   737   759
+HI914_00036A	TMHMM2.0	inside	   760   880
+# HI914_00044A Length: 888
+# HI914_00044A Number of predicted TMHs:  1
+# HI914_00044A Exp number of AAs in TMHs: 30.09959
+# HI914_00044A Exp number, first 60 AAs:  7.00772
+# HI914_00044A Total prob of N-in:        0.33436
+HI914_00044A	TMHMM2.0	outside	     1   738
+HI914_00044A	TMHMM2.0	TMhelix	   739   761
+HI914_00044A	TMHMM2.0	inside	   762   888
+# HI914_00053A Length: 491
+# HI914_00053A Number of predicted TMHs:  0
+# HI914_00053A Exp number of AAs in TMHs: 0.30702
+# HI914_00053A Exp number, first 60 AAs:  0.30492
+# HI914_00053A Total prob of N-in:        0.01414
+HI914_00053A	TMHMM2.0	outside	     1   491
+# HI914_00068A Length: 567
+# HI914_00068A Number of predicted TMHs:  0
+# HI914_00068A Exp number of AAs in TMHs: 0.07453
+# HI914_00068A Exp number, first 60 AAs:  0.06095
+# HI914_00068A Total prob of N-in:        0.00363
+HI914_00068A	TMHMM2.0	outside	     1   567
+# HI914_00077A Length: 693
+# HI914_00077A Number of predicted TMHs:  1
+# HI914_00077A Exp number of AAs in TMHs: 21.56592
+# HI914_00077A Exp number, first 60 AAs:  21.43157
+# HI914_00077A Total prob of N-in:        0.95277
+# HI914_00077A POSSIBLE N-term signal sequence
+HI914_00077A	TMHMM2.0	inside	     1     4
+HI914_00077A	TMHMM2.0	TMhelix	     5    27
+HI914_00077A	TMHMM2.0	outside	    28   693
+# HI914_00091A Length: 370
+# HI914_00091A Number of predicted TMHs:  0
+# HI914_00091A Exp number of AAs in TMHs: 0.11244
+# HI914_00091A Exp number, first 60 AAs:  0.11008
+# HI914_00091A Total prob of N-in:        0.01685
+HI914_00091A	TMHMM2.0	outside	     1   370
+# HI914_00110A Length: 158
+# HI914_00110A Number of predicted TMHs:  0
+# HI914_00110A Exp number of AAs in TMHs: 0.01742
+# HI914_00110A Exp number, first 60 AAs:  0.01683
+# HI914_00110A Total prob of N-in:        0.00714
+HI914_00110A	TMHMM2.0	outside	     1   158
+# HI914_00122A Length: 1053
+# HI914_00122A Number of predicted TMHs:  1
+# HI914_00122A Exp number of AAs in TMHs: 30.16751
+# HI914_00122A Exp number, first 60 AAs:  21.705
+# HI914_00122A Total prob of N-in:        0.56427
+# HI914_00122A POSSIBLE N-term signal sequence
+HI914_00122A	TMHMM2.0	inside	     1     8
+HI914_00122A	TMHMM2.0	TMhelix	     9    31
+HI914_00122A	TMHMM2.0	outside	    32  1053
+# HI914_00123A Length: 352
+# HI914_00123A Number of predicted TMHs:  1
+# HI914_00123A Exp number of AAs in TMHs: 19.55692
+# HI914_00123A Exp number, first 60 AAs:  19.55327
+# HI914_00123A Total prob of N-in:        0.89616
+# HI914_00123A POSSIBLE N-term signal sequence
+HI914_00123A	TMHMM2.0	inside	     1     6
+HI914_00123A	TMHMM2.0	TMhelix	     7    29
+HI914_00123A	TMHMM2.0	outside	    30   352
+# HI914_00143A Length: 588
+# HI914_00143A Number of predicted TMHs:  0
+# HI914_00143A Exp number of AAs in TMHs: 2.34707
+# HI914_00143A Exp number, first 60 AAs:  2.33994
+# HI914_00143A Total prob of N-in:        0.11334
+HI914_00143A	TMHMM2.0	outside	     1   588
+# HI914_00146A Length: 200
+# HI914_00146A Number of predicted TMHs:  1
+# HI914_00146A Exp number of AAs in TMHs: 20.42287
+# HI914_00146A Exp number, first 60 AAs:  1.94687
+# HI914_00146A Total prob of N-in:        0.10762
+HI914_00146A	TMHMM2.0	outside	     1   181
+HI914_00146A	TMHMM2.0	TMhelix	   182   199
+HI914_00146A	TMHMM2.0	inside	   200   200
+# HI914_00149A Length: 559
+# HI914_00149A Number of predicted TMHs:  0
+# HI914_00149A Exp number of AAs in TMHs: 14.94938
+# HI914_00149A Exp number, first 60 AAs:  14.61873
+# HI914_00149A Total prob of N-in:        0.67923
+# HI914_00149A POSSIBLE N-term signal sequence
+HI914_00149A	TMHMM2.0	outside	     1   559
+# HI914_00228A Length: 146
+# HI914_00228A Number of predicted TMHs:  0
+# HI914_00228A Exp number of AAs in TMHs: 9.89927
+# HI914_00228A Exp number, first 60 AAs:  9.89912
+# HI914_00228A Total prob of N-in:        0.50413
+HI914_00228A	TMHMM2.0	outside	     1   146
+# HI914_00229A Length: 183
+# HI914_00229A Number of predicted TMHs:  0
+# HI914_00229A Exp number of AAs in TMHs: 0.17113
+# HI914_00229A Exp number, first 60 AAs:  0.15749
+# HI914_00229A Total prob of N-in:        0.02652
+HI914_00229A	TMHMM2.0	outside	     1   183
+# HI914_00232A Length: 232
+# HI914_00232A Number of predicted TMHs:  0
+# HI914_00232A Exp number of AAs in TMHs: 1.59247
+# HI914_00232A Exp number, first 60 AAs:  1.55864
+# HI914_00232A Total prob of N-in:        0.08668
+HI914_00232A	TMHMM2.0	outside	     1   232
+# HI914_00233A Length: 183
+# HI914_00233A Number of predicted TMHs:  0
+# HI914_00233A Exp number of AAs in TMHs: 17.58651
+# HI914_00233A Exp number, first 60 AAs:  17.56732
+# HI914_00233A Total prob of N-in:        0.52305
+# HI914_00233A POSSIBLE N-term signal sequence
+HI914_00233A	TMHMM2.0	outside	     1   183
+# HI914_00234A Length: 1084
+# HI914_00234A Number of predicted TMHs:  0
+# HI914_00234A Exp number of AAs in TMHs: 14.94795
+# HI914_00234A Exp number, first 60 AAs:  14.75154
+# HI914_00234A Total prob of N-in:        0.74366
+# HI914_00234A POSSIBLE N-term signal sequence
+HI914_00234A	TMHMM2.0	outside	     1  1084
+# HI914_00261A Length: 424
+# HI914_00261A Number of predicted TMHs:  0
+# HI914_00261A Exp number of AAs in TMHs: 0.36726
+# HI914_00261A Exp number, first 60 AAs:  0.36631
+# HI914_00261A Total prob of N-in:        0.02072
+HI914_00261A	TMHMM2.0	outside	     1   424
+# HI914_00262A Length: 368
+# HI914_00262A Number of predicted TMHs:  1
+# HI914_00262A Exp number of AAs in TMHs: 22.94229
+# HI914_00262A Exp number, first 60 AAs:  22.93267
+# HI914_00262A Total prob of N-in:        0.99694
+# HI914_00262A POSSIBLE N-term signal sequence
+HI914_00262A	TMHMM2.0	inside	     1     6
+HI914_00262A	TMHMM2.0	TMhelix	     7    29
+HI914_00262A	TMHMM2.0	outside	    30   368
+# HI914_00279A Length: 239
+# HI914_00279A Number of predicted TMHs:  0
+# HI914_00279A Exp number of AAs in TMHs: 0.05231
+# HI914_00279A Exp number, first 60 AAs:  0.05171
+# HI914_00279A Total prob of N-in:        0.02056
+HI914_00279A	TMHMM2.0	outside	     1   239
+# HI914_00280A Length: 99
+# HI914_00280A Number of predicted TMHs:  0
+# HI914_00280A Exp number of AAs in TMHs: 0.26315
+# HI914_00280A Exp number, first 60 AAs:  0.26314
+# HI914_00280A Total prob of N-in:        0.07921
+HI914_00280A	TMHMM2.0	outside	     1    99
+# HI914_00281A Length: 399
+# HI914_00281A Number of predicted TMHs:  1
+# HI914_00281A Exp number of AAs in TMHs: 23.54756
+# HI914_00281A Exp number, first 60 AAs:  23.06193
+# HI914_00281A Total prob of N-in:        0.93686
+# HI914_00281A POSSIBLE N-term signal sequence
+HI914_00281A	TMHMM2.0	inside	     1     4
+HI914_00281A	TMHMM2.0	TMhelix	     5    27
+HI914_00281A	TMHMM2.0	outside	    28   399
+# HI914_00282A Length: 399
+# HI914_00282A Number of predicted TMHs:  1
+# HI914_00282A Exp number of AAs in TMHs: 23.54756
+# HI914_00282A Exp number, first 60 AAs:  23.06193
+# HI914_00282A Total prob of N-in:        0.93686
+# HI914_00282A POSSIBLE N-term signal sequence
+HI914_00282A	TMHMM2.0	inside	     1     4
+HI914_00282A	TMHMM2.0	TMhelix	     5    27
+HI914_00282A	TMHMM2.0	outside	    28   399
+# HI914_00290A Length: 476
+# HI914_00290A Number of predicted TMHs:  0
+# HI914_00290A Exp number of AAs in TMHs: 14.89429
+# HI914_00290A Exp number, first 60 AAs:  14.89429
+# HI914_00290A Total prob of N-in:        0.73131
+# HI914_00290A POSSIBLE N-term signal sequence
+HI914_00290A	TMHMM2.0	outside	     1   476
+# HI914_00297A Length: 826
+# HI914_00297A Number of predicted TMHs:  1
+# HI914_00297A Exp number of AAs in TMHs: 26.33152
+# HI914_00297A Exp number, first 60 AAs:  7.33683
+# HI914_00297A Total prob of N-in:        0.40077
+HI914_00297A	TMHMM2.0	outside	     1   772
+HI914_00297A	TMHMM2.0	TMhelix	   773   792
+HI914_00297A	TMHMM2.0	inside	   793   826
+# HI914_00319A Length: 435
+# HI914_00319A Number of predicted TMHs:  0
+# HI914_00319A Exp number of AAs in TMHs: 6.12192
+# HI914_00319A Exp number, first 60 AAs:  6.07735
+# HI914_00319A Total prob of N-in:        0.27436
+HI914_00319A	TMHMM2.0	outside	     1   435
+# HI914_00320A Length: 482
+# HI914_00320A Number of predicted TMHs:  0
+# HI914_00320A Exp number of AAs in TMHs: 6.02454
+# HI914_00320A Exp number, first 60 AAs:  5.99122
+# HI914_00320A Total prob of N-in:        0.27357
+HI914_00320A	TMHMM2.0	outside	     1   482
+# HI914_00322A Length: 419
+# HI914_00322A Number of predicted TMHs:  0
+# HI914_00322A Exp number of AAs in TMHs: 0.1497
+# HI914_00322A Exp number, first 60 AAs:  0.14354
+# HI914_00322A Total prob of N-in:        0.00788
+HI914_00322A	TMHMM2.0	outside	     1   419
+# HI914_00323A Length: 111
+# HI914_00323A Number of predicted TMHs:  0
+# HI914_00323A Exp number of AAs in TMHs: 5.38405
+# HI914_00323A Exp number, first 60 AAs:  5.38405
+# HI914_00323A Total prob of N-in:        0.37805
+HI914_00323A	TMHMM2.0	outside	     1   111
+# HI914_00324A Length: 93
+# HI914_00324A Number of predicted TMHs:  0
+# HI914_00324A Exp number of AAs in TMHs: 0.5095
+# HI914_00324A Exp number, first 60 AAs:  0.5095
+# HI914_00324A Total prob of N-in:        0.26034
+HI914_00324A	TMHMM2.0	outside	     1    93
+# HI914_00325A Length: 108
+# HI914_00325A Number of predicted TMHs:  0
+# HI914_00325A Exp number of AAs in TMHs: 0.24142
+# HI914_00325A Exp number, first 60 AAs:  0.24132
+# HI914_00325A Total prob of N-in:        0.27890
+HI914_00325A	TMHMM2.0	outside	     1   108
+# HI914_00330A Length: 396
+# HI914_00330A Number of predicted TMHs:  0
+# HI914_00330A Exp number of AAs in TMHs: 28.50136
+# HI914_00330A Exp number, first 60 AAs:  24.62053
+# HI914_00330A Total prob of N-in:        0.23250
+# HI914_00330A POSSIBLE N-term signal sequence
+HI914_00330A	TMHMM2.0	outside	     1   396
+# HI914_00331A Length: 482
+# HI914_00331A Number of predicted TMHs:  0
+# HI914_00331A Exp number of AAs in TMHs: 4.00892
+# HI914_00331A Exp number, first 60 AAs:  3.99148
+# HI914_00331A Total prob of N-in:        0.19539
+HI914_00331A	TMHMM2.0	outside	     1   482
+# HI914_00332A Length: 374
+# HI914_00332A Number of predicted TMHs:  1
+# HI914_00332A Exp number of AAs in TMHs: 32.63385
+# HI914_00332A Exp number, first 60 AAs:  10.50889
+# HI914_00332A Total prob of N-in:        0.54013
+# HI914_00332A POSSIBLE N-term signal sequence
+HI914_00332A	TMHMM2.0	outside	     1   330
+HI914_00332A	TMHMM2.0	TMhelix	   331   353
+HI914_00332A	TMHMM2.0	inside	   354   374
+# HI914_00340A Length: 332
+# HI914_00340A Number of predicted TMHs:  1
+# HI914_00340A Exp number of AAs in TMHs: 27.15008
+# HI914_00340A Exp number, first 60 AAs:  19.98931
+# HI914_00340A Total prob of N-in:        0.63275
+# HI914_00340A POSSIBLE N-term signal sequence
+HI914_00340A	TMHMM2.0	inside	     1     6
+HI914_00340A	TMHMM2.0	TMhelix	     7    27
+HI914_00340A	TMHMM2.0	outside	    28   332
+# HI914_00348A Length: 192
+# HI914_00348A Number of predicted TMHs:  0
+# HI914_00348A Exp number of AAs in TMHs: 1.40398
+# HI914_00348A Exp number, first 60 AAs:  1.40345
+# HI914_00348A Total prob of N-in:        0.07394
+HI914_00348A	TMHMM2.0	outside	     1   192
+# HI914_00394A Length: 199
+# HI914_00394A Number of predicted TMHs:  0
+# HI914_00394A Exp number of AAs in TMHs: 4.57842000000000001
+# HI914_00394A Exp number, first 60 AAs:  4.57695
+# HI914_00394A Total prob of N-in:        0.26054
+HI914_00394A	TMHMM2.0	outside	     1   199
+# HI914_00410A Length: 599
+# HI914_00410A Number of predicted TMHs:  0
+# HI914_00410A Exp number of AAs in TMHs: 0.37328
+# HI914_00410A Exp number, first 60 AAs:  0.37107
+# HI914_00410A Total prob of N-in:        0.01687
+HI914_00410A	TMHMM2.0	outside	     1   599
+# HI914_00436A Length: 300
+# HI914_00436A Number of predicted TMHs:  1
+# HI914_00436A Exp number of AAs in TMHs: 16.40464
+# HI914_00436A Exp number, first 60 AAs:  16.39091
+# HI914_00436A Total prob of N-in:        0.60343
+# HI914_00436A POSSIBLE N-term signal sequence
+HI914_00436A	TMHMM2.0	inside	     1     1
+HI914_00436A	TMHMM2.0	TMhelix	     2    24
+HI914_00436A	TMHMM2.0	outside	    25   300
+# HI914_00453A Length: 517
+# HI914_00453A Number of predicted TMHs:  7
+# HI914_00453A Exp number of AAs in TMHs: 162.44773
+# HI914_00453A Exp number, first 60 AAs:  21.52763
+# HI914_00453A Total prob of N-in:        0.98703
+# HI914_00453A POSSIBLE N-term signal sequence
+HI914_00453A	TMHMM2.0	inside	     1     4
+HI914_00453A	TMHMM2.0	TMhelix	     5    24
+HI914_00453A	TMHMM2.0	outside	    25    58
+HI914_00453A	TMHMM2.0	TMhelix	    59    78
+HI914_00453A	TMHMM2.0	inside	    79    89
+HI914_00453A	TMHMM2.0	TMhelix	    90   112
+HI914_00453A	TMHMM2.0	outside	   113   174
+HI914_00453A	TMHMM2.0	TMhelix	   175   197
+HI914_00453A	TMHMM2.0	inside	   198   209
+HI914_00453A	TMHMM2.0	TMhelix	   210   229
+HI914_00453A	TMHMM2.0	outside	   230   271
+HI914_00453A	TMHMM2.0	TMhelix	   272   294
+HI914_00453A	TMHMM2.0	inside	   295   344
+HI914_00453A	TMHMM2.0	TMhelix	   345   367
+HI914_00453A	TMHMM2.0	outside	   368   517
+# HI914_00464A Length: 112
+# HI914_00464A Number of predicted TMHs:  0
+# HI914_00464A Exp number of AAs in TMHs: 0.17558
+# HI914_00464A Exp number, first 60 AAs:  0.17558
+# HI914_00464A Total prob of N-in:        0.09257
+HI914_00464A	TMHMM2.0	outside	     1   112
+# HI914_00467A Length: 111
+# HI914_00467A Number of predicted TMHs:  0
+# HI914_00467A Exp number of AAs in TMHs: 1.28482
+# HI914_00467A Exp number, first 60 AAs:  1.28482
+# HI914_00467A Total prob of N-in:        0.11172
+HI914_00467A	TMHMM2.0	outside	     1   111
+# HI914_00468A Length: 111
+# HI914_00468A Number of predicted TMHs:  0
+# HI914_00468A Exp number of AAs in TMHs: 0.40462
+# HI914_00468A Exp number, first 60 AAs:  0.40462
+# HI914_00468A Total prob of N-in:        0.10445
+HI914_00468A	TMHMM2.0	outside	     1   111
+# HI914_00469A Length: 111
+# HI914_00469A Number of predicted TMHs:  0
+# HI914_00469A Exp number of AAs in TMHs: 0.40462
+# HI914_00469A Exp number, first 60 AAs:  0.40462
+# HI914_00469A Total prob of N-in:        0.10445
+HI914_00469A	TMHMM2.0	outside	     1   111
+# HI914_00474A Length: 111
+# HI914_00474A Number of predicted TMHs:  0
+# HI914_00474A Exp number of AAs in TMHs: 0.18216
+# HI914_00474A Exp number, first 60 AAs:  0.18216
+# HI914_00474A Total prob of N-in:        0.09173
+HI914_00474A	TMHMM2.0	outside	     1   111
+# HI914_00476A Length: 134
+# HI914_00476A Number of predicted TMHs:  0
+# HI914_00476A Exp number of AAs in TMHs: 0.24684
+# HI914_00476A Exp number, first 60 AAs:  0.24684
+# HI914_00476A Total prob of N-in:        0.08829
+HI914_00476A	TMHMM2.0	outside	     1   134
+# HI914_00480A Length: 112
+# HI914_00480A Number of predicted TMHs:  0
+# HI914_00480A Exp number of AAs in TMHs: 0.31433
+# HI914_00480A Exp number, first 60 AAs:  0.31433
+# HI914_00480A Total prob of N-in:        0.11290
+HI914_00480A	TMHMM2.0	outside	     1   112
+# HI914_00483A Length: 241
+# HI914_00483A Number of predicted TMHs:  0
+# HI914_00483A Exp number of AAs in TMHs: 0.650200000000000001
+# HI914_00483A Exp number, first 60 AAs:  0.64926
+# HI914_00483A Total prob of N-in:        0.03149
+HI914_00483A	TMHMM2.0	outside	     1   241
+# HI914_00488A Length: 164
+# HI914_00488A Number of predicted TMHs:  1
+# HI914_00488A Exp number of AAs in TMHs: 20.40073
+# HI914_00488A Exp number, first 60 AAs:  20.39435
+# HI914_00488A Total prob of N-in:        0.56203
+# HI914_00488A POSSIBLE N-term signal sequence
+HI914_00488A	TMHMM2.0	outside	     1     5
+HI914_00488A	TMHMM2.0	TMhelix	     6    28
+HI914_00488A	TMHMM2.0	inside	    29   164
+# HI914_00517A Length: 178
+# HI914_00517A Number of predicted TMHs:  0
+# HI914_00517A Exp number of AAs in TMHs: 13.95932
+# HI914_00517A Exp number, first 60 AAs:  13.9032
+# HI914_00517A Total prob of N-in:        0.19212
+# HI914_00517A POSSIBLE N-term signal sequence
+HI914_00517A	TMHMM2.0	outside	     1   178
+# HI914_00534A Length: 71
+# HI914_00534A Number of predicted TMHs:  0
+# HI914_00534A Exp number of AAs in TMHs: 0.46458
+# HI914_00534A Exp number, first 60 AAs:  0.44876
+# HI914_00534A Total prob of N-in:        0.22498
+HI914_00534A	TMHMM2.0	outside	     1    71
+# HI914_00557A Length: 124
+# HI914_00557A Number of predicted TMHs:  0
+# HI914_00557A Exp number of AAs in TMHs: 0.18205
+# HI914_00557A Exp number, first 60 AAs:  0.18205
+# HI914_00557A Total prob of N-in:        0.01515
+HI914_00557A	TMHMM2.0	outside	     1   124
+# HI914_00574A Length: 102
+# HI914_00574A Number of predicted TMHs:  0
+# HI914_00574A Exp number of AAs in TMHs: 0.24691
+# HI914_00574A Exp number, first 60 AAs:  0.24691
+# HI914_00574A Total prob of N-in:        0.02088
+HI914_00574A	TMHMM2.0	outside	     1   102
+# HI914_00576A Length: 105
+# HI914_00576A Number of predicted TMHs:  0
+# HI914_00576A Exp number of AAs in TMHs: 0.03622
+# HI914_00576A Exp number, first 60 AAs:  0.03622
+# HI914_00576A Total prob of N-in:        0.02932
+HI914_00576A	TMHMM2.0	outside	     1   105
+# HI914_00593A Length: 382
+# HI914_00593A Number of predicted TMHs:  0
+# HI914_00593A Exp number of AAs in TMHs: 5.43669
+# HI914_00593A Exp number, first 60 AAs:  5.05607
+# HI914_00593A Total prob of N-in:        0.20513
+HI914_00593A	TMHMM2.0	outside	     1   382
+# HI914_00597A Length: 380
+# HI914_00597A Number of predicted TMHs:  1
+# HI914_00597A Exp number of AAs in TMHs: 32.28326
+# HI914_00597A Exp number, first 60 AAs:  9.27805
+# HI914_00597A Total prob of N-in:        0.44910
+HI914_00597A	TMHMM2.0	outside	     1   302
+HI914_00597A	TMHMM2.0	TMhelix	   303   325
+HI914_00597A	TMHMM2.0	inside	   326   380
+# HI914_00624A Length: 579
+# HI914_00624A Number of predicted TMHs:  0
+# HI914_00624A Exp number of AAs in TMHs: 0.2507
+# HI914_00624A Exp number, first 60 AAs:  0.02215
+# HI914_00624A Total prob of N-in:        0.00145
+HI914_00624A	TMHMM2.0	outside	     1   579
+# HI914_00625A Length: 922
+# HI914_00625A Number of predicted TMHs:  1
+# HI914_00625A Exp number of AAs in TMHs: 20.7513999999999999
+# HI914_00625A Exp number, first 60 AAs:  20.7044
+# HI914_00625A Total prob of N-in:        0.96777
+# HI914_00625A POSSIBLE N-term signal sequence
+HI914_00625A	TMHMM2.0	inside	     1     6
+HI914_00625A	TMHMM2.0	TMhelix	     7    29
+HI914_00625A	TMHMM2.0	outside	    30   922
+# HI914_00650A Length: 187
+# HI914_00650A Number of predicted TMHs:  0
+# HI914_00650A Exp number of AAs in TMHs: 3.28828
+# HI914_00650A Exp number, first 60 AAs:  3.28828
+# HI914_00650A Total prob of N-in:        0.20206
+HI914_00650A	TMHMM2.0	outside	     1   187
+# HI914_00653A Length: 143
+# HI914_00653A Number of predicted TMHs:  1
+# HI914_00653A Exp number of AAs in TMHs: 21.28064
+# HI914_00653A Exp number, first 60 AAs:  21.18062
+# HI914_00653A Total prob of N-in:        0.57927
+# HI914_00653A POSSIBLE N-term signal sequence
+HI914_00653A	TMHMM2.0	inside	     1     6
+HI914_00653A	TMHMM2.0	TMhelix	     7    29
+HI914_00653A	TMHMM2.0	outside	    30   143
+# HI914_00677A Length: 227
+# HI914_00677A Number of predicted TMHs:  0
+# HI914_00677A Exp number of AAs in TMHs: 27.58929
+# HI914_00677A Exp number, first 60 AAs:  11.23366
+# HI914_00677A Total prob of N-in:        0.61746
+# HI914_00677A POSSIBLE N-term signal sequence
+HI914_00677A	TMHMM2.0	outside	     1   227
+# HI914_00681A Length: 355
+# HI914_00681A Number of predicted TMHs:  0
+# HI914_00681A Exp number of AAs in TMHs: 0.5581
+# HI914_00681A Exp number, first 60 AAs:  0.1648
+# HI914_00681A Total prob of N-in:        0.01239
+HI914_00681A	TMHMM2.0	outside	     1   355
+# HI914_00683A Length: 280
+# HI914_00683A Number of predicted TMHs:  1
+# HI914_00683A Exp number of AAs in TMHs: 40.06263
+# HI914_00683A Exp number, first 60 AAs:  12.28156
+# HI914_00683A Total prob of N-in:        0.29794
+# HI914_00683A POSSIBLE N-term signal sequence
+HI914_00683A	TMHMM2.0	outside	     1   178
+HI914_00683A	TMHMM2.0	TMhelix	   179   201
+HI914_00683A	TMHMM2.0	inside	   202   280
+# HI914_00704A Length: 160
+# HI914_00704A Number of predicted TMHs:  0
+# HI914_00704A Exp number of AAs in TMHs: 0.03743
+# HI914_00704A Exp number, first 60 AAs:  0.03323
+# HI914_00704A Total prob of N-in:        0.20383
+HI914_00704A	TMHMM2.0	outside	     1   160
+# HI914_00712A Length: 480
+# HI914_00712A Number of predicted TMHs:  2
+# HI914_00712A Exp number of AAs in TMHs: 42.08957
+# HI914_00712A Exp number, first 60 AAs:  19.34923
+# HI914_00712A Total prob of N-in:        0.93415
+# HI914_00712A POSSIBLE N-term signal sequence
+HI914_00712A	TMHMM2.0	inside	     1     4
+HI914_00712A	TMHMM2.0	TMhelix	     5    27
+HI914_00712A	TMHMM2.0	outside	    28   443
+HI914_00712A	TMHMM2.0	TMhelix	   444   466
+HI914_00712A	TMHMM2.0	inside	   467   480
+# HI914_00724A Length: 523
+# HI914_00724A Number of predicted TMHs:  0
+# HI914_00724A Exp number of AAs in TMHs: 0.50787
+# HI914_00724A Exp number, first 60 AAs:  0.49137
+# HI914_00724A Total prob of N-in:        0.02692
+HI914_00724A	TMHMM2.0	outside	     1   523
+# HI914_00741A Length: 973
+# HI914_00741A Number of predicted TMHs:  1
+# HI914_00741A Exp number of AAs in TMHs: 22.65435
+# HI914_00741A Exp number, first 60 AAs:  2.77182
+# HI914_00741A Total prob of N-in:        0.13367
+HI914_00741A	TMHMM2.0	outside	     1   941
+HI914_00741A	TMHMM2.0	TMhelix	   942   961
+HI914_00741A	TMHMM2.0	inside	   962   973
+# HI914_00761A Length: 564
+# HI914_00761A Number of predicted TMHs:  0
+# HI914_00761A Exp number of AAs in TMHs: 0.510610000000000001
+# HI914_00761A Exp number, first 60 AAs:  0.47731
+# HI914_00761A Total prob of N-in:        0.02535
+HI914_00761A	TMHMM2.0	outside	     1   564
+# HI914_00785A Length: 528
+# HI914_00785A Number of predicted TMHs:  1
+# HI914_00785A Exp number of AAs in TMHs: 23.71377
+# HI914_00785A Exp number, first 60 AAs:  6.55896
+# HI914_00785A Total prob of N-in:        0.31542
+HI914_00785A	TMHMM2.0	outside	     1   508
+HI914_00785A	TMHMM2.0	TMhelix	   509   526
+HI914_00785A	TMHMM2.0	inside	   527   528
+# HI914_00798A Length: 664
+# HI914_00798A Number of predicted TMHs:  0
+# HI914_00798A Exp number of AAs in TMHs: 5.87229
+# HI914_00798A Exp number, first 60 AAs:  5.83462
+# HI914_00798A Total prob of N-in:        0.29268
+HI914_00798A	TMHMM2.0	outside	     1   664
+# HI914_00799A Length: 470
+# HI914_00799A Number of predicted TMHs:  1
+# HI914_00799A Exp number of AAs in TMHs: 19.01589
+# HI914_00799A Exp number, first 60 AAs:  0.00362
+# HI914_00799A Total prob of N-in:        0.03244
+HI914_00799A	TMHMM2.0	outside	     1   445
+HI914_00799A	TMHMM2.0	TMhelix	   446   468
+HI914_00799A	TMHMM2.0	inside	   469   470
+# HI914_00851A Length: 142
+# HI914_00851A Number of predicted TMHs:  0
+# HI914_00851A Exp number of AAs in TMHs: 0.1012
+# HI914_00851A Exp number, first 60 AAs:  0.1012
+# HI914_00851A Total prob of N-in:        0.01797
+HI914_00851A	TMHMM2.0	outside	     1   142
+# HI914_00881A Length: 293
+# HI914_00881A Number of predicted TMHs:  2
+# HI914_00881A Exp number of AAs in TMHs: 40.0176
+# HI914_00881A Exp number, first 60 AAs:  20.29148
+# HI914_00881A Total prob of N-in:        0.87200
+# HI914_00881A POSSIBLE N-term signal sequence
+HI914_00881A	TMHMM2.0	inside	     1     6
+HI914_00881A	TMHMM2.0	TMhelix	     7    29
+HI914_00881A	TMHMM2.0	outside	    30   266
+HI914_00881A	TMHMM2.0	TMhelix	   267   286
+HI914_00881A	TMHMM2.0	inside	   287   293
+# HI914_00908A Length: 327
+# HI914_00908A Number of predicted TMHs:  1
+# HI914_00908A Exp number of AAs in TMHs: 23.38659
+# HI914_00908A Exp number, first 60 AAs:  0.02299
+# HI914_00908A Total prob of N-in:        0.00653
+HI914_00908A	TMHMM2.0	outside	     1   276
+HI914_00908A	TMHMM2.0	TMhelix	   277   299
+HI914_00908A	TMHMM2.0	inside	   300   327
+# HI914_00974A Length: 257
+# HI914_00974A Number of predicted TMHs:  0
+# HI914_00974A Exp number of AAs in TMHs: 5.04518
+# HI914_00974A Exp number, first 60 AAs:  4.82881
+# HI914_00974A Total prob of N-in:        0.08629
+HI914_00974A	TMHMM2.0	outside	     1   257
+# HI914_00994A Length: 359
+# HI914_00994A Number of predicted TMHs:  0
+# HI914_00994A Exp number of AAs in TMHs: 0.35298
+# HI914_00994A Exp number, first 60 AAs:  0.11683
+# HI914_00994A Total prob of N-in:        0.02975
+HI914_00994A	TMHMM2.0	outside	     1   359
+# HI914_00999A Length: 450
+# HI914_00999A Number of predicted TMHs:  3
+# HI914_00999A Exp number of AAs in TMHs: 63.52494
+# HI914_00999A Exp number, first 60 AAs:  21.4176
+# HI914_00999A Total prob of N-in:        0.99571
+# HI914_00999A POSSIBLE N-term signal sequence
+HI914_00999A	TMHMM2.0	inside	     1     4
+HI914_00999A	TMHMM2.0	TMhelix	     5    27
+HI914_00999A	TMHMM2.0	outside	    28    61
+HI914_00999A	TMHMM2.0	TMhelix	    62    81
+HI914_00999A	TMHMM2.0	inside	    82   425
+HI914_00999A	TMHMM2.0	TMhelix	   426   448
+HI914_00999A	TMHMM2.0	outside	   449   450
+# HI914_01031A Length: 424
+# HI914_01031A Number of predicted TMHs:  6
+# HI914_01031A Exp number of AAs in TMHs: 139.4966
+# HI914_01031A Exp number, first 60 AAs:  0.65096
+# HI914_01031A Total prob of N-in:        0.48077
+HI914_01031A	TMHMM2.0	inside	     1   100
+HI914_01031A	TMHMM2.0	TMhelix	   101   123
+HI914_01031A	TMHMM2.0	outside	   124   137
+HI914_01031A	TMHMM2.0	TMhelix	   138   160
+HI914_01031A	TMHMM2.0	inside	   161   180
+HI914_01031A	TMHMM2.0	TMhelix	   181   203
+HI914_01031A	TMHMM2.0	outside	   204   212
+HI914_01031A	TMHMM2.0	TMhelix	   213   235
+HI914_01031A	TMHMM2.0	inside	   236   255
+HI914_01031A	TMHMM2.0	TMhelix	   256   278
+HI914_01031A	TMHMM2.0	outside	   279   292
+HI914_01031A	TMHMM2.0	TMhelix	   293   315
+HI914_01031A	TMHMM2.0	inside	   316   424
+# HI914_01041A Length: 456
+# HI914_01041A Number of predicted TMHs:  1
+# HI914_01041A Exp number of AAs in TMHs: 22.96624
+# HI914_01041A Exp number, first 60 AAs:  0.17311
+# HI914_01041A Total prob of N-in:        0.00987
+HI914_01041A	TMHMM2.0	outside	     1   300
+HI914_01041A	TMHMM2.0	TMhelix	   301   323
+HI914_01041A	TMHMM2.0	inside	   324   456
+# HI914_01060A Length: 344
+# HI914_01060A Number of predicted TMHs:  0
+# HI914_01060A Exp number of AAs in TMHs: 4.83799
+# HI914_01060A Exp number, first 60 AAs:  4.7757
+# HI914_01060A Total prob of N-in:        0.21530
+HI914_01060A	TMHMM2.0	outside	     1   344
+# HI914_01073A Length: 344
+# HI914_01073A Number of predicted TMHs:  0
+# HI914_01073A Exp number of AAs in TMHs: 4.83799
+# HI914_01073A Exp number, first 60 AAs:  4.7757
+# HI914_01073A Total prob of N-in:        0.21530
+HI914_01073A	TMHMM2.0	outside	     1   344
+# HI914_01086A Length: 217
+# HI914_01086A Number of predicted TMHs:  0
+# HI914_01086A Exp number of AAs in TMHs: 2.06746
+# HI914_01086A Exp number, first 60 AAs:  2.06625
+# HI914_01086A Total prob of N-in:        0.12064
+HI914_01086A	TMHMM2.0	outside	     1   217
+# HI914_01096A Length: 186
+# HI914_01096A Number of predicted TMHs:  0
+# HI914_01096A Exp number of AAs in TMHs: 10.25996
+# HI914_01096A Exp number, first 60 AAs:  9.22043
+# HI914_01096A Total prob of N-in:        0.41316
+HI914_01096A	TMHMM2.0	outside	     1   186
+# HI914_01097A Length: 597
+# HI914_01097A Number of predicted TMHs:  1
+# HI914_01097A Exp number of AAs in TMHs: 29.86072
+# HI914_01097A Exp number, first 60 AAs:  21.67706
+# HI914_01097A Total prob of N-in:        0.90409
+# HI914_01097A POSSIBLE N-term signal sequence
+HI914_01097A	TMHMM2.0	inside	     1     4
+HI914_01097A	TMHMM2.0	TMhelix	     5    27
+HI914_01097A	TMHMM2.0	outside	    28   597
+# HI914_01102A Length: 167
+# HI914_01102A Number of predicted TMHs:  0
+# HI914_01102A Exp number of AAs in TMHs: 4.81682
+# HI914_01102A Exp number, first 60 AAs:  4.81625
+# HI914_01102A Total prob of N-in:        0.33694
+HI914_01102A	TMHMM2.0	outside	     1   167
+# HI914_01103A Length: 167
+# HI914_01103A Number of predicted TMHs:  0
+# HI914_01103A Exp number of AAs in TMHs: 2.54868
+# HI914_01103A Exp number, first 60 AAs:  2.54868
+# HI914_01103A Total prob of N-in:        0.16196
+HI914_01103A	TMHMM2.0	outside	     1   167
+# HI914_01108A Length: 221
+# HI914_01108A Number of predicted TMHs:  0
+# HI914_01108A Exp number of AAs in TMHs: 0.72883
+# HI914_01108A Exp number, first 60 AAs:  0.72771
+# HI914_01108A Total prob of N-in:        0.07583
+HI914_01108A	TMHMM2.0	outside	     1   221
+# HI914_01110A Length: 441
+# HI914_01110A Number of predicted TMHs:  1
+# HI914_01110A Exp number of AAs in TMHs: 15.44567
+# HI914_01110A Exp number, first 60 AAs:  15.38137
+# HI914_01110A Total prob of N-in:        0.70683
+# HI914_01110A POSSIBLE N-term signal sequence
+HI914_01110A	TMHMM2.0	inside	     1     6
+HI914_01110A	TMHMM2.0	TMhelix	     7    29
+HI914_01110A	TMHMM2.0	outside	    30   441
+# HI914_01112A Length: 377
+# HI914_01112A Number of predicted TMHs:  0
+# HI914_01112A Exp number of AAs in TMHs: 10.87812
+# HI914_01112A Exp number, first 60 AAs:  10.78591
+# HI914_01112A Total prob of N-in:        0.50230
+# HI914_01112A POSSIBLE N-term signal sequence
+HI914_01112A	TMHMM2.0	outside	     1   377
+# HI914_01113A Length: 344
+# HI914_01113A Number of predicted TMHs:  0
+# HI914_01113A Exp number of AAs in TMHs: 2.873
+# HI914_01113A Exp number, first 60 AAs:  2.70037
+# HI914_01113A Total prob of N-in:        0.15824
+HI914_01113A	TMHMM2.0	outside	     1   344
+# HI914_01120A Length: 112
+# HI914_01120A Number of predicted TMHs:  3
+# HI914_01120A Exp number of AAs in TMHs: 64.53552
+# HI914_01120A Exp number, first 60 AAs:  38.69784
+# HI914_01120A Total prob of N-in:        0.93445
+# HI914_01120A POSSIBLE N-term signal sequence
+HI914_01120A	TMHMM2.0	inside	     1     6
+HI914_01120A	TMHMM2.0	TMhelix	     7    29
+HI914_01120A	TMHMM2.0	outside	    30    43
+HI914_01120A	TMHMM2.0	TMhelix	    44    63
+HI914_01120A	TMHMM2.0	inside	    64    75
+HI914_01120A	TMHMM2.0	TMhelix	    76    98
+HI914_01120A	TMHMM2.0	outside	    99   112
+# HI914_01121A Length: 172
+# HI914_01121A Number of predicted TMHs:  1
+# HI914_01121A Exp number of AAs in TMHs: 22.31312
+# HI914_01121A Exp number, first 60 AAs:  20.43532
+# HI914_01121A Total prob of N-in:        0.84152
+# HI914_01121A POSSIBLE N-term signal sequence
+HI914_01121A	TMHMM2.0	inside	     1     4
+HI914_01121A	TMHMM2.0	TMhelix	     5    24
+HI914_01121A	TMHMM2.0	outside	    25   172
+# HI914_01123A Length: 750
+# HI914_01123A Number of predicted TMHs:  0
+# HI914_01123A Exp number of AAs in TMHs: 0.01435
+# HI914_01123A Exp number, first 60 AAs:  0.00798
+# HI914_01123A Total prob of N-in:        0.00045
+HI914_01123A	TMHMM2.0	outside	     1   750
+# HI914_01136A Length: 446
+# HI914_01136A Number of predicted TMHs:  0
+# HI914_01136A Exp number of AAs in TMHs: 25.8759
+# HI914_01136A Exp number, first 60 AAs:  9.36551
+# HI914_01136A Total prob of N-in:        0.35864
+HI914_01136A	TMHMM2.0	outside	     1   446
+# HI914_01145A Length: 217
+# HI914_01145A Number of predicted TMHs:  1
+# HI914_01145A Exp number of AAs in TMHs: 22.12403
+# HI914_01145A Exp number, first 60 AAs:  0.64105
+# HI914_01145A Total prob of N-in:        0.58632
+HI914_01145A	TMHMM2.0	inside	     1    69
+HI914_01145A	TMHMM2.0	TMhelix	    70    92
+HI914_01145A	TMHMM2.0	outside	    93   217
+# HI914_01169A Length: 213
+# HI914_01169A Number of predicted TMHs:  0
+# HI914_01169A Exp number of AAs in TMHs: 0.27541
+# HI914_01169A Exp number, first 60 AAs:  0.27154
+# HI914_01169A Total prob of N-in:        0.02368
+HI914_01169A	TMHMM2.0	outside	     1   213
+# HI914_01185A Length: 476
+# HI914_01185A Number of predicted TMHs:  0
+# HI914_01185A Exp number of AAs in TMHs: 8.3273
+# HI914_01185A Exp number, first 60 AAs:  3.51893
+# HI914_01185A Total prob of N-in:        0.02768
+HI914_01185A	TMHMM2.0	outside	     1   476
+# HI914_01187A Length: 245
+# HI914_01187A Number of predicted TMHs:  0
+# HI914_01187A Exp number of AAs in TMHs: 0.30347
+# HI914_01187A Exp number, first 60 AAs:  0.302
+# HI914_01187A Total prob of N-in:        0.04524
+HI914_01187A	TMHMM2.0	outside	     1   245
+# HI914_01194A Length: 169
+# HI914_01194A Number of predicted TMHs:  4
+# HI914_01194A Exp number of AAs in TMHs: 86.93113
+# HI914_01194A Exp number, first 60 AAs:  42.33514
+# HI914_01194A Total prob of N-in:        0.94196
+# HI914_01194A POSSIBLE N-term signal sequence
+HI914_01194A	TMHMM2.0	inside	     1    11
+HI914_01194A	TMHMM2.0	TMhelix	    12    29
+HI914_01194A	TMHMM2.0	outside	    30    38
+HI914_01194A	TMHMM2.0	TMhelix	    39    61
+HI914_01194A	TMHMM2.0	inside	    62    67
+HI914_01194A	TMHMM2.0	TMhelix	    68    90
+HI914_01194A	TMHMM2.0	outside	    91   123
+HI914_01194A	TMHMM2.0	TMhelix	   124   146
+HI914_01194A	TMHMM2.0	inside	   147   169
+# HI914_01199A Length: 218
+# HI914_01199A Number of predicted TMHs:  1
+# HI914_01199A Exp number of AAs in TMHs: 30.81192
+# HI914_01199A Exp number, first 60 AAs:  8.0725
+# HI914_01199A Total prob of N-in:        0.92144
+HI914_01199A	TMHMM2.0	inside	     1   187
+HI914_01199A	TMHMM2.0	TMhelix	   188   207
+HI914_01199A	TMHMM2.0	outside	   208   218
+# HI914_01227A Length: 459
+# HI914_01227A Number of predicted TMHs:  0
+# HI914_01227A Exp number of AAs in TMHs: 27.49418
+# HI914_01227A Exp number, first 60 AAs:  6.40579
+# HI914_01227A Total prob of N-in:        0.18762
+HI914_01227A	TMHMM2.0	outside	     1   459
+# HI914_01255A Length: 178
+# HI914_01255A Number of predicted TMHs:  0
+# HI914_01255A Exp number of AAs in TMHs: 2.56421
+# HI914_01255A Exp number, first 60 AAs:  2.45548
+# HI914_01255A Total prob of N-in:        0.14362
+HI914_01255A	TMHMM2.0	outside	     1   178
+# HI914_01263A Length: 101
+# HI914_01263A Number of predicted TMHs:  1
+# HI914_01263A Exp number of AAs in TMHs: 17.31576
+# HI914_01263A Exp number, first 60 AAs:  17.31576
+# HI914_01263A Total prob of N-in:        0.23925
+# HI914_01263A POSSIBLE N-term signal sequence
+HI914_01263A	TMHMM2.0	outside	     1     3
+HI914_01263A	TMHMM2.0	TMhelix	     4    23
+HI914_01263A	TMHMM2.0	inside	    24   101
+# HI914_01275A Length: 106
+# HI914_01275A Number of predicted TMHs:  0
+# HI914_01275A Exp number of AAs in TMHs: 3.23477
+# HI914_01275A Exp number, first 60 AAs:  2.97732
+# HI914_01275A Total prob of N-in:        0.09075
+HI914_01275A	TMHMM2.0	outside	     1   106
+# HI914_01289A Length: 779
+# HI914_01289A Number of predicted TMHs:  7
+# HI914_01289A Exp number of AAs in TMHs: 210.76759
+# HI914_01289A Exp number, first 60 AAs:  16.86841
+# HI914_01289A Total prob of N-in:        0.41336
+# HI914_01289A POSSIBLE N-term signal sequence
+HI914_01289A	TMHMM2.0	outside	     1   336
+HI914_01289A	TMHMM2.0	TMhelix	   337   359
+HI914_01289A	TMHMM2.0	inside	   360   379
+HI914_01289A	TMHMM2.0	TMhelix	   380   402
+HI914_01289A	TMHMM2.0	outside	   403   416
+HI914_01289A	TMHMM2.0	TMhelix	   417   439
+HI914_01289A	TMHMM2.0	inside	   440   474
+HI914_01289A	TMHMM2.0	TMhelix	   475   497
+HI914_01289A	TMHMM2.0	outside	   498   500
+HI914_01289A	TMHMM2.0	TMhelix	   501   523
+HI914_01289A	TMHMM2.0	inside	   524   534
+HI914_01289A	TMHMM2.0	TMhelix	   535   557
+HI914_01289A	TMHMM2.0	outside	   558   571
+HI914_01289A	TMHMM2.0	TMhelix	   572   594
+HI914_01289A	TMHMM2.0	inside	   595   779
+# HI914_01355A Length: 205
+# HI914_01355A Number of predicted TMHs:  0
+# HI914_01355A Exp number of AAs in TMHs: 0.76965
+# HI914_01355A Exp number, first 60 AAs:  0.7692
+# HI914_01355A Total prob of N-in:        0.04696
+HI914_01355A	TMHMM2.0	outside	     1   205
+# HI914_01356A Length: 212
+# HI914_01356A Number of predicted TMHs:  0
+# HI914_01356A Exp number of AAs in TMHs: 0.75546
+# HI914_01356A Exp number, first 60 AAs:  0.75502
+# HI914_01356A Total prob of N-in:        0.04562
+HI914_01356A	TMHMM2.0	outside	     1   212
+# HI914_01416A Length: 536
+# HI914_01416A Number of predicted TMHs:  0
+# HI914_01416A Exp number of AAs in TMHs: 12.98034
+# HI914_01416A Exp number, first 60 AAs:  4.33283
+# HI914_01416A Total prob of N-in:        0.22034
+HI914_01416A	TMHMM2.0	outside	     1   536
+# HI914_01431A Length: 476
+# HI914_01431A Number of predicted TMHs:  0
+# HI914_01431A Exp number of AAs in TMHs: 0.00593
+# HI914_01431A Exp number, first 60 AAs:  0.00593
+# HI914_01431A Total prob of N-in:        0.00046
+HI914_01431A	TMHMM2.0	outside	     1   476
+# HI914_01432A Length: 605
+# HI914_01432A Number of predicted TMHs:  0
+# HI914_01432A Exp number of AAs in TMHs: 0.00575
+# HI914_01432A Exp number, first 60 AAs:  0.00575
+# HI914_01432A Total prob of N-in:        0.00033
+HI914_01432A	TMHMM2.0	outside	     1   605
+# HI914_01433A Length: 439
+# HI914_01433A Number of predicted TMHs:  0
+# HI914_01433A Exp number of AAs in TMHs: 0.00597
+# HI914_01433A Exp number, first 60 AAs:  0.00597
+# HI914_01433A Total prob of N-in:        0.00054
+HI914_01433A	TMHMM2.0	outside	     1   439
+# HI914_01437A Length: 922
+# HI914_01437A Number of predicted TMHs:  1
+# HI914_01437A Exp number of AAs in TMHs: 20.75164
+# HI914_01437A Exp number, first 60 AAs:  20.7044
+# HI914_01437A Total prob of N-in:        0.96777
+# HI914_01437A POSSIBLE N-term signal sequence
+HI914_01437A	TMHMM2.0	inside	     1     6
+HI914_01437A	TMHMM2.0	TMhelix	     7    29
+HI914_01437A	TMHMM2.0	outside	    30   922
+# HI914_01444A Length: 922
+# HI914_01444A Number of predicted TMHs:  1
+# HI914_01444A Exp number of AAs in TMHs: 20.75164
+# HI914_01444A Exp number, first 60 AAs:  20.7044
+# HI914_01444A Total prob of N-in:        0.96777
+# HI914_01444A POSSIBLE N-term signal sequence
+HI914_01444A	TMHMM2.0	inside	     1     6
+HI914_01444A	TMHMM2.0	TMhelix	     7    29
+HI914_01444A	TMHMM2.0	outside	    30   922
+# HI914_01452A Length: 127
+# HI914_01452A Number of predicted TMHs:  1
+# HI914_01452A Exp number of AAs in TMHs: 19.62701
+# HI914_01452A Exp number, first 60 AAs:  19.02332
+# HI914_01452A Total prob of N-in:        0.60414
+# HI914_01452A POSSIBLE N-term signal sequence
+HI914_01452A	TMHMM2.0	inside	     1    11
+HI914_01452A	TMHMM2.0	TMhelix	    12    31
+HI914_01452A	TMHMM2.0	outside	    32   127
+# HI914_01465A Length: 365
+# HI914_01465A Number of predicted TMHs:  0
+# HI914_01465A Exp number of AAs in TMHs: 11.34619
+# HI914_01465A Exp number, first 60 AAs:  11.30775
+# HI914_01465A Total prob of N-in:        0.62192
+# HI914_01465A POSSIBLE N-term signal sequence
+HI914_01465A	TMHMM2.0	outside	     1   365
+# HI914_01471A Length: 70
+# HI914_01471A Number of predicted TMHs:  0
+# HI914_01471A Exp number of AAs in TMHs: 1.03599
+# HI914_01471A Exp number, first 60 AAs:  0.93503
+# HI914_01471A Total prob of N-in:        0.10518
+HI914_01471A	TMHMM2.0	outside	     1    70
+# HI914_01484A Length: 494
+# HI914_01484A Number of predicted TMHs:  1
+# HI914_01484A Exp number of AAs in TMHs: 19.9652
+# HI914_01484A Exp number, first 60 AAs:  0.00378
+# HI914_01484A Total prob of N-in:        0.01053
+HI914_01484A	TMHMM2.0	outside	     1   466
+HI914_01484A	TMHMM2.0	TMhelix	   467   489
+HI914_01484A	TMHMM2.0	inside	   490   494
+# HI914_01503A Length: 144
+# HI914_01503A Number of predicted TMHs:  0
+# HI914_01503A Exp number of AAs in TMHs: 0.46183
+# HI914_01503A Exp number, first 60 AAs:  0.46129
+# HI914_01503A Total prob of N-in:        0.05018
+HI914_01503A	TMHMM2.0	outside	     1   144
+# HI914_01553A Length: 86
+# HI914_01553A Number of predicted TMHs:  2
+# HI914_01553A Exp number of AAs in TMHs: 41.26088
+# HI914_01553A Exp number, first 60 AAs:  21.349
+# HI914_01553A Total prob of N-in:        0.61723
+# HI914_01553A POSSIBLE N-term signal sequence
+HI914_01553A	TMHMM2.0	inside	     1     1
+HI914_01553A	TMHMM2.0	TMhelix	     2    24
+HI914_01553A	TMHMM2.0	outside	    25    65
+HI914_01553A	TMHMM2.0	TMhelix	    66    85
+HI914_01553A	TMHMM2.0	inside	    86    86
+# HI914_01559A Length: 457
+# HI914_01559A Number of predicted TMHs:  0
+# HI914_01559A Exp number of AAs in TMHs: 0.22084
+# HI914_01559A Exp number, first 60 AAs:  0.21518
+# HI914_01559A Total prob of N-in:        0.01457
+HI914_01559A	TMHMM2.0	outside	     1   457
+# HI914_01560A Length: 104
+# HI914_01560A Number of predicted TMHs:  0
+# HI914_01560A Exp number of AAs in TMHs: 11.04617
+# HI914_01560A Exp number, first 60 AAs:  11.04617
+# HI914_01560A Total prob of N-in:        0.41583
+# HI914_01560A POSSIBLE N-term signal sequence
+HI914_01560A	TMHMM2.0	outside	     1   104
+# HI914_01575A Length: 1234
+# HI914_01575A Number of predicted TMHs:  1
+# HI914_01575A Exp number of AAs in TMHs: 34.3685
+# HI914_01575A Exp number, first 60 AAs:  6.05733
+# HI914_01575A Total prob of N-in:        0.27730
+HI914_01575A	TMHMM2.0	outside	     1  1159
+HI914_01575A	TMHMM2.0	TMhelix	  1160  1182
+HI914_01575A	TMHMM2.0	inside	  1183  1234
+# HI914_01589A Length: 371
+# HI914_01589A Number of predicted TMHs:  0
+# HI914_01589A Exp number of AAs in TMHs: 0.14894
+# HI914_01589A Exp number, first 60 AAs:  0.04424
+# HI914_01589A Total prob of N-in:        0.00449
+HI914_01589A	TMHMM2.0	outside	     1   371
+# HI914_01625A Length: 139
+# HI914_01625A Number of predicted TMHs:  0
+# HI914_01625A Exp number of AAs in TMHs: 0.09471
+# HI914_01625A Exp number, first 60 AAs:  0.09471
+# HI914_01625A Total prob of N-in:        0.04730
+HI914_01625A	TMHMM2.0	outside	     1   139
+# HI914_01626A Length: 539
+# HI914_01626A Number of predicted TMHs:  0
+# HI914_01626A Exp number of AAs in TMHs: 0.00694
+# HI914_01626A Exp number, first 60 AAs:  0.00178
+# HI914_01626A Total prob of N-in:        0.00019
+HI914_01626A	TMHMM2.0	outside	     1   539
+# HI914_01640A Length: 422
+# HI914_01640A Number of predicted TMHs:  0
+# HI914_01640A Exp number of AAs in TMHs: 0.1882
+# HI914_01640A Exp number, first 60 AAs:  0.16406
+# HI914_01640A Total prob of N-in:        0.01120
+HI914_01640A	TMHMM2.0	outside	     1   422
+# HI914_01673A Length: 735
+# HI914_01673A Number of predicted TMHs:  7
+# HI914_01673A Exp number of AAs in TMHs: 197.90181
+# HI914_01673A Exp number, first 60 AAs:  15.60021
+# HI914_01673A Total prob of N-in:        0.07502
+# HI914_01673A POSSIBLE N-term signal sequence
+HI914_01673A	TMHMM2.0	outside	     1   356
+HI914_01673A	TMHMM2.0	TMhelix	   357   379
+HI914_01673A	TMHMM2.0	inside	   380   409
+HI914_01673A	TMHMM2.0	TMhelix	   410   432
+HI914_01673A	TMHMM2.0	outside	   433   435
+HI914_01673A	TMHMM2.0	TMhelix	   436   458
+HI914_01673A	TMHMM2.0	inside	   459   497
+HI914_01673A	TMHMM2.0	TMhelix	   498   520
+HI914_01673A	TMHMM2.0	outside	   521   523
+HI914_01673A	TMHMM2.0	TMhelix	   524   543
+HI914_01673A	TMHMM2.0	inside	   544   551
+HI914_01673A	TMHMM2.0	TMhelix	   552   574
+HI914_01673A	TMHMM2.0	outside	   575   588
+HI914_01673A	TMHMM2.0	TMhelix	   589   611
+HI914_01673A	TMHMM2.0	inside	   612   735
+# HI914_01677A Length: 399
+# HI914_01677A Number of predicted TMHs:  2
+# HI914_01677A Exp number of AAs in TMHs: 51.75976
+# HI914_01677A Exp number, first 60 AAs:  22.25555
+# HI914_01677A Total prob of N-in:        0.18431
+# HI914_01677A POSSIBLE N-term signal sequence
+HI914_01677A	TMHMM2.0	outside	     1    14
+HI914_01677A	TMHMM2.0	TMhelix	    15    37
+HI914_01677A	TMHMM2.0	inside	    38   205
+HI914_01677A	TMHMM2.0	TMhelix	   206   228
+HI914_01677A	TMHMM2.0	outside	   229   399
+# HI914_01708A Length: 431
+# HI914_01708A Number of predicted TMHs:  1
+# HI914_01708A Exp number of AAs in TMHs: 27.48805
+# HI914_01708A Exp number, first 60 AAs:  0.22132
+# HI914_01708A Total prob of N-in:        0.25730
+HI914_01708A	TMHMM2.0	outside	     1   231
+HI914_01708A	TMHMM2.0	TMhelix	   232   254
+HI914_01708A	TMHMM2.0	inside	   255   431
+# HI914_01740A Length: 165
+# HI914_01740A Number of predicted TMHs:  1
+# HI914_01740A Exp number of AAs in TMHs: 18.40046
+# HI914_01740A Exp number, first 60 AAs:  18.39499
+# HI914_01740A Total prob of N-in:        0.68692
+# HI914_01740A POSSIBLE N-term signal sequence
+HI914_01740A	TMHMM2.0	inside	     1     6
+HI914_01740A	TMHMM2.0	TMhelix	     7    26
+HI914_01740A	TMHMM2.0	outside	    27   165
+# HI914_01757A Length: 584
+# HI914_01757A Number of predicted TMHs:  1
+# HI914_01757A Exp number of AAs in TMHs: 21.32388
+# HI914_01757A Exp number, first 60 AAs:  0.07287
+# HI914_01757A Total prob of N-in:        0.00615
+HI914_01757A	TMHMM2.0	outside	     1   510
+HI914_01757A	TMHMM2.0	TMhelix	   511   533
+HI914_01757A	TMHMM2.0	inside	   534   584
+# HI914_01780A Length: 889
+# HI914_01780A Number of predicted TMHs:  0
+# HI914_01780A Exp number of AAs in TMHs: 0.06873
+# HI914_01780A Exp number, first 60 AAs:  0.06344
+# HI914_01780A Total prob of N-in:        0.00330
+HI914_01780A	TMHMM2.0	outside	     1   889
+# HI914_01795A Length: 274
+# HI914_01795A Number of predicted TMHs:  0
+# HI914_01795A Exp number of AAs in TMHs: 2.15472
+# HI914_01795A Exp number, first 60 AAs:  0.07286
+# HI914_01795A Total prob of N-in:        0.13096
+HI914_01795A	TMHMM2.0	outside	     1   274
+# HI914_01796A Length: 150
+# HI914_01796A Number of predicted TMHs:  0
+# HI914_01796A Exp number of AAs in TMHs: 0.29849
+# HI914_01796A Exp number, first 60 AAs:  0.2976
+# HI914_01796A Total prob of N-in:        0.01169
+HI914_01796A	TMHMM2.0	outside	     1   150
+# HI914_01805A Length: 350
+# HI914_01805A Number of predicted TMHs:  2
+# HI914_01805A Exp number of AAs in TMHs: 55.30445
+# HI914_01805A Exp number, first 60 AAs:  16.50076
+# HI914_01805A Total prob of N-in:        0.77937
+# HI914_01805A POSSIBLE N-term signal sequence
+HI914_01805A	TMHMM2.0	outside	     1   223
+HI914_01805A	TMHMM2.0	TMhelix	   224   246
+HI914_01805A	TMHMM2.0	inside	   247   275
+HI914_01805A	TMHMM2.0	TMhelix	   276   293
+HI914_01805A	TMHMM2.0	outside	   294   350
+# HI914_01806A Length: 174
+# HI914_01806A Number of predicted TMHs:  0
+# HI914_01806A Exp number of AAs in TMHs: 2.46602
+# HI914_01806A Exp number, first 60 AAs:  2.46526
+# HI914_01806A Total prob of N-in:        0.11531
+HI914_01806A	TMHMM2.0	outside	     1   174
+# HI914_01808A Length: 128
+# HI914_01808A Number of predicted TMHs:  0
+# HI914_01808A Exp number of AAs in TMHs: 2.18799
+# HI914_01808A Exp number, first 60 AAs:  1.44475
+# HI914_01808A Total prob of N-in:        0.15614
+HI914_01808A	TMHMM2.0	outside	     1   128
+# HI914_01831A Length: 394
+# HI914_01831A Number of predicted TMHs:  0
+# HI914_01831A Exp number of AAs in TMHs: 0.63874
+# HI914_01831A Exp number, first 60 AAs:  0.16843
+# HI914_01831A Total prob of N-in:        0.03617
+HI914_01831A	TMHMM2.0	outside	     1   394
+# HI914_01852A Length: 188
+# HI914_01852A Number of predicted TMHs:  0
+# HI914_01852A Exp number of AAs in TMHs: 13.15912
+# HI914_01852A Exp number, first 60 AAs:  0.03315
+# HI914_01852A Total prob of N-in:        0.18403
+HI914_01852A	TMHMM2.0	outside	     1   188
+# HI914_01863A Length: 93
+# HI914_01863A Number of predicted TMHs:  0
+# HI914_01863A Exp number of AAs in TMHs: 1.32334
+# HI914_01863A Exp number, first 60 AAs:  1.32309
+# HI914_01863A Total prob of N-in:        0.10476
+HI914_01863A	TMHMM2.0	outside	     1    93
+# HI914_01885A Length: 374
+# HI914_01885A Number of predicted TMHs:  2
+# HI914_01885A Exp number of AAs in TMHs: 41.88327
+# HI914_01885A Exp number, first 60 AAs:  16.89504
+# HI914_01885A Total prob of N-in:        0.20413
+# HI914_01885A POSSIBLE N-term signal sequence
+HI914_01885A	TMHMM2.0	outside	     1     3
+HI914_01885A	TMHMM2.0	TMhelix	     4    22
+HI914_01885A	TMHMM2.0	inside	    23   147
+HI914_01885A	TMHMM2.0	TMhelix	   148   170
+HI914_01885A	TMHMM2.0	outside	   171   374
+# HI914_01891A Length: 237
+# HI914_01891A Number of predicted TMHs:  1
+# HI914_01891A Exp number of AAs in TMHs: 28.01279
+# HI914_01891A Exp number, first 60 AAs:  20.92577
+# HI914_01891A Total prob of N-in:        0.98664
+# HI914_01891A POSSIBLE N-term signal sequence
+HI914_01891A	TMHMM2.0	inside	     1     6
+HI914_01891A	TMHMM2.0	TMhelix	     7    26
+HI914_01891A	TMHMM2.0	outside	    27   237
+# HI914_01913A Length: 90
+# HI914_01913A Number of predicted TMHs:  0
+# HI914_01913A Exp number of AAs in TMHs: 6.57809
+# HI914_01913A Exp number, first 60 AAs:  6.55809
+# HI914_01913A Total prob of N-in:        0.10846
+HI914_01913A	TMHMM2.0	outside	     1    90
+# HI914_01957A Length: 162
+# HI914_01957A Number of predicted TMHs:  0
+# HI914_01957A Exp number of AAs in TMHs: 13.18151
+# HI914_01957A Exp number, first 60 AAs:  13.1813
+# HI914_01957A Total prob of N-in:        0.46602
+# HI914_01957A POSSIBLE N-term signal sequence
+HI914_01957A	TMHMM2.0	outside	     1   162
+# HI914_01962A Length: 99
+# HI914_01962A Number of predicted TMHs:  0
+# HI914_01962A Exp number of AAs in TMHs: 11.95308
+# HI914_01962A Exp number, first 60 AAs:  11.95013
+# HI914_01962A Total prob of N-in:        0.28673
+# HI914_01962A POSSIBLE N-term signal sequence
+HI914_01962A	TMHMM2.0	outside	     1    99
+# HI914_01964A Length: 76
+# HI914_01964A Number of predicted TMHs:  0
+# HI914_01964A Exp number of AAs in TMHs: 3.76875
+# HI914_01964A Exp number, first 60 AAs:  3.76875
+# HI914_01964A Total prob of N-in:        0.14149
+HI914_01964A	TMHMM2.0	outside	     1    76
+# HI914_01981A Length: 102
+# HI914_01981A Number of predicted TMHs:  2
+# HI914_01981A Exp number of AAs in TMHs: 40.27304
+# HI914_01981A Exp number, first 60 AAs:  22.0793
+# HI914_01981A Total prob of N-in:        0.93297
+# HI914_01981A POSSIBLE N-term signal sequence
+HI914_01981A	TMHMM2.0	inside	     1     4
+HI914_01981A	TMHMM2.0	TMhelix	     5    27
+HI914_01981A	TMHMM2.0	outside	    28    78
+HI914_01981A	TMHMM2.0	TMhelix	    79   101
+HI914_01981A	TMHMM2.0	inside	   102   102
+# HI914_02029A Length: 412
+# HI914_02029A Number of predicted TMHs:  0
+# HI914_02029A Exp number of AAs in TMHs: 6.47245
+# HI914_02029A Exp number, first 60 AAs:  0.00161
+# HI914_02029A Total prob of N-in:        0.06260
+HI914_02029A	TMHMM2.0	outside	     1   412
+# HI914_02059A Length: 525
+# HI914_02059A Number of predicted TMHs:  1
+# HI914_02059A Exp number of AAs in TMHs: 17.25108
+# HI914_02059A Exp number, first 60 AAs:  16.97832
+# HI914_02059A Total prob of N-in:        0.74687
+# HI914_02059A POSSIBLE N-term signal sequence
+HI914_02059A	TMHMM2.0	inside	     1     6
+HI914_02059A	TMHMM2.0	TMhelix	     7    29
+HI914_02059A	TMHMM2.0	outside	    30   525
+# HI914_02077A Length: 138
+# HI914_02077A Number of predicted TMHs:  1
+# HI914_02077A Exp number of AAs in TMHs: 21.0711
+# HI914_02077A Exp number, first 60 AAs:  2.10853
+# HI914_02077A Total prob of N-in:        0.86362
+HI914_02077A	TMHMM2.0	inside	     1    96
+HI914_02077A	TMHMM2.0	TMhelix	    97   115
+HI914_02077A	TMHMM2.0	outside	   116   138
+# HI914_02083A Length: 519
+# HI914_02083A Number of predicted TMHs:  0
+# HI914_02083A Exp number of AAs in TMHs: 4.05060000000000001
+# HI914_02083A Exp number, first 60 AAs:  4.00314
+# HI914_02083A Total prob of N-in:        0.16832
+HI914_02083A	TMHMM2.0	outside	     1   519
+# HI914_02135A Length: 68
+# HI914_02135A Number of predicted TMHs:  0
+# HI914_02135A Exp number of AAs in TMHs: 0.64207
+# HI914_02135A Exp number, first 60 AAs:  0.59856
+# HI914_02135A Total prob of N-in:        0.24773
+HI914_02135A	TMHMM2.0	outside	     1    68
+# HI914_02164A Length: 147
+# HI914_02164A Number of predicted TMHs:  1
+# HI914_02164A Exp number of AAs in TMHs: 39.99481
+# HI914_02164A Exp number, first 60 AAs:  23.30817
+# HI914_02164A Total prob of N-in:        0.20508
+# HI914_02164A POSSIBLE N-term signal sequence
+HI914_02164A	TMHMM2.0	outside	     1     4
+HI914_02164A	TMHMM2.0	TMhelix	     5    27
+HI914_02164A	TMHMM2.0	inside	    28   147
+# HI914_02242A Length: 90
+# HI914_02242A Number of predicted TMHs:  0
+# HI914_02242A Exp number of AAs in TMHs: 22.52627
+# HI914_02242A Exp number, first 60 AAs:  22.03273
+# HI914_02242A Total prob of N-in:        0.82952
+# HI914_02242A POSSIBLE N-term signal sequence
+HI914_02242A	TMHMM2.0	outside	     1    90
+# HI914_02244A Length: 200
+# HI914_02244A Number of predicted TMHs:  0
+# HI914_02244A Exp number of AAs in TMHs: 2.00792
+# HI914_02244A Exp number, first 60 AAs:  1.17234
+# HI914_02244A Total prob of N-in:        0.11434
+HI914_02244A	TMHMM2.0	outside	     1   200
+# HI914_02269A Length: 1486
+# HI914_02269A Number of predicted TMHs:  2
+# HI914_02269A Exp number of AAs in TMHs: 46.19363
+# HI914_02269A Exp number, first 60 AAs:  2.11366
+# HI914_02269A Total prob of N-in:        0.10657
+HI914_02269A	TMHMM2.0	outside	     1  1367
+HI914_02269A	TMHMM2.0	TMhelix	  1368  1390
+HI914_02269A	TMHMM2.0	inside	  1391  1410
+HI914_02269A	TMHMM2.0	TMhelix	  1411  1433
+HI914_02269A	TMHMM2.0	outside	  1434  1486
+# HI914_02281A Length: 165
+# HI914_02281A Number of predicted TMHs:  0
+# HI914_02281A Exp number of AAs in TMHs: 1.43857
+# HI914_02281A Exp number, first 60 AAs:  1.43797
+# HI914_02281A Total prob of N-in:        0.14219
+HI914_02281A	TMHMM2.0	outside	     1   165
+# HI914_02286A Length: 340
+# HI914_02286A Number of predicted TMHs:  0
+# HI914_02286A Exp number of AAs in TMHs: 10.31257
+# HI914_02286A Exp number, first 60 AAs:  7.36945
+# HI914_02286A Total prob of N-in:        0.36373
+HI914_02286A	TMHMM2.0	outside	     1   340
+# HI914_02288A Length: 236
+# HI914_02288A Number of predicted TMHs:  0
+# HI914_02288A Exp number of AAs in TMHs: 6.86771
+# HI914_02288A Exp number, first 60 AAs:  2.16298
+# HI914_02288A Total prob of N-in:        0.14459
+HI914_02288A	TMHMM2.0	outside	     1   236
+# HI914_02308A Length: 485
+# HI914_02308A Number of predicted TMHs:  0
+# HI914_02308A Exp number of AAs in TMHs: 2.31948
+# HI914_02308A Exp number, first 60 AAs:  1.73961
+# HI914_02308A Total prob of N-in:        0.08266
+HI914_02308A	TMHMM2.0	outside	     1   485
+# HI914_02317A Length: 455
+# HI914_02317A Number of predicted TMHs:  0
+# HI914_02317A Exp number of AAs in TMHs: 3.86609
+# HI914_02317A Exp number, first 60 AAs:  3.76322
+# HI914_02317A Total prob of N-in:        0.18284
+HI914_02317A	TMHMM2.0	outside	     1   455
+# HI914_02333A Length: 240
+# HI914_02333A Number of predicted TMHs:  1
+# HI914_02333A Exp number of AAs in TMHs: 23.03068
+# HI914_02333A Exp number, first 60 AAs:  0.05487
+# HI914_02333A Total prob of N-in:        0.04444
+HI914_02333A	TMHMM2.0	outside	     1   198
+HI914_02333A	TMHMM2.0	TMhelix	   199   221
+HI914_02333A	TMHMM2.0	inside	   222   240
+# HI914_02337A Length: 605
+# HI914_02337A Number of predicted TMHs:  1
+# HI914_02337A Exp number of AAs in TMHs: 22.70659
+# HI914_02337A Exp number, first 60 AAs:  0.00215
+# HI914_02337A Total prob of N-in:        0.00143
+HI914_02337A	TMHMM2.0	outside	     1   546
+HI914_02337A	TMHMM2.0	TMhelix	   547   569
+HI914_02337A	TMHMM2.0	inside	   570   605
+# HI914_02377A Length: 486
+# HI914_02377A Number of predicted TMHs:  2
+# HI914_02377A Exp number of AAs in TMHs: 44.83427
+# HI914_02377A Exp number, first 60 AAs:  19.68783
+# HI914_02377A Total prob of N-in:        0.39897
+# HI914_02377A POSSIBLE N-term signal sequence
+HI914_02377A	TMHMM2.0	outside	     1     4
+HI914_02377A	TMHMM2.0	TMhelix	     5    24
+HI914_02377A	TMHMM2.0	inside	    25   202
+HI914_02377A	TMHMM2.0	TMhelix	   203   225
+HI914_02377A	TMHMM2.0	outside	   226   486
+# HI914_02379A Length: 308
+# HI914_02379A Number of predicted TMHs:  0
+# HI914_02379A Exp number of AAs in TMHs: 1.96678
+# HI914_02379A Exp number, first 60 AAs:  1.94579
+# HI914_02379A Total prob of N-in:        0.06957
+HI914_02379A	TMHMM2.0	outside	     1   308
+# HI914_02396A Length: 215
+# HI914_02396A Number of predicted TMHs:  0
+# HI914_02396A Exp number of AAs in TMHs: 0.08264
+# HI914_02396A Exp number, first 60 AAs:  0.08128
+# HI914_02396A Total prob of N-in:        0.02782
+HI914_02396A	TMHMM2.0	outside	     1   215
+# HI914_02399A Length: 228
+# HI914_02399A Number of predicted TMHs:  2
+# HI914_02399A Exp number of AAs in TMHs: 42.53316
+# HI914_02399A Exp number, first 60 AAs:  19.72126
+# HI914_02399A Total prob of N-in:        0.87954
+# HI914_02399A POSSIBLE N-term signal sequence
+HI914_02399A	TMHMM2.0	inside	     1     6
+HI914_02399A	TMHMM2.0	TMhelix	     7    29
+HI914_02399A	TMHMM2.0	outside	    30   163
+HI914_02399A	TMHMM2.0	TMhelix	   164   181
+HI914_02399A	TMHMM2.0	inside	   182   228
+# HI914_02418A Length: 211
+# HI914_02418A Number of predicted TMHs:  0
+# HI914_02418A Exp number of AAs in TMHs: 1.61271
+# HI914_02418A Exp number, first 60 AAs:  0.0674
+# HI914_02418A Total prob of N-in:        0.06432
+HI914_02418A	TMHMM2.0	outside	     1   211
+# HI914_02420A Length: 232
+# HI914_02420A Number of predicted TMHs:  0
+# HI914_02420A Exp number of AAs in TMHs: 10.85531
+# HI914_02420A Exp number, first 60 AAs:  10.76132
+# HI914_02420A Total prob of N-in:        0.56398
+# HI914_02420A POSSIBLE N-term signal sequence
+HI914_02420A	TMHMM2.0	outside	     1   232
+# HI914_02423A Length: 195
+# HI914_02423A Number of predicted TMHs:  0
+# HI914_02423A Exp number of AAs in TMHs: 13.80981
+# HI914_02423A Exp number, first 60 AAs:  13.0801
+# HI914_02423A Total prob of N-in:        0.17537
+# HI914_02423A POSSIBLE N-term signal sequence
+HI914_02423A	TMHMM2.0	outside	     1   195
+# HI914_02430A Length: 170
+# HI914_02430A Number of predicted TMHs:  0
+# HI914_02430A Exp number of AAs in TMHs: 8.16941999999999998
+# HI914_02430A Exp number, first 60 AAs:  8.16717
+# HI914_02430A Total prob of N-in:        0.14448
+HI914_02430A	TMHMM2.0	outside	     1   170
+# HI914_02444A Length: 538
+# HI914_02444A Number of predicted TMHs:  0
+# HI914_02444A Exp number of AAs in TMHs: 0.00701999999999999999
+# HI914_02444A Exp number, first 60 AAs:  0.00451
+# HI914_02444A Total prob of N-in:        0.00045
+HI914_02444A	TMHMM2.0	outside	     1   538
+# HI914_02456A Length: 210
+# HI914_02456A Number of predicted TMHs:  1
+# HI914_02456A Exp number of AAs in TMHs: 26.66003
+# HI914_02456A Exp number, first 60 AAs:  4.49509
+# HI914_02456A Total prob of N-in:        0.31090
+HI914_02456A	TMHMM2.0	outside	     1   179
+HI914_02456A	TMHMM2.0	TMhelix	   180   202
+HI914_02456A	TMHMM2.0	inside	   203   210
+# HI914_02481A Length: 134
+# HI914_02481A Number of predicted TMHs:  0
+# HI914_02481A Exp number of AAs in TMHs: 17.74272
+# HI914_02481A Exp number, first 60 AAs:  17.74153
+# HI914_02481A Total prob of N-in:        0.52577
+# HI914_02481A POSSIBLE N-term signal sequence
+HI914_02481A	TMHMM2.0	outside	     1   134
+# HI914_02486A Length: 176
+# HI914_02486A Number of predicted TMHs:  0
+# HI914_02486A Exp number of AAs in TMHs: 9.66667999999999999
+# HI914_02486A Exp number, first 60 AAs:  9.56056
+# HI914_02486A Total prob of N-in:        0.40165
+HI914_02486A	TMHMM2.0	outside	     1   176
+# HI914_02493A Length: 462
+# HI914_02493A Number of predicted TMHs:  0
+# HI914_02493A Exp number of AAs in TMHs: 1.04888
+# HI914_02493A Exp number, first 60 AAs:  0.85797
+# HI914_02493A Total prob of N-in:        0.04542
+HI914_02493A	TMHMM2.0	outside	     1   462
+# HI914_02535A Length: 124
+# HI914_02535A Number of predicted TMHs:  1
+# HI914_02535A Exp number of AAs in TMHs: 19.99917
+# HI914_02535A Exp number, first 60 AAs:  19.99898
+# HI914_02535A Total prob of N-in:        0.94007
+# HI914_02535A POSSIBLE N-term signal sequence
+HI914_02535A	TMHMM2.0	inside	     1     6
+HI914_02535A	TMHMM2.0	TMhelix	     7    24
+HI914_02535A	TMHMM2.0	outside	    25   124
+# HI914_02596A Length: 402
+# HI914_02596A Number of predicted TMHs:  0
+# HI914_02596A Exp number of AAs in TMHs: 2.73994
+# HI914_02596A Exp number, first 60 AAs:  2.72154
+# HI914_02596A Total prob of N-in:        0.13774
+HI914_02596A	TMHMM2.0	outside	     1   402
+# HI914_02612A Length: 503
+# HI914_02612A Number of predicted TMHs:  0
+# HI914_02612A Exp number of AAs in TMHs: 0.10544
+# HI914_02612A Exp number, first 60 AAs:  0.09566
+# HI914_02612A Total prob of N-in:        0.00553
+HI914_02612A	TMHMM2.0	outside	     1   503
+# HI914_02642A Length: 217
+# HI914_02642A Number of predicted TMHs:  0
+# HI914_02642A Exp number of AAs in TMHs: 14.14664
+# HI914_02642A Exp number, first 60 AAs:  9.04221
+# HI914_02642A Total prob of N-in:        0.31404
+HI914_02642A	TMHMM2.0	outside	     1   217
+# HI914_02647A Length: 348
+# HI914_02647A Number of predicted TMHs:  0
+# HI914_02647A Exp number of AAs in TMHs: 10.22637
+# HI914_02647A Exp number, first 60 AAs:  10.14304
+# HI914_02647A Total prob of N-in:        0.50728
+# HI914_02647A POSSIBLE N-term signal sequence
+HI914_02647A	TMHMM2.0	outside	     1   348
+# HI914_02655A Length: 349
+# HI914_02655A Number of predicted TMHs:  0
+# HI914_02655A Exp number of AAs in TMHs: 10.02381
+# HI914_02655A Exp number, first 60 AAs:  9.87899999999999999
+# HI914_02655A Total prob of N-in:        0.49479
+HI914_02655A	TMHMM2.0	outside	     1   349
+# HI914_02669A Length: 506
+# HI914_02669A Number of predicted TMHs:  0
+# HI914_02669A Exp number of AAs in TMHs: 7.28233
+# HI914_02669A Exp number, first 60 AAs:  7.2377
+# HI914_02669A Total prob of N-in:        0.39004
+HI914_02669A	TMHMM2.0	outside	     1   506
+# HI914_02671A Length: 119
+# HI914_02671A Number of predicted TMHs:  0
+# HI914_02671A Exp number of AAs in TMHs: 4.0208
+# HI914_02671A Exp number, first 60 AAs:  4.01861
+# HI914_02671A Total prob of N-in:        0.26720
+HI914_02671A	TMHMM2.0	outside	     1   119
+# HI914_02697A Length: 510
+# HI914_02697A Number of predicted TMHs:  1
+# HI914_02697A Exp number of AAs in TMHs: 27.7414
+# HI914_02697A Exp number, first 60 AAs:  21.1423
+# HI914_02697A Total prob of N-in:        0.93574
+# HI914_02697A POSSIBLE N-term signal sequence
+HI914_02697A	TMHMM2.0	inside	     1     6
+HI914_02697A	TMHMM2.0	TMhelix	     7    29
+HI914_02697A	TMHMM2.0	outside	    30   510
+# HI914_02706A Length: 298
+# HI914_02706A Number of predicted TMHs:  3
+# HI914_02706A Exp number of AAs in TMHs: 84.05375
+# HI914_02706A Exp number, first 60 AAs:  25.80419
+# HI914_02706A Total prob of N-in:        0.80672
+# HI914_02706A POSSIBLE N-term signal sequence
+HI914_02706A	TMHMM2.0	outside	     1     9
+HI914_02706A	TMHMM2.0	TMhelix	    10    32
+HI914_02706A	TMHMM2.0	inside	    33   208
+HI914_02706A	TMHMM2.0	TMhelix	   209   231
+HI914_02706A	TMHMM2.0	outside	   232   263
+HI914_02706A	TMHMM2.0	TMhelix	   264   286
+HI914_02706A	TMHMM2.0	inside	   287   298
+# HI914_02716A Length: 816
+# HI914_02716A Number of predicted TMHs:  0
+# HI914_02716A Exp number of AAs in TMHs: 4.61645000000000001
+# HI914_02716A Exp number, first 60 AAs:  3.91344
+# HI914_02716A Total prob of N-in:        0.21593
+HI914_02716A	TMHMM2.0	outside	     1   816
+# HI914_02749A Length: 301
+# HI914_02749A Number of predicted TMHs:  0
+# HI914_02749A Exp number of AAs in TMHs: 40.44347
+# HI914_02749A Exp number, first 60 AAs:  12.26677
+# HI914_02749A Total prob of N-in:        0.23270
+# HI914_02749A POSSIBLE N-term signal sequence
+HI914_02749A	TMHMM2.0	outside	     1   301
+# HI914_02777A Length: 186
+# HI914_02777A Number of predicted TMHs:  1
+# HI914_02777A Exp number of AAs in TMHs: 20.85036
+# HI914_02777A Exp number, first 60 AAs:  20.76609
+# HI914_02777A Total prob of N-in:        0.44209
+# HI914_02777A POSSIBLE N-term signal sequence
+HI914_02777A	TMHMM2.0	outside	     1     3
+HI914_02777A	TMHMM2.0	TMhelix	     4    26
+HI914_02777A	TMHMM2.0	inside	    27   186
+# HI914_02860A Length: 295
+# HI914_02860A Number of predicted TMHs:  0
+# HI914_02860A Exp number of AAs in TMHs: 0.702320000000000001
+# HI914_02860A Exp number, first 60 AAs:  0.69821
+# HI914_02860A Total prob of N-in:        0.03544
+HI914_02860A	TMHMM2.0	outside	     1   295
+# HI914_02873A Length: 452
+# HI914_02873A Number of predicted TMHs:  1
+# HI914_02873A Exp number of AAs in TMHs: 39.1755
+# HI914_02873A Exp number, first 60 AAs:  11.80038
+# HI914_02873A Total prob of N-in:        0.33067
+# HI914_02873A POSSIBLE N-term signal sequence
+HI914_02873A	TMHMM2.0	outside	     1   428
+HI914_02873A	TMHMM2.0	TMhelix	   429   451
+HI914_02873A	TMHMM2.0	inside	   452   452
+# HI914_02875A Length: 446
+# HI914_02875A Number of predicted TMHs:  0
+# HI914_02875A Exp number of AAs in TMHs: 0.42417
+# HI914_02875A Exp number, first 60 AAs:  0.14323
+# HI914_02875A Total prob of N-in:        0.00993
+HI914_02875A	TMHMM2.0	outside	     1   446
+# HI914_02877A Length: 96
+# HI914_02877A Number of predicted TMHs:  0
+# HI914_02877A Exp number of AAs in TMHs: 0.47607
+# HI914_02877A Exp number, first 60 AAs:  0.46662
+# HI914_02877A Total prob of N-in:        0.13267
+HI914_02877A	TMHMM2.0	outside	     1    96
+# HI914_02893A Length: 900
+# HI914_02893A Number of predicted TMHs:  9
+# HI914_02893A Exp number of AAs in TMHs: 233.44109
+# HI914_02893A Exp number, first 60 AAs:  12.14785
+# HI914_02893A Total prob of N-in:        0.08492
+# HI914_02893A POSSIBLE N-term signal sequence
+HI914_02893A	TMHMM2.0	outside	     1   206
+HI914_02893A	TMHMM2.0	TMhelix	   207   229
+HI914_02893A	TMHMM2.0	inside	   230   241
+HI914_02893A	TMHMM2.0	TMhelix	   242   264
+HI914_02893A	TMHMM2.0	outside	   265   400
+HI914_02893A	TMHMM2.0	TMhelix	   401   423
+HI914_02893A	TMHMM2.0	inside	   424   450
+HI914_02893A	TMHMM2.0	TMhelix	   451   473
+HI914_02893A	TMHMM2.0	outside	   474   477
+HI914_02893A	TMHMM2.0	TMhelix	   478   500
+HI914_02893A	TMHMM2.0	inside	   501   595
+HI914_02893A	TMHMM2.0	TMhelix	   596   615
+HI914_02893A	TMHMM2.0	outside	   616   619
+HI914_02893A	TMHMM2.0	TMhelix	   620   642
+HI914_02893A	TMHMM2.0	inside	   643   648
+HI914_02893A	TMHMM2.0	TMhelix	   649   671
+HI914_02893A	TMHMM2.0	outside	   672   685
+HI914_02893A	TMHMM2.0	TMhelix	   686   708
+HI914_02893A	TMHMM2.0	inside	   709   900
+# HI914_03033A Length: 612
+# HI914_03033A Number of predicted TMHs:  0
+# HI914_03033A Exp number of AAs in TMHs: 0.23761
+# HI914_03033A Exp number, first 60 AAs:  0.06835
+# HI914_03033A Total prob of N-in:        0.00504
+HI914_03033A	TMHMM2.0	outside	     1   612
+# HI914_03034A Length: 622
+# HI914_03034A Number of predicted TMHs:  1
+# HI914_03034A Exp number of AAs in TMHs: 27.99804
+# HI914_03034A Exp number, first 60 AAs:  22.00695
+# HI914_03034A Total prob of N-in:        0.73418
+# HI914_03034A POSSIBLE N-term signal sequence
+HI914_03034A	TMHMM2.0	inside	     1    11
+HI914_03034A	TMHMM2.0	TMhelix	    12    34
+HI914_03034A	TMHMM2.0	outside	    35   622
+# HI914_03035A Length: 142
+# HI914_03035A Number of predicted TMHs:  1
+# HI914_03035A Exp number of AAs in TMHs: 15.79597
+# HI914_03035A Exp number, first 60 AAs:  15.79573
+# HI914_03035A Total prob of N-in:        0.82255
+# HI914_03035A POSSIBLE N-term signal sequence
+HI914_03035A	TMHMM2.0	inside	     1     6
+HI914_03035A	TMHMM2.0	TMhelix	     7    24
+HI914_03035A	TMHMM2.0	outside	    25   142
+# HI914_03082A Length: 58
+# HI914_03082A Number of predicted TMHs:  0
+# HI914_03082A Exp number of AAs in TMHs: 14.49566
+# HI914_03082A Exp number, first 60 AAs:  14.49566
+# HI914_03082A Total prob of N-in:        0.20489
+# HI914_03082A POSSIBLE N-term signal sequence
+HI914_03082A	TMHMM2.0	outside	     1    58
+# HI914_03156A Length: 209
+# HI914_03156A Number of predicted TMHs:  0
+# HI914_03156A Exp number of AAs in TMHs: 2.79543
+# HI914_03156A Exp number, first 60 AAs:  2.43909
+# HI914_03156A Total prob of N-in:        0.10677
+HI914_03156A	TMHMM2.0	outside	     1   209
+# HI914_03158A Length: 209
+# HI914_03158A Number of predicted TMHs:  0
+# HI914_03158A Exp number of AAs in TMHs: 2.52096
+# HI914_03158A Exp number, first 60 AAs:  2.12991
+# HI914_03158A Total prob of N-in:        0.08889
+HI914_03158A	TMHMM2.0	outside	     1   209
+# HI914_03159A Length: 55
+# HI914_03159A Number of predicted TMHs:  0
+# HI914_03159A Exp number of AAs in TMHs: 9.17176
+# HI914_03159A Exp number, first 60 AAs:  9.17176
+# HI914_03159A Total prob of N-in:        0.24083
+HI914_03159A	TMHMM2.0	outside	     1    55
+# HI914_03162A Length: 63
+# HI914_03162A Number of predicted TMHs:  1
+# HI914_03162A Exp number of AAs in TMHs: 16.27011
+# HI914_03162A Exp number, first 60 AAs:  16.27011
+# HI914_03162A Total prob of N-in:        0.29387
+# HI914_03162A POSSIBLE N-term signal sequence
+HI914_03162A	TMHMM2.0	outside	     1     4
+HI914_03162A	TMHMM2.0	TMhelix	     5    27
+HI914_03162A	TMHMM2.0	inside	    28    63
+# HI914_03171A Length: 213
+# HI914_03171A Number of predicted TMHs:  0
+# HI914_03171A Exp number of AAs in TMHs: 0.50609
+# HI914_03171A Exp number, first 60 AAs:  0.43342
+# HI914_03171A Total prob of N-in:        0.03387
+HI914_03171A	TMHMM2.0	outside	     1   213
+# HI914_03175A Length: 270
+# HI914_03175A Number of predicted TMHs:  0
+# HI914_03175A Exp number of AAs in TMHs: 4.83139
+# HI914_03175A Exp number, first 60 AAs:  4.77065
+# HI914_03175A Total prob of N-in:        0.23775
+HI914_03175A	TMHMM2.0	outside	     1   270
+# HI914_03176A Length: 326
+# HI914_03176A Number of predicted TMHs:  0
+# HI914_03176A Exp number of AAs in TMHs: 4.78555000000000001
+# HI914_03176A Exp number, first 60 AAs:  4.73303
+# HI914_03176A Total prob of N-in:        0.23344
+HI914_03176A	TMHMM2.0	outside	     1   326
+# HI914_03211A Length: 413
+# HI914_03211A Number of predicted TMHs:  0
+# HI914_03211A Exp number of AAs in TMHs: 19.64907
+# HI914_03211A Exp number, first 60 AAs:  12.86368
+# HI914_03211A Total prob of N-in:        0.27886
+# HI914_03211A POSSIBLE N-term signal sequence
+HI914_03211A	TMHMM2.0	outside	     1   413
+# HI914_03216A Length: 283
+# HI914_03216A Number of predicted TMHs:  2
+# HI914_03216A Exp number of AAs in TMHs: 39.75793
+# HI914_03216A Exp number, first 60 AAs:  19.17233
+# HI914_03216A Total prob of N-in:        0.91486
+# HI914_03216A POSSIBLE N-term signal sequence
+HI914_03216A	TMHMM2.0	inside	     1     6
+HI914_03216A	TMHMM2.0	TMhelix	     7    29
+HI914_03216A	TMHMM2.0	outside	    30   245
+HI914_03216A	TMHMM2.0	TMhelix	   246   268
+HI914_03216A	TMHMM2.0	inside	   269   283
+# HI914_03233A Length: 769
+# HI914_03233A Number of predicted TMHs:  0
+# HI914_03233A Exp number of AAs in TMHs: 0.37041
+# HI914_03233A Exp number, first 60 AAs:  0.36089
+# HI914_03233A Total prob of N-in:        0.01732
+HI914_03233A	TMHMM2.0	outside	     1   769
+# HI914_03295A Length: 405
+# HI914_03295A Number of predicted TMHs:  0
+# HI914_03295A Exp number of AAs in TMHs: 0.06584
+# HI914_03295A Exp number, first 60 AAs:  0.06584
+# HI914_03295A Total prob of N-in:        0.00393
+HI914_03295A	TMHMM2.0	outside	     1   405
+# HI914_03308A Length: 107
+# HI914_03308A Number of predicted TMHs:  0
+# HI914_03308A Exp number of AAs in TMHs: 3.04651
+# HI914_03308A Exp number, first 60 AAs:  3.04651
+# HI914_03308A Total prob of N-in:        0.05192
+HI914_03308A	TMHMM2.0	outside	     1   107
+# HI914_03309A Length: 256
+# HI914_03309A Number of predicted TMHs:  1
+# HI914_03309A Exp number of AAs in TMHs: 21.96593
+# HI914_03309A Exp number, first 60 AAs:  21.78358
+# HI914_03309A Total prob of N-in:        0.95628
+# HI914_03309A POSSIBLE N-term signal sequence
+HI914_03309A	TMHMM2.0	inside	     1     6
+HI914_03309A	TMHMM2.0	TMhelix	     7    29
+HI914_03309A	TMHMM2.0	outside	    30   256
+# HI914_03311A Length: 256
+# HI914_03311A Number of predicted TMHs:  0
+# HI914_03311A Exp number of AAs in TMHs: 4.75656
+# HI914_03311A Exp number, first 60 AAs:  4.64291
+# HI914_03311A Total prob of N-in:        0.15838
+HI914_03311A	TMHMM2.0	outside	     1   256
+# HI914_03312A Length: 256
+# HI914_03312A Number of predicted TMHs:  1
+# HI914_03312A Exp number of AAs in TMHs: 16.82775
+# HI914_03312A Exp number, first 60 AAs:  16.70147
+# HI914_03312A Total prob of N-in:        0.79817
+# HI914_03312A POSSIBLE N-term signal sequence
+HI914_03312A	TMHMM2.0	inside	     1     6
+HI914_03312A	TMHMM2.0	TMhelix	     7    26
+HI914_03312A	TMHMM2.0	outside	    27   256
+# HI914_03314A Length: 239
+# HI914_03314A Number of predicted TMHs:  0
+# HI914_03314A Exp number of AAs in TMHs: 0.2562
+# HI914_03314A Exp number, first 60 AAs:  0.25584
+# HI914_03314A Total prob of N-in:        0.02572
+HI914_03314A	TMHMM2.0	outside	     1   239
+# HI914_03320A Length: 290
+# HI914_03320A Number of predicted TMHs:  1
+# HI914_03320A Exp number of AAs in TMHs: 29.80208
+# HI914_03320A Exp number, first 60 AAs:  6.78678
+# HI914_03320A Total prob of N-in:        0.37929
+HI914_03320A	TMHMM2.0	outside	     1   245
+HI914_03320A	TMHMM2.0	TMhelix	   246   268
+HI914_03320A	TMHMM2.0	inside	   269   290
+# HI914_03322A Length: 365
+# HI914_03322A Number of predicted TMHs:  1
+# HI914_03322A Exp number of AAs in TMHs: 23.82415
+# HI914_03322A Exp number, first 60 AAs:  2.34834
+# HI914_03322A Total prob of N-in:        0.29421
+HI914_03322A	TMHMM2.0	outside	     1   131
+HI914_03322A	TMHMM2.0	TMhelix	   132   154
+HI914_03322A	TMHMM2.0	inside	   155   365
+# HI914_03326A Length: 572
+# HI914_03326A Number of predicted TMHs:  1
+# HI914_03326A Exp number of AAs in TMHs: 19.96384
+# HI914_03326A Exp number, first 60 AAs:  19.84662
+# HI914_03326A Total prob of N-in:        0.94181
+# HI914_03326A POSSIBLE N-term signal sequence
+HI914_03326A	TMHMM2.0	inside	     1     1
+HI914_03326A	TMHMM2.0	TMhelix	     2    24
+HI914_03326A	TMHMM2.0	outside	    25   572
+# HI914_03338A Length: 517
+# HI914_03338A Number of predicted TMHs:  0
+# HI914_03338A Exp number of AAs in TMHs: 2.76035
+# HI914_03338A Exp number, first 60 AAs:  2.55289
+# HI914_03338A Total prob of N-in:        0.11658
+HI914_03338A	TMHMM2.0	outside	     1   517
+# HI914_03342A Length: 169
+# HI914_03342A Number of predicted TMHs:  0
+# HI914_03342A Exp number of AAs in TMHs: 4.29283
+# HI914_03342A Exp number, first 60 AAs:  4.29185
+# HI914_03342A Total prob of N-in:        0.24162
+HI914_03342A	TMHMM2.0	outside	     1   169
+# HI914_03347A Length: 240
+# HI914_03347A Number of predicted TMHs:  1
+# HI914_03347A Exp number of AAs in TMHs: 18.42615
+# HI914_03347A Exp number, first 60 AAs:  18.11616
+# HI914_03347A Total prob of N-in:        0.72248
+# HI914_03347A POSSIBLE N-term signal sequence
+HI914_03347A	TMHMM2.0	inside	     1     4
+HI914_03347A	TMHMM2.0	TMhelix	     5    24
+HI914_03347A	TMHMM2.0	outside	    25   240
+# HI914_03351A Length: 464
+# HI914_03351A Number of predicted TMHs:  1
+# HI914_03351A Exp number of AAs in TMHs: 20.6873
+# HI914_03351A Exp number, first 60 AAs:  17.33517
+# HI914_03351A Total prob of N-in:        0.86089
+# HI914_03351A POSSIBLE N-term signal sequence
+HI914_03351A	TMHMM2.0	inside	     1     4
+HI914_03351A	TMHMM2.0	TMhelix	     5    22
+HI914_03351A	TMHMM2.0	outside	    23   464
+# HI914_03361A Length: 417
+# HI914_03361A Number of predicted TMHs:  0
+# HI914_03361A Exp number of AAs in TMHs: 0.6188
+# HI914_03361A Exp number, first 60 AAs:  0.6188
+# HI914_03361A Total prob of N-in:        0.03385
+HI914_03361A	TMHMM2.0	outside	     1   417
+# HI914_03368A Length: 292
+# HI914_03368A Number of predicted TMHs:  0
+# HI914_03368A Exp number of AAs in TMHs: 14.86137
+# HI914_03368A Exp number, first 60 AAs:  14.82896
+# HI914_03368A Total prob of N-in:        0.66592
+# HI914_03368A POSSIBLE N-term signal sequence
+HI914_03368A	TMHMM2.0	outside	     1   292
+# HI914_03378A Length: 169
+# HI914_03378A Number of predicted TMHs:  2
+# HI914_03378A Exp number of AAs in TMHs: 39.4174
+# HI914_03378A Exp number, first 60 AAs:  23.7784
+# HI914_03378A Total prob of N-in:        0.90918
+# HI914_03378A POSSIBLE N-term signal sequence
+HI914_03378A	TMHMM2.0	inside	     1     6
+HI914_03378A	TMHMM2.0	TMhelix	     7    26
+HI914_03378A	TMHMM2.0	outside	    27    53
+HI914_03378A	TMHMM2.0	TMhelix	    54    76
+HI914_03378A	TMHMM2.0	inside	    77   169
+# HI914_03389A Length: 81
+# HI914_03389A Number of predicted TMHs:  2
+# HI914_03389A Exp number of AAs in TMHs: 39.8172
+# HI914_03389A Exp number, first 60 AAs:  25.20052
+# HI914_03389A Total prob of N-in:        0.67881
+# HI914_03389A POSSIBLE N-term signal sequence
+HI914_03389A	TMHMM2.0	inside	     1     6
+HI914_03389A	TMHMM2.0	TMhelix	     7    29
+HI914_03389A	TMHMM2.0	outside	    30    54
+HI914_03389A	TMHMM2.0	TMhelix	    55    77
+HI914_03389A	TMHMM2.0	inside	    78    81
+# HI914_03390A Length: 295
+# HI914_03390A Number of predicted TMHs:  0
+# HI914_03390A Exp number of AAs in TMHs: 0.00394
+# HI914_03390A Exp number, first 60 AAs:  0.00136
+# HI914_03390A Total prob of N-in:        0.00190
+HI914_03390A	TMHMM2.0	outside	     1   295
+# HI914_03407A Length: 190
+# HI914_03407A Number of predicted TMHs:  0
+# HI914_03407A Exp number of AAs in TMHs: 14.07626
+# HI914_03407A Exp number, first 60 AAs:  13.26949
+# HI914_03407A Total prob of N-in:        0.26268
+# HI914_03407A POSSIBLE N-term signal sequence
+HI914_03407A	TMHMM2.0	outside	     1   190
+# HI914_03408A Length: 1003
+# HI914_03408A Number of predicted TMHs:  0
+# HI914_03408A Exp number of AAs in TMHs: 0.0375200000000000001
+# HI914_03408A Exp number, first 60 AAs:  0.0101
+# HI914_03408A Total prob of N-in:        0.00072
+HI914_03408A	TMHMM2.0	outside	     1  1003
+# HI914_03415A Length: 153
+# HI914_03415A Number of predicted TMHs:  2
+# HI914_03415A Exp number of AAs in TMHs: 33.18656
+# HI914_03415A Exp number, first 60 AAs:  13.26965
+# HI914_03415A Total prob of N-in:        0.25207
+# HI914_03415A POSSIBLE N-term signal sequence
+HI914_03415A	TMHMM2.0	outside	     1     3
+HI914_03415A	TMHMM2.0	TMhelix	     4    21
+HI914_03415A	TMHMM2.0	inside	    22   129
+HI914_03415A	TMHMM2.0	TMhelix	   130   152
+HI914_03415A	TMHMM2.0	outside	   153   153
+# HI914_03417A Length: 237
+# HI914_03417A Number of predicted TMHs:  0
+# HI914_03417A Exp number of AAs in TMHs: 11.4508
+# HI914_03417A Exp number, first 60 AAs:  11.43159
+# HI914_03417A Total prob of N-in:        0.46316
+# HI914_03417A POSSIBLE N-term signal sequence
+HI914_03417A	TMHMM2.0	outside	     1   237
+# HI914_03449A Length: 649
+# HI914_03449A Number of predicted TMHs:  1
+# HI914_03449A Exp number of AAs in TMHs: 27.7554
+# HI914_03449A Exp number, first 60 AAs:  10.75113
+# HI914_03449A Total prob of N-in:        0.50886
+# HI914_03449A POSSIBLE N-term signal sequence
+HI914_03449A	TMHMM2.0	outside	     1   524
+HI914_03449A	TMHMM2.0	TMhelix	   525   542
+HI914_03449A	TMHMM2.0	inside	   543   649
+# HI914_03453A Length: 286
+# HI914_03453A Number of predicted TMHs:  0
+# HI914_03453A Exp number of AAs in TMHs: 0.00201
+# HI914_03453A Exp number, first 60 AAs:  0.00184
+# HI914_03453A Total prob of N-in:        0.00995
+HI914_03453A	TMHMM2.0	outside	     1   286
+# HI914_03457A Length: 212
+# HI914_03457A Number of predicted TMHs:  3
+# HI914_03457A Exp number of AAs in TMHs: 56.52043
+# HI914_03457A Exp number, first 60 AAs:  21.7555
+# HI914_03457A Total prob of N-in:        0.05086
+# HI914_03457A POSSIBLE N-term signal sequence
+HI914_03457A	TMHMM2.0	outside	     1     3
+HI914_03457A	TMHMM2.0	TMhelix	     4    26
+HI914_03457A	TMHMM2.0	inside	    27   107
+HI914_03457A	TMHMM2.0	TMhelix	   108   125
+HI914_03457A	TMHMM2.0	outside	   126   159
+HI914_03457A	TMHMM2.0	TMhelix	   160   182
+HI914_03457A	TMHMM2.0	inside	   183   212
+# HI914_03470A Length: 81
+# HI914_03470A Number of predicted TMHs:  0
+# HI914_03470A Exp number of AAs in TMHs: 8.86763
+# HI914_03470A Exp number, first 60 AAs:  8.86763
+# HI914_03470A Total prob of N-in:        0.29816
+HI914_03470A	TMHMM2.0	outside	     1    81
+# HI914_03472A Length: 397
+# HI914_03472A Number of predicted TMHs:  0
+# HI914_03472A Exp number of AAs in TMHs: 1.27219
+# HI914_03472A Exp number, first 60 AAs:  1.00033
+# HI914_03472A Total prob of N-in:        0.03293
+HI914_03472A	TMHMM2.0	outside	     1   397
+# HI914_03485A Length: 326
+# HI914_03485A Number of predicted TMHs:  4
+# HI914_03485A Exp number of AAs in TMHs: 89.37998
+# HI914_03485A Exp number, first 60 AAs:  1.16677
+# HI914_03485A Total prob of N-in:        0.07032
+HI914_03485A	TMHMM2.0	outside	     1   178
+HI914_03485A	TMHMM2.0	TMhelix	   179   201
+HI914_03485A	TMHMM2.0	inside	   202   207
+HI914_03485A	TMHMM2.0	TMhelix	   208   230
+HI914_03485A	TMHMM2.0	outside	   231   255
+HI914_03485A	TMHMM2.0	TMhelix	   256   278
+HI914_03485A	TMHMM2.0	inside	   279   290
+HI914_03485A	TMHMM2.0	TMhelix	   291   313
+HI914_03485A	TMHMM2.0	outside	   314   326
+# HI914_03547A Length: 173
+# HI914_03547A Number of predicted TMHs:  1
+# HI914_03547A Exp number of AAs in TMHs: 33.11876
+# HI914_03547A Exp number, first 60 AAs:  20.84574
+# HI914_03547A Total prob of N-in:        0.81874
+# HI914_03547A POSSIBLE N-term signal sequence
+HI914_03547A	TMHMM2.0	inside	     1     6
+HI914_03547A	TMHMM2.0	TMhelix	     7    29
+HI914_03547A	TMHMM2.0	outside	    30   173
+# HI914_03565A Length: 186
+# HI914_03565A Number of predicted TMHs:  0
+# HI914_03565A Exp number of AAs in TMHs: 3.01381
+# HI914_03565A Exp number, first 60 AAs:  0.77064
+# HI914_03565A Total prob of N-in:        0.04188
+HI914_03565A	TMHMM2.0	outside	     1   186
+# HI914_03571A Length: 262
+# HI914_03571A Number of predicted TMHs:  0
+# HI914_03571A Exp number of AAs in TMHs: 1.23155
+# HI914_03571A Exp number, first 60 AAs:  0.00549
+# HI914_03571A Total prob of N-in:        0.08209
+HI914_03571A	TMHMM2.0	outside	     1   262
+# HI914_03623A Length: 453
+# HI914_03623A Number of predicted TMHs:  0
+# HI914_03623A Exp number of AAs in TMHs: 1.25216
+# HI914_03623A Exp number, first 60 AAs:  0.01253
+# HI914_03623A Total prob of N-in:        0.00121
+HI914_03623A	TMHMM2.0	outside	     1   453
+# HI914_03634A Length: 222
+# HI914_03634A Number of predicted TMHs:  0
+# HI914_03634A Exp number of AAs in TMHs: 13.00445
+# HI914_03634A Exp number, first 60 AAs:  5.51056
+# HI914_03634A Total prob of N-in:        0.22946
+HI914_03634A	TMHMM2.0	outside	     1   222
+# HI914_03657A Length: 340
+# HI914_03657A Number of predicted TMHs:  0
+# HI914_03657A Exp number of AAs in TMHs: 1.31846
+# HI914_03657A Exp number, first 60 AAs:  1.26259
+# HI914_03657A Total prob of N-in:        0.07268
+HI914_03657A	TMHMM2.0	outside	     1   340
+# HI914_03719A Length: 517
+# HI914_03719A Number of predicted TMHs:  0
+# HI914_03719A Exp number of AAs in TMHs: 8.90255000000000001
+# HI914_03719A Exp number, first 60 AAs:  7.63504
+# HI914_03719A Total prob of N-in:        0.41126
+HI914_03719A	TMHMM2.0	outside	     1   517
+# HI914_03736A Length: 401
+# HI914_03736A Number of predicted TMHs:  0
+# HI914_03736A Exp number of AAs in TMHs: 0.01574
+# HI914_03736A Exp number, first 60 AAs:  0.00908
+# HI914_03736A Total prob of N-in:        0.00159
+HI914_03736A	TMHMM2.0	outside	     1   401
+# HI914_03749A Length: 292
+# HI914_03749A Number of predicted TMHs:  0
+# HI914_03749A Exp number of AAs in TMHs: 0.23919
+# HI914_03749A Exp number, first 60 AAs:  0.22594
+# HI914_03749A Total prob of N-in:        0.01763
+HI914_03749A	TMHMM2.0	outside	     1   292
+# HI914_03758A Length: 215
+# HI914_03758A Number of predicted TMHs:  0
+# HI914_03758A Exp number of AAs in TMHs: 1.68734
+# HI914_03758A Exp number, first 60 AAs:  1.4903
+# HI914_03758A Total prob of N-in:        0.13317
+HI914_03758A	TMHMM2.0	outside	     1   215
+# HI914_03770A Length: 381
+# HI914_03770A Number of predicted TMHs:  0
+# HI914_03770A Exp number of AAs in TMHs: 14.38269
+# HI914_03770A Exp number, first 60 AAs:  14.31253
+# HI914_03770A Total prob of N-in:        0.70010
+# HI914_03770A POSSIBLE N-term signal sequence
+HI914_03770A	TMHMM2.0	outside	     1   381
+# HI914_03774A Length: 76
+# HI914_03774A Number of predicted TMHs:  0
+# HI914_03774A Exp number of AAs in TMHs: 9.30937
+# HI914_03774A Exp number, first 60 AAs:  9.30937
+# HI914_03774A Total prob of N-in:        0.35723
+HI914_03774A	TMHMM2.0	outside	     1    76
+# HI914_03784A Length: 585
+# HI914_03784A Number of predicted TMHs:  0
+# HI914_03784A Exp number of AAs in TMHs: 0.01298
+# HI914_03784A Exp number, first 60 AAs:  0.01156
+# HI914_03784A Total prob of N-in:        0.00189
+HI914_03784A	TMHMM2.0	outside	     1   585
+# HI914_03794A Length: 248
+# HI914_03794A Number of predicted TMHs:  0
+# HI914_03794A Exp number of AAs in TMHs: 0.09598
+# HI914_03794A Exp number, first 60 AAs:  0.09495
+# HI914_03794A Total prob of N-in:        0.01550
+HI914_03794A	TMHMM2.0	outside	     1   248
+# HI914_03855A Length: 447
+# HI914_03855A Number of predicted TMHs:  0
+# HI914_03855A Exp number of AAs in TMHs: 14.67183
+# HI914_03855A Exp number, first 60 AAs:  14.66612
+# HI914_03855A Total prob of N-in:        0.71185
+# HI914_03855A POSSIBLE N-term signal sequence
+HI914_03855A	TMHMM2.0	outside	     1   447
+# HI914_03865A Length: 126
+# HI914_03865A Number of predicted TMHs:  0
+# HI914_03865A Exp number of AAs in TMHs: 14.85
+# HI914_03865A Exp number, first 60 AAs:  14.81946
+# HI914_03865A Total prob of N-in:        0.70413
+# HI914_03865A POSSIBLE N-term signal sequence
+HI914_03865A	TMHMM2.0	outside	     1   126
+# HI914_03875A Length: 379
+# HI914_03875A Number of predicted TMHs:  0
+# HI914_03875A Exp number of AAs in TMHs: 1.67572
+# HI914_03875A Exp number, first 60 AAs:  1.6756
+# HI914_03875A Total prob of N-in:        0.07403
+HI914_03875A	TMHMM2.0	outside	     1   379
+# HI914_03893A Length: 802
+# HI914_03893A Number of predicted TMHs:  1
+# HI914_03893A Exp number of AAs in TMHs: 22.42684
+# HI914_03893A Exp number, first 60 AAs:  0.14894
+# HI914_03893A Total prob of N-in:        0.00816
+HI914_03893A	TMHMM2.0	outside	     1   695
+HI914_03893A	TMHMM2.0	TMhelix	   696   718
+HI914_03893A	TMHMM2.0	inside	   719   802
+# HI914_03954A Length: 162
+# HI914_03954A Number of predicted TMHs:  0
+# HI914_03954A Exp number of AAs in TMHs: 3.47478
+# HI914_03954A Exp number, first 60 AAs:  3.37032
+# HI914_03954A Total prob of N-in:        0.09249
+HI914_03954A	TMHMM2.0	outside	     1   162
+# HI914_03992A Length: 514
+# HI914_03992A Number of predicted TMHs:  0
+# HI914_03992A Exp number of AAs in TMHs: 0.43589
+# HI914_03992A Exp number, first 60 AAs:  0.00216
+# HI914_03992A Total prob of N-in:        0.00757
+HI914_03992A	TMHMM2.0	outside	     1   514
+# HI914_04011A Length: 547
+# HI914_04011A Number of predicted TMHs:  0
+# HI914_04011A Exp number of AAs in TMHs: 0.11394
+# HI914_04011A Exp number, first 60 AAs:  0.00147
+# HI914_04011A Total prob of N-in:        0.00082
+HI914_04011A	TMHMM2.0	outside	     1   547
+# HI914_04025A Length: 500
+# HI914_04025A Number of predicted TMHs:  0
+# HI914_04025A Exp number of AAs in TMHs: 0.34424
+# HI914_04025A Exp number, first 60 AAs:  0.27306
+# HI914_04025A Total prob of N-in:        0.01454
+HI914_04025A	TMHMM2.0	outside	     1   500
+# HI914_04035A Length: 633
+# HI914_04035A Number of predicted TMHs:  0
+# HI914_04035A Exp number of AAs in TMHs: 13.12859
+# HI914_04035A Exp number, first 60 AAs:  0.02189
+# HI914_04035A Total prob of N-in:        0.00268
+HI914_04035A	TMHMM2.0	outside	     1   633
+# HI914_04048A Length: 388
+# HI914_04048A Number of predicted TMHs:  0
+# HI914_04048A Exp number of AAs in TMHs: 6.60866
+# HI914_04048A Exp number, first 60 AAs:  6.60665
+# HI914_04048A Total prob of N-in:        0.28836
+HI914_04048A	TMHMM2.0	outside	     1   388
+# HI914_04078A Length: 290
+# HI914_04078A Number of predicted TMHs:  0
+# HI914_04078A Exp number of AAs in TMHs: 0.22895
+# HI914_04078A Exp number, first 60 AAs:  0.22859
+# HI914_04078A Total prob of N-in:        0.01082
+HI914_04078A	TMHMM2.0	outside	     1   290
+# HI914_04085A Length: 492
+# HI914_04085A Number of predicted TMHs:  0
+# HI914_04085A Exp number of AAs in TMHs: 1.62460000000000001
+# HI914_04085A Exp number, first 60 AAs:  1.35867
+# HI914_04085A Total prob of N-in:        0.07121
+HI914_04085A	TMHMM2.0	outside	     1   492
+# HI914_04086A Length: 240
+# HI914_04086A Number of predicted TMHs:  0
+# HI914_04086A Exp number of AAs in TMHs: 0.57512
+# HI914_04086A Exp number, first 60 AAs:  0.57341
+# HI914_04086A Total prob of N-in:        0.10341
+HI914_04086A	TMHMM2.0	outside	     1   240
+# HI914_04108A Length: 240
+# HI914_04108A Number of predicted TMHs:  0
+# HI914_04108A Exp number of AAs in TMHs: 1.41705
+# HI914_04108A Exp number, first 60 AAs:  1.41606
+# HI914_04108A Total prob of N-in:        0.03051
+HI914_04108A	TMHMM2.0	outside	     1   240
+# HI914_04116A Length: 1367
+# HI914_04116A Number of predicted TMHs:  0
+# HI914_04116A Exp number of AAs in TMHs: 0.05254
+# HI914_04116A Exp number, first 60 AAs:  0.05236
+# HI914_04116A Total prob of N-in:        0.00290
+HI914_04116A	TMHMM2.0	outside	     1  1367
+# HI914_04120A Length: 171
+# HI914_04120A Number of predicted TMHs:  0
+# HI914_04120A Exp number of AAs in TMHs: 2.60252
+# HI914_04120A Exp number, first 60 AAs:  2.60252
+# HI914_04120A Total prob of N-in:        0.23985
+HI914_04120A	TMHMM2.0	outside	     1   171
+# HI914_04122A Length: 720
+# HI914_04122A Number of predicted TMHs:  9
+# HI914_04122A Exp number of AAs in TMHs: 220.64674
+# HI914_04122A Exp number, first 60 AAs:  19.89811
+# HI914_04122A Total prob of N-in:        0.69195
+# HI914_04122A POSSIBLE N-term signal sequence
+HI914_04122A	TMHMM2.0	inside	     1     4
+HI914_04122A	TMHMM2.0	TMhelix	     5    27
+HI914_04122A	TMHMM2.0	outside	    28   311
+HI914_04122A	TMHMM2.0	TMhelix	   312   334
+HI914_04122A	TMHMM2.0	inside	   335   450
+HI914_04122A	TMHMM2.0	TMhelix	   451   473
+HI914_04122A	TMHMM2.0	outside	   474   487
+HI914_04122A	TMHMM2.0	TMhelix	   488   510
+HI914_04122A	TMHMM2.0	inside	   511   516
+HI914_04122A	TMHMM2.0	TMhelix	   517   539
+HI914_04122A	TMHMM2.0	outside	   540   578
+HI914_04122A	TMHMM2.0	TMhelix	   579   598
+HI914_04122A	TMHMM2.0	inside	   599   609
+HI914_04122A	TMHMM2.0	TMhelix	   610   632
+HI914_04122A	TMHMM2.0	outside	   633   646
+HI914_04122A	TMHMM2.0	TMhelix	   647   669
+HI914_04122A	TMHMM2.0	inside	   670   681
+HI914_04122A	TMHMM2.0	TMhelix	   682   704
+HI914_04122A	TMHMM2.0	outside	   705   720
+# HI914_04160A Length: 228
+# HI914_04160A Number of predicted TMHs:  0
+# HI914_04160A Exp number of AAs in TMHs: 0.03736
+# HI914_04160A Exp number, first 60 AAs:  0.0367
+# HI914_04160A Total prob of N-in:        0.01390
+HI914_04160A	TMHMM2.0	outside	     1   228
+# HI914_04163A Length: 407
+# HI914_04163A Number of predicted TMHs:  0
+# HI914_04163A Exp number of AAs in TMHs: 6.45889
+# HI914_04163A Exp number, first 60 AAs:  0.04535
+# HI914_04163A Total prob of N-in:        0.01555
+HI914_04163A	TMHMM2.0	outside	     1   407
+# HI914_04179A Length: 380
+# HI914_04179A Number of predicted TMHs:  1
+# HI914_04179A Exp number of AAs in TMHs: 25.23416
+# HI914_04179A Exp number, first 60 AAs:  2.07511
+# HI914_04179A Total prob of N-in:        0.08666
+HI914_04179A	TMHMM2.0	outside	     1   234
+HI914_04179A	TMHMM2.0	TMhelix	   235   257
+HI914_04179A	TMHMM2.0	inside	   258   380
+# HI914_04180A Length: 1118
+# HI914_04180A Number of predicted TMHs:  0
+# HI914_04180A Exp number of AAs in TMHs: 61.95362
+# HI914_04180A Exp number, first 60 AAs:  11.70032
+# HI914_04180A Total prob of N-in:        0.42996
+# HI914_04180A POSSIBLE N-term signal sequence
+HI914_04180A	TMHMM2.0	outside	     1  1118
+# HI914_04189A Length: 109
+# HI914_04189A Number of predicted TMHs:  0
+# HI914_04189A Exp number of AAs in TMHs: 12.08788
+# HI914_04189A Exp number, first 60 AAs:  12.08353
+# HI914_04189A Total prob of N-in:        0.26221
+# HI914_04189A POSSIBLE N-term signal sequence
+HI914_04189A	TMHMM2.0	outside	     1   109
+# HI914_04190A Length: 744
+# HI914_04190A Number of predicted TMHs:  0
+# HI914_04190A Exp number of AAs in TMHs: 3.21452
+# HI914_04190A Exp number, first 60 AAs:  3.16736
+# HI914_04190A Total prob of N-in:        0.15515
+HI914_04190A	TMHMM2.0	outside	     1   744
+# HI914_04199A Length: 146
+# HI914_04199A Number of predicted TMHs:  0
+# HI914_04199A Exp number of AAs in TMHs: 8.03703
+# HI914_04199A Exp number, first 60 AAs:  8.03703
+# HI914_04199A Total prob of N-in:        0.04337
+HI914_04199A	TMHMM2.0	outside	     1   146
+# HI914_04289A Length: 833
+# HI914_04289A Number of predicted TMHs:  0
+# HI914_04289A Exp number of AAs in TMHs: 12.23569
+# HI914_04289A Exp number, first 60 AAs:  11.58984
+# HI914_04289A Total prob of N-in:        0.52922
+# HI914_04289A POSSIBLE N-term signal sequence
+HI914_04289A	TMHMM2.0	outside	     1   833
+# HI914_04300A Length: 754
+# HI914_04300A Number of predicted TMHs:  4
+# HI914_04300A Exp number of AAs in TMHs: 97.2701000000000001
+# HI914_04300A Exp number, first 60 AAs:  23.26672
+# HI914_04300A Total prob of N-in:        0.78390
+# HI914_04300A POSSIBLE N-term signal sequence
+HI914_04300A	TMHMM2.0	inside	     1     6
+HI914_04300A	TMHMM2.0	TMhelix	     7    29
+HI914_04300A	TMHMM2.0	outside	    30    83
+HI914_04300A	TMHMM2.0	TMhelix	    84   106
+HI914_04300A	TMHMM2.0	inside	   107   117
+HI914_04300A	TMHMM2.0	TMhelix	   118   140
+HI914_04300A	TMHMM2.0	outside	   141   149
+HI914_04300A	TMHMM2.0	TMhelix	   150   172
+HI914_04300A	TMHMM2.0	inside	   173   754
+# HI914_04302A Length: 338
+# HI914_04302A Number of predicted TMHs:  1
+# HI914_04302A Exp number of AAs in TMHs: 17.90569
+# HI914_04302A Exp number, first 60 AAs:  17.90346
+# HI914_04302A Total prob of N-in:        0.72126
+# HI914_04302A POSSIBLE N-term signal sequence
+HI914_04302A	TMHMM2.0	inside	     1     6
+HI914_04302A	TMHMM2.0	TMhelix	     7    26
+HI914_04302A	TMHMM2.0	outside	    27   338
+# HI914_04303A Length: 337
+# HI914_04303A Number of predicted TMHs:  0
+# HI914_04303A Exp number of AAs in TMHs: 6.10437
+# HI914_04303A Exp number, first 60 AAs:  6.07845
+# HI914_04303A Total prob of N-in:        0.24211
+HI914_04303A	TMHMM2.0	outside	     1   337
+# HI914_04305A Length: 536
+# HI914_04305A Number of predicted TMHs:  6
+# HI914_04305A Exp number of AAs in TMHs: 130.30706
+# HI914_04305A Exp number, first 60 AAs:  6.31626
+# HI914_04305A Total prob of N-in:        0.49138
+HI914_04305A	TMHMM2.0	outside	     1   268
+HI914_04305A	TMHMM2.0	TMhelix	   269   291
+HI914_04305A	TMHMM2.0	inside	   292   297
+HI914_04305A	TMHMM2.0	TMhelix	   298   320
+HI914_04305A	TMHMM2.0	outside	   321   329
+HI914_04305A	TMHMM2.0	TMhelix	   330   347
+HI914_04305A	TMHMM2.0	inside	   348   437
+HI914_04305A	TMHMM2.0	TMhelix	   438   460
+HI914_04305A	TMHMM2.0	outside	   461   479
+HI914_04305A	TMHMM2.0	TMhelix	   480   502
+HI914_04305A	TMHMM2.0	inside	   503   508
+HI914_04305A	TMHMM2.0	TMhelix	   509   531
+HI914_04305A	TMHMM2.0	outside	   532   536
+# HI914_04344A Length: 403
+# HI914_04344A Number of predicted TMHs:  0
+# HI914_04344A Exp number of AAs in TMHs: 1.12935
+# HI914_04344A Exp number, first 60 AAs:  1.12762
+# HI914_04344A Total prob of N-in:        0.05886
+HI914_04344A	TMHMM2.0	outside	     1   403
+# HI914_04349A Length: 282
+# HI914_04349A Number of predicted TMHs:  1
+# HI914_04349A Exp number of AAs in TMHs: 19.73432
+# HI914_04349A Exp number, first 60 AAs:  0.97259
+# HI914_04349A Total prob of N-in:        0.08156
+HI914_04349A	TMHMM2.0	outside	     1   174
+HI914_04349A	TMHMM2.0	TMhelix	   175   194
+HI914_04349A	TMHMM2.0	inside	   195   282
+# HI914_04350A Length: 103
+# HI914_04350A Number of predicted TMHs:  0
+# HI914_04350A Exp number of AAs in TMHs: 0.07196
+# HI914_04350A Exp number, first 60 AAs:  0.07148
+# HI914_04350A Total prob of N-in:        0.17732
+HI914_04350A	TMHMM2.0	outside	     1   103
+# HI914_04353A Length: 153
+# HI914_04353A Number of predicted TMHs:  0
+# HI914_04353A Exp number of AAs in TMHs: 12.92474
+# HI914_04353A Exp number, first 60 AAs:  10.46028
+# HI914_04353A Total prob of N-in:        0.50385
+# HI914_04353A POSSIBLE N-term signal sequence
+HI914_04353A	TMHMM2.0	outside	     1   153
+# HI914_04383A Length: 136
+# HI914_04383A Number of predicted TMHs:  0
+# HI914_04383A Exp number of AAs in TMHs: 48.8837
+# HI914_04383A Exp number, first 60 AAs:  33.10462
+# HI914_04383A Total prob of N-in:        0.89451
+# HI914_04383A POSSIBLE N-term signal sequence
+HI914_04383A	TMHMM2.0	outside	     1   136
+# HI914_04405A Length: 424
+# HI914_04405A Number of predicted TMHs:  0
+# HI914_04405A Exp number of AAs in TMHs: 8.15244999999999997
+# HI914_04405A Exp number, first 60 AAs:  8.10942
+# HI914_04405A Total prob of N-in:        0.40203
+HI914_04405A	TMHMM2.0	outside	     1   424
+# HI914_04425A Length: 794
+# HI914_04425A Number of predicted TMHs:  0
+# HI914_04425A Exp number of AAs in TMHs: 11.80796
+# HI914_04425A Exp number, first 60 AAs:  0.03501
+# HI914_04425A Total prob of N-in:        0.00229
+HI914_04425A	TMHMM2.0	outside	     1   794
+# HI914_04437A Length: 279
+# HI914_04437A Number of predicted TMHs:  1
+# HI914_04437A Exp number of AAs in TMHs: 21.62107
+# HI914_04437A Exp number, first 60 AAs:  0.16592
+# HI914_04437A Total prob of N-in:        0.07840
+HI914_04437A	TMHMM2.0	outside	     1   169
+HI914_04437A	TMHMM2.0	TMhelix	   170   192
+HI914_04437A	TMHMM2.0	inside	   193   279
+# HI914_04443A Length: 329
+# HI914_04443A Number of predicted TMHs:  1
+# HI914_04443A Exp number of AAs in TMHs: 21.20341
+# HI914_04443A Exp number, first 60 AAs:  15.29907
+# HI914_04443A Total prob of N-in:        0.82195
+# HI914_04443A POSSIBLE N-term signal sequence
+HI914_04443A	TMHMM2.0	inside	     1     6
+HI914_04443A	TMHMM2.0	TMhelix	     7    26
+HI914_04443A	TMHMM2.0	outside	    27   329
+# HI914_04467A Length: 191
+# HI914_04467A Number of predicted TMHs:  0
+# HI914_04467A Exp number of AAs in TMHs: 1.58291
+# HI914_04467A Exp number, first 60 AAs:  1.58273
+# HI914_04467A Total prob of N-in:        0.08807
+HI914_04467A	TMHMM2.0	outside	     1   191
+# HI914_04469A Length: 191
+# HI914_04469A Number of predicted TMHs:  0
+# HI914_04469A Exp number of AAs in TMHs: 9.49475
+# HI914_04469A Exp number, first 60 AAs:  9.49276
+# HI914_04469A Total prob of N-in:        0.06840
+HI914_04469A	TMHMM2.0	outside	     1   191
+# HI914_04470A Length: 161
+# HI914_04470A Number of predicted TMHs:  0
+# HI914_04470A Exp number of AAs in TMHs: 2.45979
+# HI914_04470A Exp number, first 60 AAs:  2.45956
+# HI914_04470A Total prob of N-in:        0.13496
+HI914_04470A	TMHMM2.0	outside	     1   161
+# HI914_04472A Length: 200
+# HI914_04472A Number of predicted TMHs:  0
+# HI914_04472A Exp number of AAs in TMHs: 0.784100000000000001
+# HI914_04472A Exp number, first 60 AAs:  0.78365
+# HI914_04472A Total prob of N-in:        0.05908
+HI914_04472A	TMHMM2.0	outside	     1   200
+# HI914_04492A Length: 605
+# HI914_04492A Number of predicted TMHs:  0
+# HI914_04492A Exp number of AAs in TMHs: 1.92225
+# HI914_04492A Exp number, first 60 AAs:  1.92001
+# HI914_04492A Total prob of N-in:        0.10657
+HI914_04492A	TMHMM2.0	outside	     1   605
+# HI914_04498A Length: 610
+# HI914_04498A Number of predicted TMHs:  1
+# HI914_04498A Exp number of AAs in TMHs: 19.91896
+# HI914_04498A Exp number, first 60 AAs:  19.36604
+# HI914_04498A Total prob of N-in:        0.85539
+# HI914_04498A POSSIBLE N-term signal sequence
+HI914_04498A	TMHMM2.0	inside	     1    19
+HI914_04498A	TMHMM2.0	TMhelix	    20    42
+HI914_04498A	TMHMM2.0	outside	    43   610
+# HI914_04505A Length: 590
+# HI914_04505A Number of predicted TMHs:  0
+# HI914_04505A Exp number of AAs in TMHs: 2.49177
+# HI914_04505A Exp number, first 60 AAs:  2.476
+# HI914_04505A Total prob of N-in:        0.12327
+HI914_04505A	TMHMM2.0	outside	     1   590
+# HI914_04518A Length: 387
+# HI914_04518A Number of predicted TMHs:  1
+# HI914_04518A Exp number of AAs in TMHs: 24.6265
+# HI914_04518A Exp number, first 60 AAs:  6.28439
+# HI914_04518A Total prob of N-in:        0.34190
+HI914_04518A	TMHMM2.0	outside	     1   363
+HI914_04518A	TMHMM2.0	TMhelix	   364   386
+HI914_04518A	TMHMM2.0	inside	   387   387
+# HI914_04523A Length: 198
+# HI914_04523A Number of predicted TMHs:  0
+# HI914_04523A Exp number of AAs in TMHs: 6.49925
+# HI914_04523A Exp number, first 60 AAs:  0.03155
+# HI914_04523A Total prob of N-in:        0.05248
+HI914_04523A	TMHMM2.0	outside	     1   198
+# HI914_04532A Length: 369
+# HI914_04532A Number of predicted TMHs:  0
+# HI914_04532A Exp number of AAs in TMHs: 0.426789999999999999
+# HI914_04532A Exp number, first 60 AAs:  0.37266
+# HI914_04532A Total prob of N-in:        0.01802
+HI914_04532A	TMHMM2.0	outside	     1   369
+# HI914_04544A Length: 198
+# HI914_04544A Number of predicted TMHs:  1
+# HI914_04544A Exp number of AAs in TMHs: 18.90176
+# HI914_04544A Exp number, first 60 AAs:  18.892
+# HI914_04544A Total prob of N-in:        0.79061
+# HI914_04544A POSSIBLE N-term signal sequence
+HI914_04544A	TMHMM2.0	inside	     1     4
+HI914_04544A	TMHMM2.0	TMhelix	     5    27
+HI914_04544A	TMHMM2.0	outside	    28   198
+# HI914_04545A Length: 569
+# HI914_04545A Number of predicted TMHs:  0
+# HI914_04545A Exp number of AAs in TMHs: 0.64433
+# HI914_04545A Exp number, first 60 AAs:  0.6442
+# HI914_04545A Total prob of N-in:        0.03577
+HI914_04545A	TMHMM2.0	outside	     1   569
+# HI914_04547A Length: 478
+# HI914_04547A Number of predicted TMHs:  11
+# HI914_04547A Exp number of AAs in TMHs: 240.80295
+# HI914_04547A Exp number, first 60 AAs:  34.73196
+# HI914_04547A Total prob of N-in:        0.00089
+# HI914_04547A POSSIBLE N-term signal sequence
+HI914_04547A	TMHMM2.0	outside	     1    14
+HI914_04547A	TMHMM2.0	TMhelix	    15    37
+HI914_04547A	TMHMM2.0	inside	    38    48
+HI914_04547A	TMHMM2.0	TMhelix	    49    71
+HI914_04547A	TMHMM2.0	outside	    72    94
+HI914_04547A	TMHMM2.0	TMhelix	    95   117
+HI914_04547A	TMHMM2.0	inside	   118   136
+HI914_04547A	TMHMM2.0	TMhelix	   137   156
+HI914_04547A	TMHMM2.0	outside	   157   160
+HI914_04547A	TMHMM2.0	TMhelix	   161   183
+HI914_04547A	TMHMM2.0	inside	   184   203
+HI914_04547A	TMHMM2.0	TMhelix	   204   226
+HI914_04547A	TMHMM2.0	outside	   227   235
+HI914_04547A	TMHMM2.0	TMhelix	   236   258
+HI914_04547A	TMHMM2.0	inside	   259   264
+HI914_04547A	TMHMM2.0	TMhelix	   265   287
+HI914_04547A	TMHMM2.0	outside	   288   301
+HI914_04547A	TMHMM2.0	TMhelix	   302   321
+HI914_04547A	TMHMM2.0	inside	   322   404
+HI914_04547A	TMHMM2.0	TMhelix	   405   427
+HI914_04547A	TMHMM2.0	outside	   428   450
+HI914_04547A	TMHMM2.0	TMhelix	   451   473
+HI914_04547A	TMHMM2.0	inside	   474   478
+# HI914_04548A Length: 512
+# HI914_04548A Number of predicted TMHs:  0
+# HI914_04548A Exp number of AAs in TMHs: 12.57852
+# HI914_04548A Exp number, first 60 AAs:  12.45045
+# HI914_04548A Total prob of N-in:        0.60379
+# HI914_04548A POSSIBLE N-term signal sequence
+HI914_04548A	TMHMM2.0	outside	     1   512
+# HI914_04550A Length: 532
+# HI914_04550A Number of predicted TMHs:  0
+# HI914_04550A Exp number of AAs in TMHs: 10.77266
+# HI914_04550A Exp number, first 60 AAs:  10.76203
+# HI914_04550A Total prob of N-in:        0.53154
+# HI914_04550A POSSIBLE N-term signal sequence
+HI914_04550A	TMHMM2.0	outside	     1   532
+# HI914_04563A Length: 114
+# HI914_04563A Number of predicted TMHs:  0
+# HI914_04563A Exp number of AAs in TMHs: 0.990940000000000001
+# HI914_04563A Exp number, first 60 AAs:  0.98985
+# HI914_04563A Total prob of N-in:        0.04732
+HI914_04563A	TMHMM2.0	outside	     1   114
+# HI914_04594A Length: 673
+# HI914_04594A Number of predicted TMHs:  1
+# HI914_04594A Exp number of AAs in TMHs: 22.53611
+# HI914_04594A Exp number, first 60 AAs:  22.48368
+# HI914_04594A Total prob of N-in:        0.98526
+# HI914_04594A POSSIBLE N-term signal sequence
+HI914_04594A	TMHMM2.0	inside	     1     8
+HI914_04594A	TMHMM2.0	TMhelix	     9    31
+HI914_04594A	TMHMM2.0	outside	    32   673
+# HI914_04606A Length: 76
+# HI914_04606A Number of predicted TMHs:  0
+# HI914_04606A Exp number of AAs in TMHs: 6.26416
+# HI914_04606A Exp number, first 60 AAs:  6.26416
+# HI914_04606A Total prob of N-in:        0.21077
+HI914_04606A	TMHMM2.0	outside	     1    76
+# HI914_04610A Length: 150
+# HI914_04610A Number of predicted TMHs:  1
+# HI914_04610A Exp number of AAs in TMHs: 18.12112
+# HI914_04610A Exp number, first 60 AAs:  18.1159
+# HI914_04610A Total prob of N-in:        0.29470
+# HI914_04610A POSSIBLE N-term signal sequence
+HI914_04610A	TMHMM2.0	outside	     1     3
+HI914_04610A	TMHMM2.0	TMhelix	     4    23
+HI914_04610A	TMHMM2.0	inside	    24   150
+# HI914_04626A Length: 1090
+# HI914_04626A Number of predicted TMHs:  6
+# HI914_04626A Exp number of AAs in TMHs: 136.63168
+# HI914_04626A Exp number, first 60 AAs:  11.68061
+# HI914_04626A Total prob of N-in:        0.60254
+# HI914_04626A POSSIBLE N-term signal sequence
+HI914_04626A	TMHMM2.0	outside	     1   124
+HI914_04626A	TMHMM2.0	TMhelix	   125   144
+HI914_04626A	TMHMM2.0	inside	   145   156
+HI914_04626A	TMHMM2.0	TMhelix	   157   179
+HI914_04626A	TMHMM2.0	outside	   180   182
+HI914_04626A	TMHMM2.0	TMhelix	   183   205
+HI914_04626A	TMHMM2.0	inside	   206   211
+HI914_04626A	TMHMM2.0	TMhelix	   212   234
+HI914_04626A	TMHMM2.0	outside	   235   243
+HI914_04626A	TMHMM2.0	TMhelix	   244   263
+HI914_04626A	TMHMM2.0	inside	   264   269
+HI914_04626A	TMHMM2.0	TMhelix	   270   292
+HI914_04626A	TMHMM2.0	outside	   293  1090
+# HI914_04628A Length: 603
+# HI914_04628A Number of predicted TMHs:  0
+# HI914_04628A Exp number of AAs in TMHs: 0.749270000000000002
+# HI914_04628A Exp number, first 60 AAs:  0.04633
+# HI914_04628A Total prob of N-in:        0.01120
+HI914_04628A	TMHMM2.0	outside	     1   603
+# HI914_04629A Length: 862
+# HI914_04629A Number of predicted TMHs:  0
+# HI914_04629A Exp number of AAs in TMHs: 0.02264
+# HI914_04629A Exp number, first 60 AAs:  0.02158
+# HI914_04629A Total prob of N-in:        0.00123
+HI914_04629A	TMHMM2.0	outside	     1   862
+# HI914_04630A Length: 650
+# HI914_04630A Number of predicted TMHs:  0
+# HI914_04630A Exp number of AAs in TMHs: 4.38899000000000001
+# HI914_04630A Exp number, first 60 AAs:  3.86453
+# HI914_04630A Total prob of N-in:        0.17401
+HI914_04630A	TMHMM2.0	outside	     1   650
+# HI914_04631A Length: 642
+# HI914_04631A Number of predicted TMHs:  0
+# HI914_04631A Exp number of AAs in TMHs: 19.15682
+# HI914_04631A Exp number, first 60 AAs:  10.13257
+# HI914_04631A Total prob of N-in:        0.45794
+# HI914_04631A POSSIBLE N-term signal sequence
+HI914_04631A	TMHMM2.0	outside	     1   642
+# HI914_04632A Length: 149
+# HI914_04632A Number of predicted TMHs:  0
+# HI914_04632A Exp number of AAs in TMHs: 0.04704
+# HI914_04632A Exp number, first 60 AAs:  0.04561
+# HI914_04632A Total prob of N-in:        0.06109
+HI914_04632A	TMHMM2.0	outside	     1   149
+# HI914_04634A Length: 151
+# HI914_04634A Number of predicted TMHs:  0
+# HI914_04634A Exp number of AAs in TMHs: 0.60309
+# HI914_04634A Exp number, first 60 AAs:  0.58088
+# HI914_04634A Total prob of N-in:        0.07031
+HI914_04634A	TMHMM2.0	outside	     1   151
+# HI914_04651A Length: 173
+# HI914_04651A Number of predicted TMHs:  0
+# HI914_04651A Exp number of AAs in TMHs: 1.86335
+# HI914_04651A Exp number, first 60 AAs:  1.12273
+# HI914_04651A Total prob of N-in:        0.08372
+HI914_04651A	TMHMM2.0	outside	     1   173
+# HI914_04653A Length: 135
+# HI914_04653A Number of predicted TMHs:  0
+# HI914_04653A Exp number of AAs in TMHs: 1.55837
+# HI914_04653A Exp number, first 60 AAs:  1.55323
+# HI914_04653A Total prob of N-in:        0.07688
+HI914_04653A	TMHMM2.0	outside	     1   135
+# HI914_04668A Length: 62
+# HI914_04668A Number of predicted TMHs:  0
+# HI914_04668A Exp number of AAs in TMHs: 0.06037
+# HI914_04668A Exp number, first 60 AAs:  0.06033
+# HI914_04668A Total prob of N-in:        0.12263
+HI914_04668A	TMHMM2.0	outside	     1    62
+# HI914_04697A Length: 1082
+# HI914_04697A Number of predicted TMHs:  9
+# HI914_04697A Exp number of AAs in TMHs: 192.05771
+# HI914_04697A Exp number, first 60 AAs:  0.85047
+# HI914_04697A Total prob of N-in:        0.04990
+HI914_04697A	TMHMM2.0	outside	     1   311
+HI914_04697A	TMHMM2.0	TMhelix	   312   334
+HI914_04697A	TMHMM2.0	inside	   335   828
+HI914_04697A	TMHMM2.0	TMhelix	   829   851
+HI914_04697A	TMHMM2.0	outside	   852   860
+HI914_04697A	TMHMM2.0	TMhelix	   861   883
+HI914_04697A	TMHMM2.0	inside	   884   911
+HI914_04697A	TMHMM2.0	TMhelix	   912   934
+HI914_04697A	TMHMM2.0	outside	   935   938
+HI914_04697A	TMHMM2.0	TMhelix	   939   961
+HI914_04697A	TMHMM2.0	inside	   962   967
+HI914_04697A	TMHMM2.0	TMhelix	   968   990
+HI914_04697A	TMHMM2.0	outside	   991   999
+HI914_04697A	TMHMM2.0	TMhelix	  1000  1017
+HI914_04697A	TMHMM2.0	inside	  1018  1029
+HI914_04697A	TMHMM2.0	TMhelix	  1030  1047
+HI914_04697A	TMHMM2.0	outside	  1048  1061
+HI914_04697A	TMHMM2.0	TMhelix	  1062  1079
+HI914_04697A	TMHMM2.0	inside	  1080  1082
+# HI914_04727A Length: 284
+# HI914_04727A Number of predicted TMHs:  0
+# HI914_04727A Exp number of AAs in TMHs: 0.03944
+# HI914_04727A Exp number, first 60 AAs:  0.03923
+# HI914_04727A Total prob of N-in:        0.00605
+HI914_04727A	TMHMM2.0	outside	     1   284
+# HI914_04729A Length: 678
+# HI914_04729A Number of predicted TMHs:  0
+# HI914_04729A Exp number of AAs in TMHs: 0.01495
+# HI914_04729A Exp number, first 60 AAs:  0.00724
+# HI914_04729A Total prob of N-in:        0.00042
+HI914_04729A	TMHMM2.0	outside	     1   678
+# HI914_04740A Length: 187
+# HI914_04740A Number of predicted TMHs:  0
+# HI914_04740A Exp number of AAs in TMHs: 0.07904
+# HI914_04740A Exp number, first 60 AAs:  0.07861
+# HI914_04740A Total prob of N-in:        0.02040
+HI914_04740A	TMHMM2.0	outside	     1   187
+# HI914_04754A Length: 341
+# HI914_04754A Number of predicted TMHs:  3
+# HI914_04754A Exp number of AAs in TMHs: 69.34828
+# HI914_04754A Exp number, first 60 AAs:  4.90875
+# HI914_04754A Total prob of N-in:        0.26851
+HI914_04754A	TMHMM2.0	outside	     1   224
+HI914_04754A	TMHMM2.0	TMhelix	   225   247
+HI914_04754A	TMHMM2.0	inside	   248   279
+HI914_04754A	TMHMM2.0	TMhelix	   280   302
+HI914_04754A	TMHMM2.0	outside	   303   306
+HI914_04754A	TMHMM2.0	TMhelix	   307   329
+HI914_04754A	TMHMM2.0	inside	   330   341
+# HI914_04758A Length: 533
+# HI914_04758A Number of predicted TMHs:  1
+# HI914_04758A Exp number of AAs in TMHs: 24.61377
+# HI914_04758A Exp number, first 60 AAs:  5.07519
+# HI914_04758A Total prob of N-in:        0.24069
+HI914_04758A	TMHMM2.0	outside	     1   509
+HI914_04758A	TMHMM2.0	TMhelix	   510   532
+HI914_04758A	TMHMM2.0	inside	   533   533
+# HI914_04760A Length: 806
+# HI914_04760A Number of predicted TMHs:  0
+# HI914_04760A Exp number of AAs in TMHs: 0.49495
+# HI914_04760A Exp number, first 60 AAs:  0.47354
+# HI914_04760A Total prob of N-in:        0.02521
+HI914_04760A	TMHMM2.0	outside	     1   806
+# HI914_04766A Length: 426
+# HI914_04766A Number of predicted TMHs:  0
+# HI914_04766A Exp number of AAs in TMHs: 3.02395000000000001
+# HI914_04766A Exp number, first 60 AAs:  2.66447
+# HI914_04766A Total prob of N-in:        0.12856
+HI914_04766A	TMHMM2.0	outside	     1   426
+# HI914_04792A Length: 429
+# HI914_04792A Number of predicted TMHs:  0
+# HI914_04792A Exp number of AAs in TMHs: 0.01518
+# HI914_04792A Exp number, first 60 AAs:  0.01478
+# HI914_04792A Total prob of N-in:        0.00249
+HI914_04792A	TMHMM2.0	outside	     1   429
+# HI914_04823A Length: 146
+# HI914_04823A Number of predicted TMHs:  3
+# HI914_04823A Exp number of AAs in TMHs: 67.29128
+# HI914_04823A Exp number, first 60 AAs:  22.56893
+# HI914_04823A Total prob of N-in:        0.06686
+# HI914_04823A POSSIBLE N-term signal sequence
+HI914_04823A	TMHMM2.0	outside	     1    14
+HI914_04823A	TMHMM2.0	TMhelix	    15    37
+HI914_04823A	TMHMM2.0	inside	    38    90
+HI914_04823A	TMHMM2.0	TMhelix	    91   113
+HI914_04823A	TMHMM2.0	outside	   114   122
+HI914_04823A	TMHMM2.0	TMhelix	   123   145
+HI914_04823A	TMHMM2.0	inside	   146   146
+# HI914_04826A Length: 528
+# HI914_04826A Number of predicted TMHs:  7
+# HI914_04826A Exp number of AAs in TMHs: 158.90709
+# HI914_04826A Exp number, first 60 AAs:  2.10812
+# HI914_04826A Total prob of N-in:        0.12223
+HI914_04826A	TMHMM2.0	outside	     1   112
+HI914_04826A	TMHMM2.0	TMhelix	   113   135
+HI914_04826A	TMHMM2.0	inside	   136   147
+HI914_04826A	TMHMM2.0	TMhelix	   148   170
+HI914_04826A	TMHMM2.0	outside	   171   189
+HI914_04826A	TMHMM2.0	TMhelix	   190   212
+HI914_04826A	TMHMM2.0	inside	   213   224
+HI914_04826A	TMHMM2.0	TMhelix	   225   247
+HI914_04826A	TMHMM2.0	outside	   248   268
+HI914_04826A	TMHMM2.0	TMhelix	   269   291
+HI914_04826A	TMHMM2.0	inside	   292   302
+HI914_04826A	TMHMM2.0	TMhelix	   303   325
+HI914_04826A	TMHMM2.0	outside	   326   339
+HI914_04826A	TMHMM2.0	TMhelix	   340   362
+HI914_04826A	TMHMM2.0	inside	   363   528
+# HI914_04832A Length: 184
+# HI914_04832A Number of predicted TMHs:  0
+# HI914_04832A Exp number of AAs in TMHs: 0.15619
+# HI914_04832A Exp number, first 60 AAs:  0.13844
+# HI914_04832A Total prob of N-in:        0.01070
+HI914_04832A	TMHMM2.0	outside	     1   184
+# HI914_04834A Length: 93
+# HI914_04834A Number of predicted TMHs:  0
+# HI914_04834A Exp number of AAs in TMHs: 0.01786
+# HI914_04834A Exp number, first 60 AAs:  0.01786
+# HI914_04834A Total prob of N-in:        0.02620
+HI914_04834A	TMHMM2.0	outside	     1    93
+# HI914_04877A Length: 242
+# HI914_04877A Number of predicted TMHs:  2
+# HI914_04877A Exp number of AAs in TMHs: 42.99695
+# HI914_04877A Exp number, first 60 AAs:  20.61936
+# HI914_04877A Total prob of N-in:        0.99101
+# HI914_04877A POSSIBLE N-term signal sequence
+HI914_04877A	TMHMM2.0	inside	     1    11
+HI914_04877A	TMHMM2.0	TMhelix	    12    34
+HI914_04877A	TMHMM2.0	outside	    35   149
+HI914_04877A	TMHMM2.0	TMhelix	   150   172
+HI914_04877A	TMHMM2.0	inside	   173   242
+# HI914_04882A Length: 360
+# HI914_04882A Number of predicted TMHs:  0
+# HI914_04882A Exp number of AAs in TMHs: 0.48952
+# HI914_04882A Exp number, first 60 AAs:  0.25748
+# HI914_04882A Total prob of N-in:        0.01455
+HI914_04882A	TMHMM2.0	outside	     1   360
+# HI914_04888A Length: 482
+# HI914_04888A Number of predicted TMHs:  0
+# HI914_04888A Exp number of AAs in TMHs: 4.19874
+# HI914_04888A Exp number, first 60 AAs:  4.19874
+# HI914_04888A Total prob of N-in:        0.21782
+HI914_04888A	TMHMM2.0	outside	     1   482
+# HI914_04894A Length: 371
+# HI914_04894A Number of predicted TMHs:  1
+# HI914_04894A Exp number of AAs in TMHs: 21.50277
+# HI914_04894A Exp number, first 60 AAs:  21.5026
+# HI914_04894A Total prob of N-in:        0.89070
+# HI914_04894A POSSIBLE N-term signal sequence
+HI914_04894A	TMHMM2.0	inside	     1     1
+HI914_04894A	TMHMM2.0	TMhelix	     2    24
+HI914_04894A	TMHMM2.0	outside	    25   371
+# HI914_04895A Length: 608
+# HI914_04895A Number of predicted TMHs:  1
+# HI914_04895A Exp number of AAs in TMHs: 18.64784
+# HI914_04895A Exp number, first 60 AAs:  18.64784
+# HI914_04895A Total prob of N-in:        0.85468
+# HI914_04895A POSSIBLE N-term signal sequence
+HI914_04895A	TMHMM2.0	inside	     1     6
+HI914_04895A	TMHMM2.0	TMhelix	     7    26
+HI914_04895A	TMHMM2.0	outside	    27   608
+# HI914_04896A Length: 390
+# HI914_04896A Number of predicted TMHs:  0
+# HI914_04896A Exp number of AAs in TMHs: 1.83051
+# HI914_04896A Exp number, first 60 AAs:  1.83019
+# HI914_04896A Total prob of N-in:        0.09901
+HI914_04896A	TMHMM2.0	outside	     1   390
+# HI914_04900A Length: 178
+# HI914_04900A Number of predicted TMHs:  0
+# HI914_04900A Exp number of AAs in TMHs: 16.64877
+# HI914_04900A Exp number, first 60 AAs:  16.57773
+# HI914_04900A Total prob of N-in:        0.29512
+# HI914_04900A POSSIBLE N-term signal sequence
+HI914_04900A	TMHMM2.0	outside	     1   178
+# HI914_04902A Length: 321
+# HI914_04902A Number of predicted TMHs:  1
+# HI914_04902A Exp number of AAs in TMHs: 22.70334
+# HI914_04902A Exp number, first 60 AAs:  0.15853
+# HI914_04902A Total prob of N-in:        0.02304
+HI914_04902A	TMHMM2.0	outside	     1   286
+HI914_04902A	TMHMM2.0	TMhelix	   287   309
+HI914_04902A	TMHMM2.0	inside	   310   321
+# HI914_04916A Length: 140
+# HI914_04916A Number of predicted TMHs:  0
+# HI914_04916A Exp number of AAs in TMHs: 12.97115
+# HI914_04916A Exp number, first 60 AAs:  2.18042
+# HI914_04916A Total prob of N-in:        0.19725
+HI914_04916A	TMHMM2.0	outside	     1   140
+# HI914_04924A Length: 327
+# HI914_04924A Number of predicted TMHs:  1
+# HI914_04924A Exp number of AAs in TMHs: 19.30528
+# HI914_04924A Exp number, first 60 AAs:  19.28919
+# HI914_04924A Total prob of N-in:        0.28481
+# HI914_04924A POSSIBLE N-term signal sequence
+HI914_04924A	TMHMM2.0	outside	     1     3
+HI914_04924A	TMHMM2.0	TMhelix	     4    26
+HI914_04924A	TMHMM2.0	inside	    27   327
+# HI914_04941A Length: 259
+# HI914_04941A Number of predicted TMHs:  0
+# HI914_04941A Exp number of AAs in TMHs: 19.5057
+# HI914_04941A Exp number, first 60 AAs:  10.19441
+# HI914_04941A Total prob of N-in:        0.38639
+# HI914_04941A POSSIBLE N-term signal sequence
+HI914_04941A	TMHMM2.0	outside	     1   259
+# HI914_04952A Length: 81
+# HI914_04952A Number of predicted TMHs:  0
+# HI914_04952A Exp number of AAs in TMHs: 6.14528
+# HI914_04952A Exp number, first 60 AAs:  6.14528
+# HI914_04952A Total prob of N-in:        0.17611
+HI914_04952A	TMHMM2.0	outside	     1    81
+# HI914_04957A Length: 215
+# HI914_04957A Number of predicted TMHs:  0
+# HI914_04957A Exp number of AAs in TMHs: 4.06561
+# HI914_04957A Exp number, first 60 AAs:  0.52578
+# HI914_04957A Total prob of N-in:        0.09174
+HI914_04957A	TMHMM2.0	outside	     1   215
+# HI914_04959A Length: 576
+# HI914_04959A Number of predicted TMHs:  0
+# HI914_04959A Exp number of AAs in TMHs: 0.3385
+# HI914_04959A Exp number, first 60 AAs:  0.30913
+# HI914_04959A Total prob of N-in:        0.01621
+HI914_04959A	TMHMM2.0	outside	     1   576
+# HI914_04965A Length: 114
+# HI914_04965A Number of predicted TMHs:  0
+# HI914_04965A Exp number of AAs in TMHs: 1.01689
+# HI914_04965A Exp number, first 60 AAs:  1.01538
+# HI914_04965A Total prob of N-in:        0.04760
+HI914_04965A	TMHMM2.0	outside	     1   114
+# HI914_04981A Length: 605
+# HI914_04981A Number of predicted TMHs:  0
+# HI914_04981A Exp number of AAs in TMHs: 0.05335
+# HI914_04981A Exp number, first 60 AAs:  0.0008
+# HI914_04981A Total prob of N-in:        0.00090
+HI914_04981A	TMHMM2.0	outside	     1   605
+# HI914_04983A Length: 609
+# HI914_04983A Number of predicted TMHs:  0
+# HI914_04983A Exp number of AAs in TMHs: 0.0877
+# HI914_04983A Exp number, first 60 AAs:  0.0008
+# HI914_04983A Total prob of N-in:        0.00090
+HI914_04983A	TMHMM2.0	outside	     1   609
+# HI914_05011A Length: 714
+# HI914_05011A Number of predicted TMHs:  0
+# HI914_05011A Exp number of AAs in TMHs: 0.35704
+# HI914_05011A Exp number, first 60 AAs:  0.09528
+# HI914_05011A Total prob of N-in:        0.00578
+HI914_05011A	TMHMM2.0	outside	     1   714
+# HI914_05012A Length: 109
+# HI914_05012A Number of predicted TMHs:  1
+# HI914_05012A Exp number of AAs in TMHs: 22.0224
+# HI914_05012A Exp number, first 60 AAs:  22.02232
+# HI914_05012A Total prob of N-in:        0.76604
+# HI914_05012A POSSIBLE N-term signal sequence
+HI914_05012A	TMHMM2.0	inside	     1     6
+HI914_05012A	TMHMM2.0	TMhelix	     7    29
+HI914_05012A	TMHMM2.0	outside	    30   109
+# HI914_05057A Length: 177
+# HI914_05057A Number of predicted TMHs:  1
+# HI914_05057A Exp number of AAs in TMHs: 17.46948
+# HI914_05057A Exp number, first 60 AAs:  17.46825
+# HI914_05057A Total prob of N-in:        0.77206
+# HI914_05057A POSSIBLE N-term signal sequence
+HI914_05057A	TMHMM2.0	inside	     1     4
+HI914_05057A	TMHMM2.0	TMhelix	     5    27
+HI914_05057A	TMHMM2.0	outside	    28   177
+# HI914_05064A Length: 295
+# HI914_05064A Number of predicted TMHs:  0
+# HI914_05064A Exp number of AAs in TMHs: 0.36446
+# HI914_05064A Exp number, first 60 AAs:  0.36333
+# HI914_05064A Total prob of N-in:        0.02044
+HI914_05064A	TMHMM2.0	outside	     1   295
+# HI914_05065A Length: 250
+# HI914_05065A Number of predicted TMHs:  0
+# HI914_05065A Exp number of AAs in TMHs: 0.40782
+# HI914_05065A Exp number, first 60 AAs:  0.40313
+# HI914_05065A Total prob of N-in:        0.02411
+HI914_05065A	TMHMM2.0	outside	     1   250
+# HI914_05080A Length: 278
+# HI914_05080A Number of predicted TMHs:  0
+# HI914_05080A Exp number of AAs in TMHs: 0.37688
+# HI914_05080A Exp number, first 60 AAs:  0.25793
+# HI914_05080A Total prob of N-in:        0.01436
+HI914_05080A	TMHMM2.0	outside	     1   278
+# HI914_05104A Length: 297
+# HI914_05104A Number of predicted TMHs:  0
+# HI914_05104A Exp number of AAs in TMHs: 0.37321
+# HI914_05104A Exp number, first 60 AAs:  0.37188
+# HI914_05104A Total prob of N-in:        0.02122
+HI914_05104A	TMHMM2.0	outside	     1   297
+# HI914_05105A Length: 399
+# HI914_05105A Number of predicted TMHs:  0
+# HI914_05105A Exp number of AAs in TMHs: 0.38542
+# HI914_05105A Exp number, first 60 AAs:  0.38443
+# HI914_05105A Total prob of N-in:        0.01977
+HI914_05105A	TMHMM2.0	outside	     1   399
+# HI914_05107A Length: 297
+# HI914_05107A Number of predicted TMHs:  0
+# HI914_05107A Exp number of AAs in TMHs: 0.38328
+# HI914_05107A Exp number, first 60 AAs:  0.38234
+# HI914_05107A Total prob of N-in:        0.02216
+HI914_05107A	TMHMM2.0	outside	     1   297
+# HI914_05108A Length: 247
+# HI914_05108A Number of predicted TMHs:  0
+# HI914_05108A Exp number of AAs in TMHs: 0.4138
+# HI914_05108A Exp number, first 60 AAs:  0.40897
+# HI914_05108A Total prob of N-in:        0.02453
+HI914_05108A	TMHMM2.0	outside	     1   247
+# HI914_05157A Length: 568
+# HI914_05157A Number of predicted TMHs:  0
+# HI914_05157A Exp number of AAs in TMHs: 2.84352
+# HI914_05157A Exp number, first 60 AAs:  1.03749
+# HI914_05157A Total prob of N-in:        0.05345
+HI914_05157A	TMHMM2.0	outside	     1   568
+# HI914_05171A Length: 166
+# HI914_05171A Number of predicted TMHs:  0
+# HI914_05171A Exp number of AAs in TMHs: 25.39521
+# HI914_05171A Exp number, first 60 AAs:  25.37721
+# HI914_05171A Total prob of N-in:        0.58607
+# HI914_05171A POSSIBLE N-term signal sequence
+HI914_05171A	TMHMM2.0	outside	     1   166
+# HI914_05176A Length: 112
+# HI914_05176A Number of predicted TMHs:  0
+# HI914_05176A Exp number of AAs in TMHs: 0.00252
+# HI914_05176A Exp number, first 60 AAs:  0.00031
+# HI914_05176A Total prob of N-in:        0.06584
+HI914_05176A	TMHMM2.0	outside	     1   112
+# HI914_05180A Length: 86
+# HI914_05180A Number of predicted TMHs:  2
+# HI914_05180A Exp number of AAs in TMHs: 42.20738
+# HI914_05180A Exp number, first 60 AAs:  42.03742
+# HI914_05180A Total prob of N-in:        0.99771
+# HI914_05180A POSSIBLE N-term signal sequence
+HI914_05180A	TMHMM2.0	inside	     1     6
+HI914_05180A	TMHMM2.0	TMhelix	     7    29
+HI914_05180A	TMHMM2.0	outside	    30    38
+HI914_05180A	TMHMM2.0	TMhelix	    39    58
+HI914_05180A	TMHMM2.0	inside	    59    86
+# HI914_05183A Length: 86
+# HI914_05183A Number of predicted TMHs:  2
+# HI914_05183A Exp number of AAs in TMHs: 42.43334
+# HI914_05183A Exp number, first 60 AAs:  42.04935
+# HI914_05183A Total prob of N-in:        0.99729
+# HI914_05183A POSSIBLE N-term signal sequence
+HI914_05183A	TMHMM2.0	inside	     1     6
+HI914_05183A	TMHMM2.0	TMhelix	     7    29
+HI914_05183A	TMHMM2.0	outside	    30    38
+HI914_05183A	TMHMM2.0	TMhelix	    39    58
+HI914_05183A	TMHMM2.0	inside	    59    86
+# HI914_05191A Length: 243
+# HI914_05191A Number of predicted TMHs:  1
+# HI914_05191A Exp number of AAs in TMHs: 29.74829
+# HI914_05191A Exp number, first 60 AAs:  12.45966
+# HI914_05191A Total prob of N-in:        0.44752
+# HI914_05191A POSSIBLE N-term signal sequence
+HI914_05191A	TMHMM2.0	outside	     1   219
+HI914_05191A	TMHMM2.0	TMhelix	   220   242
+HI914_05191A	TMHMM2.0	inside	   243   243
+# HI914_05202A Length: 198
+# HI914_05202A Number of predicted TMHs:  0
+# HI914_05202A Exp number of AAs in TMHs: 0.78433
+# HI914_05202A Exp number, first 60 AAs:  0.78401
+# HI914_05202A Total prob of N-in:        0.09039
+HI914_05202A	TMHMM2.0	outside	     1   198
+# HI914_05227A Length: 820
+# HI914_05227A Number of predicted TMHs:  0
+# HI914_05227A Exp number of AAs in TMHs: 6.32339
+# HI914_05227A Exp number, first 60 AAs:  5.94326
+# HI914_05227A Total prob of N-in:        0.29806
+HI914_05227A	TMHMM2.0	outside	     1   820
+# HI914_05254A Length: 89
+# HI914_05254A Number of predicted TMHs:  1
+# HI914_05254A Exp number of AAs in TMHs: 34.24477
+# HI914_05254A Exp number, first 60 AAs:  33.84533
+# HI914_05254A Total prob of N-in:        0.92952
+# HI914_05254A POSSIBLE N-term signal sequence
+HI914_05254A	TMHMM2.0	inside	     1     6
+HI914_05254A	TMHMM2.0	TMhelix	     7    29
+HI914_05254A	TMHMM2.0	outside	    30    89
+# HI914_05258A Length: 69
+# HI914_05258A Number of predicted TMHs:  0
+# HI914_05258A Exp number of AAs in TMHs: 0.13219
+# HI914_05258A Exp number, first 60 AAs:  0.13219
+# HI914_05258A Total prob of N-in:        0.16690
+HI914_05258A	TMHMM2.0	outside	     1    69
+# HI914_05264A Length: 97
+# HI914_05264A Number of predicted TMHs:  2
+# HI914_05264A Exp number of AAs in TMHs: 30.64828
+# HI914_05264A Exp number, first 60 AAs:  30.04044
+# HI914_05264A Total prob of N-in:        0.87196
+# HI914_05264A POSSIBLE N-term signal sequence
+HI914_05264A	TMHMM2.0	inside	     1     6
+HI914_05264A	TMHMM2.0	TMhelix	     7    29
+HI914_05264A	TMHMM2.0	outside	    30    43
+HI914_05264A	TMHMM2.0	TMhelix	    44    61
+HI914_05264A	TMHMM2.0	inside	    62    97
+# HI914_05265A Length: 172
+# HI914_05265A Number of predicted TMHs:  0
+# HI914_05265A Exp number of AAs in TMHs: 0.45163
+# HI914_05265A Exp number, first 60 AAs:  0.44996
+# HI914_05265A Total prob of N-in:        0.07518
+HI914_05265A	TMHMM2.0	outside	     1   172
+# HI914_05279A Length: 196
+# HI914_05279A Number of predicted TMHs:  0
+# HI914_05279A Exp number of AAs in TMHs: 7.95483
+# HI914_05279A Exp number, first 60 AAs:  7.34264
+# HI914_05279A Total prob of N-in:        0.10426
+HI914_05279A	TMHMM2.0	outside	     1   196
+# HI914_05281A Length: 182
+# HI914_05281A Number of predicted TMHs:  0
+# HI914_05281A Exp number of AAs in TMHs: 0.2412
+# HI914_05281A Exp number, first 60 AAs:  0.23678
+# HI914_05281A Total prob of N-in:        0.08174
+HI914_05281A	TMHMM2.0	outside	     1   182
+# HI914_05284A Length: 190
+# HI914_05284A Number of predicted TMHs:  1
+# HI914_05284A Exp number of AAs in TMHs: 20.90334
+# HI914_05284A Exp number, first 60 AAs:  20.87701
+# HI914_05284A Total prob of N-in:        0.36110
+# HI914_05284A POSSIBLE N-term signal sequence
+HI914_05284A	TMHMM2.0	outside	     1     4
+HI914_05284A	TMHMM2.0	TMhelix	     5    27
+HI914_05284A	TMHMM2.0	inside	    28   190
+# HI914_05288A Length: 179
+# HI914_05288A Number of predicted TMHs:  0
+# HI914_05288A Exp number of AAs in TMHs: 2.15877
+# HI914_05288A Exp number, first 60 AAs:  1.65337
+# HI914_05288A Total prob of N-in:        0.14912
+HI914_05288A	TMHMM2.0	outside	     1   179
+# HI914_05289A Length: 153
+# HI914_05289A Number of predicted TMHs:  0
+# HI914_05289A Exp number of AAs in TMHs: 0.27695
+# HI914_05289A Exp number, first 60 AAs:  0.25825
+# HI914_05289A Total prob of N-in:        0.04654
+HI914_05289A	TMHMM2.0	outside	     1   153
+# HI914_05290A Length: 177
+# HI914_05290A Number of predicted TMHs:  0
+# HI914_05290A Exp number of AAs in TMHs: 1.82807
+# HI914_05290A Exp number, first 60 AAs:  1.75716
+# HI914_05290A Total prob of N-in:        0.15078
+HI914_05290A	TMHMM2.0	outside	     1   177
+# HI914_05295A Length: 183
+# HI914_05295A Number of predicted TMHs:  0
+# HI914_05295A Exp number of AAs in TMHs: 1.04407
+# HI914_05295A Exp number, first 60 AAs:  1.04407
+# HI914_05295A Total prob of N-in:        0.16378
+HI914_05295A	TMHMM2.0	outside	     1   183
+# HI914_05297A Length: 216
+# HI914_05297A Number of predicted TMHs:  0
+# HI914_05297A Exp number of AAs in TMHs: 31.40921
+# HI914_05297A Exp number, first 60 AAs:  3.71354
+# HI914_05297A Total prob of N-in:        0.59321
+HI914_05297A	TMHMM2.0	outside	     1   216
+# HI914_05299A Length: 246
+# HI914_05299A Number of predicted TMHs:  0
+# HI914_05299A Exp number of AAs in TMHs: 1.06714
+# HI914_05299A Exp number, first 60 AAs:  1.06714
+# HI914_05299A Total prob of N-in:        0.10529
+HI914_05299A	TMHMM2.0	outside	     1   246
+# HI914_05302A Length: 150
+# HI914_05302A Number of predicted TMHs:  0
+# HI914_05302A Exp number of AAs in TMHs: 0.702820000000000001
+# HI914_05302A Exp number, first 60 AAs:  0.70273
+# HI914_05302A Total prob of N-in:        0.13379
+HI914_05302A	TMHMM2.0	outside	     1   150
+# HI914_05303A Length: 152
+# HI914_05303A Number of predicted TMHs:  0
+# HI914_05303A Exp number of AAs in TMHs: 0.527030000000000001
+# HI914_05303A Exp number, first 60 AAs:  0.52686
+# HI914_05303A Total prob of N-in:        0.11828
+HI914_05303A	TMHMM2.0	outside	     1   152
+# HI914_05309A Length: 448
+# HI914_05309A Number of predicted TMHs:  8
+# HI914_05309A Exp number of AAs in TMHs: 167.12767
+# HI914_05309A Exp number, first 60 AAs:  31.73278
+# HI914_05309A Total prob of N-in:        0.57435
+# HI914_05309A POSSIBLE N-term signal sequence
+HI914_05309A	TMHMM2.0	inside	     1     4
+HI914_05309A	TMHMM2.0	TMhelix	     5    27
+HI914_05309A	TMHMM2.0	outside	    28    41
+HI914_05309A	TMHMM2.0	TMhelix	    42    64
+HI914_05309A	TMHMM2.0	inside	    65    70
+HI914_05309A	TMHMM2.0	TMhelix	    71    93
+HI914_05309A	TMHMM2.0	outside	    94   117
+HI914_05309A	TMHMM2.0	TMhelix	   118   137
+HI914_05309A	TMHMM2.0	inside	   138   143
+HI914_05309A	TMHMM2.0	TMhelix	   144   166
+HI914_05309A	TMHMM2.0	outside	   167   189
+HI914_05309A	TMHMM2.0	TMhelix	   190   212
+HI914_05309A	TMHMM2.0	inside	   213   327
+HI914_05309A	TMHMM2.0	TMhelix	   328   350
+HI914_05309A	TMHMM2.0	outside	   351   364
+HI914_05309A	TMHMM2.0	TMhelix	   365   387
+HI914_05309A	TMHMM2.0	inside	   388   448
+# HI914_05357A Length: 922
+# HI914_05357A Number of predicted TMHs:  1
+# HI914_05357A Exp number of AAs in TMHs: 20.74304
+# HI914_05357A Exp number, first 60 AAs:  20.69614
+# HI914_05357A Total prob of N-in:        0.96768
+# HI914_05357A POSSIBLE N-term signal sequence
+HI914_05357A	TMHMM2.0	inside	     1     6
+HI914_05357A	TMHMM2.0	TMhelix	     7    29
+HI914_05357A	TMHMM2.0	outside	    30   922
+# HI914_05377A Length: 231
+# HI914_05377A Number of predicted TMHs:  0
+# HI914_05377A Exp number of AAs in TMHs: 1.32072
+# HI914_05377A Exp number, first 60 AAs:  1.30712
+# HI914_05377A Total prob of N-in:        0.04106
+HI914_05377A	TMHMM2.0	outside	     1   231
+# HI914_05393A Length: 176
+# HI914_05393A Number of predicted TMHs:  0
+# HI914_05393A Exp number of AAs in TMHs: 14.92579
+# HI914_05393A Exp number, first 60 AAs:  14.92473
+# HI914_05393A Total prob of N-in:        0.34414
+# HI914_05393A POSSIBLE N-term signal sequence
+HI914_05393A	TMHMM2.0	outside	     1   176
+# HI914_05395A Length: 179
+# HI914_05395A Number of predicted TMHs:  0
+# HI914_05395A Exp number of AAs in TMHs: 15.04182
+# HI914_05395A Exp number, first 60 AAs:  15.04063
+# HI914_05395A Total prob of N-in:        0.33936
+# HI914_05395A POSSIBLE N-term signal sequence
+HI914_05395A	TMHMM2.0	outside	     1   179
+# HI914_05398A Length: 219
+# HI914_05398A Number of predicted TMHs:  0
+# HI914_05398A Exp number of AAs in TMHs: 4.25099
+# HI914_05398A Exp number, first 60 AAs:  4.1584
+# HI914_05398A Total prob of N-in:        0.21723
+HI914_05398A	TMHMM2.0	outside	     1   219
+# HI914_05399A Length: 217
+# HI914_05399A Number of predicted TMHs:  0
+# HI914_05399A Exp number of AAs in TMHs: 0.76736
+# HI914_05399A Exp number, first 60 AAs:  0.70779
+# HI914_05399A Total prob of N-in:        0.08819
+HI914_05399A	TMHMM2.0	outside	     1   217
+# HI914_05400A Length: 199
+# HI914_05400A Number of predicted TMHs:  0
+# HI914_05400A Exp number of AAs in TMHs: 11.50156
+# HI914_05400A Exp number, first 60 AAs:  11.49952
+# HI914_05400A Total prob of N-in:        0.34807
+# HI914_05400A POSSIBLE N-term signal sequence
+HI914_05400A	TMHMM2.0	outside	     1   199
+# HI914_05402A Length: 219
+# HI914_05402A Number of predicted TMHs:  0
+# HI914_05402A Exp number of AAs in TMHs: 2.22481
+# HI914_05402A Exp number, first 60 AAs:  2.2113
+# HI914_05402A Total prob of N-in:        0.11081
+HI914_05402A	TMHMM2.0	outside	     1   219
+# HI914_05403A Length: 219
+# HI914_05403A Number of predicted TMHs:  0
+# HI914_05403A Exp number of AAs in TMHs: 2.22481
+# HI914_05403A Exp number, first 60 AAs:  2.2113
+# HI914_05403A Total prob of N-in:        0.11081
+HI914_05403A	TMHMM2.0	outside	     1   219
+# HI914_05404A Length: 184
+# HI914_05404A Number of predicted TMHs:  0
+# HI914_05404A Exp number of AAs in TMHs: 6.50337
+# HI914_05404A Exp number, first 60 AAs:  6.4728
+# HI914_05404A Total prob of N-in:        0.25136
+HI914_05404A	TMHMM2.0	outside	     1   184
+# HI914_05405A Length: 195
+# HI914_05405A Number of predicted TMHs:  0
+# HI914_05405A Exp number of AAs in TMHs: 1.26034
+# HI914_05405A Exp number, first 60 AAs:  1.25883
+# HI914_05405A Total prob of N-in:        0.04863
+HI914_05405A	TMHMM2.0	outside	     1   195
+# HI914_05406A Length: 186
+# HI914_05406A Number of predicted TMHs:  0
+# HI914_05406A Exp number of AAs in TMHs: 12.40855
+# HI914_05406A Exp number, first 60 AAs:  12.38622
+# HI914_05406A Total prob of N-in:        0.47734
+# HI914_05406A POSSIBLE N-term signal sequence
+HI914_05406A	TMHMM2.0	outside	     1   186
+# HI914_05416A Length: 780
+# HI914_05416A Number of predicted TMHs:  0
+# HI914_05416A Exp number of AAs in TMHs: 1.45676
+# HI914_05416A Exp number, first 60 AAs:  1.12393
+# HI914_05416A Total prob of N-in:        0.05317
+HI914_05416A	TMHMM2.0	outside	     1   780
+# HI914_05428A Length: 151
+# HI914_05428A Number of predicted TMHs:  0
+# HI914_05428A Exp number of AAs in TMHs: 0.26532
+# HI914_05428A Exp number, first 60 AAs:  0.26248
+# HI914_05428A Total prob of N-in:        0.06542
+HI914_05428A	TMHMM2.0	outside	     1   151
+# HI914_05429A Length: 193
+# HI914_05429A Number of predicted TMHs:  0
+# HI914_05429A Exp number of AAs in TMHs: 0.12263
+# HI914_05429A Exp number, first 60 AAs:  0.12227
+# HI914_05429A Total prob of N-in:        0.03856
+HI914_05429A	TMHMM2.0	outside	     1   193
+# HI914_05434A Length: 420
+# HI914_05434A Number of predicted TMHs:  9
+# HI914_05434A Exp number of AAs in TMHs: 196.37404
+# HI914_05434A Exp number, first 60 AAs:  29.00039
+# HI914_05434A Total prob of N-in:        0.93583
+# HI914_05434A POSSIBLE N-term signal sequence
+HI914_05434A	TMHMM2.0	inside	     1     6
+HI914_05434A	TMHMM2.0	TMhelix	     7    25
+HI914_05434A	TMHMM2.0	outside	    26    49
+HI914_05434A	TMHMM2.0	TMhelix	    50    72
+HI914_05434A	TMHMM2.0	inside	    73   133
+HI914_05434A	TMHMM2.0	TMhelix	   134   156
+HI914_05434A	TMHMM2.0	outside	   157   160
+HI914_05434A	TMHMM2.0	TMhelix	   161   180
+HI914_05434A	TMHMM2.0	inside	   181   184
+HI914_05434A	TMHMM2.0	TMhelix	   185   207
+HI914_05434A	TMHMM2.0	outside	   208   237
+HI914_05434A	TMHMM2.0	TMhelix	   238   260
+HI914_05434A	TMHMM2.0	inside	   261   279
+HI914_05434A	TMHMM2.0	TMhelix	   280   299
+HI914_05434A	TMHMM2.0	outside	   300   323
+HI914_05434A	TMHMM2.0	TMhelix	   324   343
+HI914_05434A	TMHMM2.0	inside	   344   362
+HI914_05434A	TMHMM2.0	TMhelix	   363   385
+HI914_05434A	TMHMM2.0	outside	   386   420
+# HI914_05438A Length: 532
+# HI914_05438A Number of predicted TMHs:  0
+# HI914_05438A Exp number of AAs in TMHs: 0.03657
+# HI914_05438A Exp number, first 60 AAs:  0.02365
+# HI914_05438A Total prob of N-in:        0.00172
+HI914_05438A	TMHMM2.0	outside	     1   532
+# HI914_05495A Length: 179
+# HI914_05495A Number of predicted TMHs:  0
+# HI914_05495A Exp number of AAs in TMHs: 0.31488
+# HI914_05495A Exp number, first 60 AAs:  0.14338
+# HI914_05495A Total prob of N-in:        0.04275
+HI914_05495A	TMHMM2.0	outside	     1   179
+# HI914_05503A Length: 325
+# HI914_05503A Number of predicted TMHs:  1
+# HI914_05503A Exp number of AAs in TMHs: 33.87067
+# HI914_05503A Exp number, first 60 AAs:  4.09725
+# HI914_05503A Total prob of N-in:        0.20326
+HI914_05503A	TMHMM2.0	outside	     1   224
+HI914_05503A	TMHMM2.0	TMhelix	   225   247
+HI914_05503A	TMHMM2.0	inside	   248   325
+# HI914_05526A Length: 206
+# HI914_05526A Number of predicted TMHs:  0
+# HI914_05526A Exp number of AAs in TMHs: 5.79169
+# HI914_05526A Exp number, first 60 AAs:  5.79153
+# HI914_05526A Total prob of N-in:        0.28892
+HI914_05526A	TMHMM2.0	outside	     1   206
+# HI914_05551A Length: 206
+# HI914_05551A Number of predicted TMHs:  0
+# HI914_05551A Exp number of AAs in TMHs: 5.79169
+# HI914_05551A Exp number, first 60 AAs:  5.79153
+# HI914_05551A Total prob of N-in:        0.28892
+HI914_05551A	TMHMM2.0	outside	     1   206
+# HI914_05558A Length: 110
+# HI914_05558A Number of predicted TMHs:  0
+# HI914_05558A Exp number of AAs in TMHs: 12.6089
+# HI914_05558A Exp number, first 60 AAs:  12.54125
+# HI914_05558A Total prob of N-in:        0.23676
+# HI914_05558A POSSIBLE N-term signal sequence
+HI914_05558A	TMHMM2.0	outside	     1   110
+# HI914_05600A Length: 532
+# HI914_05600A Number of predicted TMHs:  0
+# HI914_05600A Exp number of AAs in TMHs: 12.67549
+# HI914_05600A Exp number, first 60 AAs:  12.67041
+# HI914_05600A Total prob of N-in:        0.59882
+# HI914_05600A POSSIBLE N-term signal sequence
+HI914_05600A	TMHMM2.0	outside	     1   532
+# HI914_05609A Length: 115
+# HI914_05609A Number of predicted TMHs:  1
+# HI914_05609A Exp number of AAs in TMHs: 33.0083
+# HI914_05609A Exp number, first 60 AAs:  21.56275
+# HI914_05609A Total prob of N-in:        0.86066
+# HI914_05609A POSSIBLE N-term signal sequence
+HI914_05609A	TMHMM2.0	inside	     1    12
+HI914_05609A	TMHMM2.0	TMhelix	    13    35
+HI914_05609A	TMHMM2.0	outside	    36   115
+# HI914_05615A Length: 324
+# HI914_05615A Number of predicted TMHs:  7
+# HI914_05615A Exp number of AAs in TMHs: 148.98906
+# HI914_05615A Exp number, first 60 AAs:  16.56151
+# HI914_05615A Total prob of N-in:        0.59216
+# HI914_05615A POSSIBLE N-term signal sequence
+HI914_05615A	TMHMM2.0	outside	     1     9
+HI914_05615A	TMHMM2.0	TMhelix	    10    27
+HI914_05615A	TMHMM2.0	inside	    28   137
+HI914_05615A	TMHMM2.0	TMhelix	   138   156
+HI914_05615A	TMHMM2.0	outside	   157   165
+HI914_05615A	TMHMM2.0	TMhelix	   166   188
+HI914_05615A	TMHMM2.0	inside	   189   199
+HI914_05615A	TMHMM2.0	TMhelix	   200   217
+HI914_05615A	TMHMM2.0	outside	   218   226
+HI914_05615A	TMHMM2.0	TMhelix	   227   249
+HI914_05615A	TMHMM2.0	inside	   250   257
+HI914_05615A	TMHMM2.0	TMhelix	   258   276
+HI914_05615A	TMHMM2.0	outside	   277   290
+HI914_05615A	TMHMM2.0	TMhelix	   291   310
+HI914_05615A	TMHMM2.0	inside	   311   324
+# HI914_05645A Length: 718
+# HI914_05645A Number of predicted TMHs:  0
+# HI914_05645A Exp number of AAs in TMHs: 0.662660000000000001
+# HI914_05645A Exp number, first 60 AAs:  0.5359
+# HI914_05645A Total prob of N-in:        0.02621
+HI914_05645A	TMHMM2.0	outside	     1   718
+# HI914_05684A Length: 89
+# HI914_05684A Number of predicted TMHs:  0
+# HI914_05684A Exp number of AAs in TMHs: 0.22637
+# HI914_05684A Exp number, first 60 AAs:  0.19248
+# HI914_05684A Total prob of N-in:        0.09245
+HI914_05684A	TMHMM2.0	outside	     1    89
+# HI914_05692A Length: 512
+# HI914_05692A Number of predicted TMHs:  0
+# HI914_05692A Exp number of AAs in TMHs: 0.20348
+# HI914_05692A Exp number, first 60 AAs:  0.06871
+# HI914_05692A Total prob of N-in:        0.00577
+HI914_05692A	TMHMM2.0	outside	     1   512
+# HI914_05712A Length: 186
+# HI914_05712A Number of predicted TMHs:  0
+# HI914_05712A Exp number of AAs in TMHs: 1.66419
+# HI914_05712A Exp number, first 60 AAs:  1.25321
+# HI914_05712A Total prob of N-in:        0.09714
+HI914_05712A	TMHMM2.0	outside	     1   186
+# HI914_05714A Length: 566
+# HI914_05714A Number of predicted TMHs:  0
+# HI914_05714A Exp number of AAs in TMHs: 0.12523
+# HI914_05714A Exp number, first 60 AAs:  0.12503
+# HI914_05714A Total prob of N-in:        0.00611
+HI914_05714A	TMHMM2.0	outside	     1   566
+# HI914_05752A Length: 269
+# HI914_05752A Number of predicted TMHs:  0
+# HI914_05752A Exp number of AAs in TMHs: 1.08962
+# HI914_05752A Exp number, first 60 AAs:  0.05243
+# HI914_05752A Total prob of N-in:        0.01275
+HI914_05752A	TMHMM2.0	outside	     1   269
+# HI914_05770A Length: 188
+# HI914_05770A Number of predicted TMHs:  0
+# HI914_05770A Exp number of AAs in TMHs: 0.763760000000000001
+# HI914_05770A Exp number, first 60 AAs:  0.76173
+# HI914_05770A Total prob of N-in:        0.14687
+HI914_05770A	TMHMM2.0	outside	     1   188
+# HI914_05779A Length: 229
+# HI914_05779A Number of predicted TMHs:  0
+# HI914_05779A Exp number of AAs in TMHs: 2.0857
+# HI914_05779A Exp number, first 60 AAs:  2.07814
+# HI914_05779A Total prob of N-in:        0.12624
+HI914_05779A	TMHMM2.0	outside	     1   229
+# HI914_05811A Length: 89
+# HI914_05811A Number of predicted TMHs:  1
+# HI914_05811A Exp number of AAs in TMHs: 21.87019
+# HI914_05811A Exp number, first 60 AAs:  21.87019
+# HI914_05811A Total prob of N-in:        0.95079
+# HI914_05811A POSSIBLE N-term signal sequence
+HI914_05811A	TMHMM2.0	inside	     1     4
+HI914_05811A	TMHMM2.0	TMhelix	     5    27
+HI914_05811A	TMHMM2.0	outside	    28    89
+# HI914_05824A Length: 207
+# HI914_05824A Number of predicted TMHs:  2
+# HI914_05824A Exp number of AAs in TMHs: 32.35786
+# HI914_05824A Exp number, first 60 AAs:  14.14891
+# HI914_05824A Total prob of N-in:        0.19475
+# HI914_05824A POSSIBLE N-term signal sequence
+HI914_05824A	TMHMM2.0	outside	     1     3
+HI914_05824A	TMHMM2.0	TMhelix	     4    23
+HI914_05824A	TMHMM2.0	inside	    24   174
+HI914_05824A	TMHMM2.0	TMhelix	   175   197
+HI914_05824A	TMHMM2.0	outside	   198   207
+# HI914_05836A Length: 62
+# HI914_05836A Number of predicted TMHs:  1
+# HI914_05836A Exp number of AAs in TMHs: 13.73678
+# HI914_05836A Exp number, first 60 AAs:  13.73678
+# HI914_05836A Total prob of N-in:        0.18103
+# HI914_05836A POSSIBLE N-term signal sequence
+HI914_05836A	TMHMM2.0	outside	     1     3
+HI914_05836A	TMHMM2.0	TMhelix	     4    21
+HI914_05836A	TMHMM2.0	inside	    22    62
+# HI914_05857A Length: 157
+# HI914_05857A Number of predicted TMHs:  0
+# HI914_05857A Exp number of AAs in TMHs: 1.90201
+# HI914_05857A Exp number, first 60 AAs:  1.90168
+# HI914_05857A Total prob of N-in:        0.23958
+HI914_05857A	TMHMM2.0	outside	     1   157
+# HI914_05869A Length: 332
+# HI914_05869A Number of predicted TMHs:  0
+# HI914_05869A Exp number of AAs in TMHs: 15.15403
+# HI914_05869A Exp number, first 60 AAs:  0.00303
+# HI914_05869A Total prob of N-in:        0.02368
+HI914_05869A	TMHMM2.0	outside	     1   332
+# HI914_05904A Length: 446
+# HI914_05904A Number of predicted TMHs:  0
+# HI914_05904A Exp number of AAs in TMHs: 1.95985
+# HI914_05904A Exp number, first 60 AAs:  1.91243
+# HI914_05904A Total prob of N-in:        0.09026
+HI914_05904A	TMHMM2.0	outside	     1   446
+# HI914_05906A Length: 588
+# HI914_05906A Number of predicted TMHs:  0
+# HI914_05906A Exp number of AAs in TMHs: 0.961760000000000001
+# HI914_05906A Exp number, first 60 AAs:  0.8939
+# HI914_05906A Total prob of N-in:        0.04446
+HI914_05906A	TMHMM2.0	outside	     1   588
+# HI914_05918A Length: 295
+# HI914_05918A Number of predicted TMHs:  1
+# HI914_05918A Exp number of AAs in TMHs: 24.535
+# HI914_05918A Exp number, first 60 AAs:  21.16746
+# HI914_05918A Total prob of N-in:        0.74474
+# HI914_05918A POSSIBLE N-term signal sequence
+HI914_05918A	TMHMM2.0	inside	     1     1
+HI914_05918A	TMHMM2.0	TMhelix	     2    24
+HI914_05918A	TMHMM2.0	outside	    25   295
+# HI914_05938A Length: 127
+# HI914_05938A Number of predicted TMHs:  0
+# HI914_05938A Exp number of AAs in TMHs: 0.17346
+# HI914_05938A Exp number, first 60 AAs:  0.08909
+# HI914_05938A Total prob of N-in:        0.24581
+HI914_05938A	TMHMM2.0	outside	     1   127
+# HI914_05953A Length: 179
+# HI914_05953A Number of predicted TMHs:  0
+# HI914_05953A Exp number of AAs in TMHs: 2.21395
+# HI914_05953A Exp number, first 60 AAs:  2.21133
+# HI914_05953A Total prob of N-in:        0.16177
+HI914_05953A	TMHMM2.0	outside	     1   179
+# HI914_06054A Length: 96
+# HI914_06054A Number of predicted TMHs:  0
+# HI914_06054A Exp number of AAs in TMHs: 5.87473
+# HI914_06054A Exp number, first 60 AAs:  5.82335
+# HI914_06054A Total prob of N-in:        0.55057
+HI914_06054A	TMHMM2.0	inside	     1    96
+# HI914_06057A Length: 535
+# HI914_06057A Number of predicted TMHs:  0
+# HI914_06057A Exp number of AAs in TMHs: 0.26525
+# HI914_06057A Exp number, first 60 AAs:  0.18097
+# HI914_06057A Total prob of N-in:        0.01482
+HI914_06057A	TMHMM2.0	outside	     1   535
+# HI914_06065A Length: 371
+# HI914_06065A Number of predicted TMHs:  0
+# HI914_06065A Exp number of AAs in TMHs: 4.5933
+# HI914_06065A Exp number, first 60 AAs:  4.59097
+# HI914_06065A Total prob of N-in:        0.20435
+HI914_06065A	TMHMM2.0	outside	     1   371
+# HI914_06076A Length: 536
+# HI914_06076A Number of predicted TMHs:  7
+# HI914_06076A Exp number of AAs in TMHs: 160.66211
+# HI914_06076A Exp number, first 60 AAs:  3.31237
+# HI914_06076A Total prob of N-in:        0.18684
+HI914_06076A	TMHMM2.0	outside	     1   184
+HI914_06076A	TMHMM2.0	TMhelix	   185   207
+HI914_06076A	TMHMM2.0	inside	   208   218
+HI914_06076A	TMHMM2.0	TMhelix	   219   238
+HI914_06076A	TMHMM2.0	outside	   239   252
+HI914_06076A	TMHMM2.0	TMhelix	   253   275
+HI914_06076A	TMHMM2.0	inside	   276   295
+HI914_06076A	TMHMM2.0	TMhelix	   296   315
+HI914_06076A	TMHMM2.0	outside	   316   324
+HI914_06076A	TMHMM2.0	TMhelix	   325   347
+HI914_06076A	TMHMM2.0	inside	   348   367
+HI914_06076A	TMHMM2.0	TMhelix	   368   390
+HI914_06076A	TMHMM2.0	outside	   391   404
+HI914_06076A	TMHMM2.0	TMhelix	   405   427
+HI914_06076A	TMHMM2.0	inside	   428   536
+# HI914_06080A Length: 263
+# HI914_06080A Number of predicted TMHs:  0
+# HI914_06080A Exp number of AAs in TMHs: 0.38213
+# HI914_06080A Exp number, first 60 AAs:  0.38213
+# HI914_06080A Total prob of N-in:        0.01984
+HI914_06080A	TMHMM2.0	outside	     1   263
+# HI914_06190A Length: 1491
+# HI914_06190A Number of predicted TMHs:  0
+# HI914_06190A Exp number of AAs in TMHs: 8.78468999999999997
+# HI914_06190A Exp number, first 60 AAs:  8.65128
+# HI914_06190A Total prob of N-in:        0.42357
+HI914_06190A	TMHMM2.0	outside	     1  1491
+# HI914_06205A Length: 265
+# HI914_06205A Number of predicted TMHs:  1
+# HI914_06205A Exp number of AAs in TMHs: 38.26339
+# HI914_06205A Exp number, first 60 AAs:  14.75504
+# HI914_06205A Total prob of N-in:        0.75230
+# HI914_06205A POSSIBLE N-term signal sequence
+HI914_06205A	TMHMM2.0	outside	     1   175
+HI914_06205A	TMHMM2.0	TMhelix	   176   198
+HI914_06205A	TMHMM2.0	inside	   199   265
+# HI914_06252A Length: 510
+# HI914_06252A Number of predicted TMHs:  0
+# HI914_06252A Exp number of AAs in TMHs: 3.85723
+# HI914_06252A Exp number, first 60 AAs:  3.76761
+# HI914_06252A Total prob of N-in:        0.17454
+HI914_06252A	TMHMM2.0	outside	     1   510
+# HI914_06259A Length: 506
+# HI914_06259A Number of predicted TMHs:  1
+# HI914_06259A Exp number of AAs in TMHs: 28.24482
+# HI914_06259A Exp number, first 60 AAs:  13.18607
+# HI914_06259A Total prob of N-in:        0.59067
+# HI914_06259A POSSIBLE N-term signal sequence
+HI914_06259A	TMHMM2.0	outside	     1   453
+HI914_06259A	TMHMM2.0	TMhelix	   454   476
+HI914_06259A	TMHMM2.0	inside	   477   506
+# HI914_06262A Length: 506
+# HI914_06262A Number of predicted TMHs:  0
+# HI914_06262A Exp number of AAs in TMHs: 18.24424
+# HI914_06262A Exp number, first 60 AAs:  4.65161
+# HI914_06262A Total prob of N-in:        0.21544
+HI914_06262A	TMHMM2.0	outside	     1   506
+# HI914_06266A Length: 504
+# HI914_06266A Number of predicted TMHs:  0
+# HI914_06266A Exp number of AAs in TMHs: 4.92677
+# HI914_06266A Exp number, first 60 AAs:  3.92618
+# HI914_06266A Total prob of N-in:        0.18683
+HI914_06266A	TMHMM2.0	outside	     1   504
+# HI914_06271A Length: 507
+# HI914_06271A Number of predicted TMHs:  1
+# HI914_06271A Exp number of AAs in TMHs: 22.96651
+# HI914_06271A Exp number, first 60 AAs:  4.25212
+# HI914_06271A Total prob of N-in:        0.20093
+HI914_06271A	TMHMM2.0	outside	     1   453
+HI914_06271A	TMHMM2.0	TMhelix	   454   476
+HI914_06271A	TMHMM2.0	inside	   477   507
+# HI914_06289A Length: 509
+# HI914_06289A Number of predicted TMHs:  0
+# HI914_06289A Exp number of AAs in TMHs: 0.14113
+# HI914_06289A Exp number, first 60 AAs:  0.1231
+# HI914_06289A Total prob of N-in:        0.00657
+HI914_06289A	TMHMM2.0	outside	     1   509
+# HI914_06291A Length: 509
+# HI914_06291A Number of predicted TMHs:  0
+# HI914_06291A Exp number of AAs in TMHs: 0.15359
+# HI914_06291A Exp number, first 60 AAs:  0.12419
+# HI914_06291A Total prob of N-in:        0.00664
+HI914_06291A	TMHMM2.0	outside	     1   509
+# HI914_06295A Length: 509
+# HI914_06295A Number of predicted TMHs:  0
+# HI914_06295A Exp number of AAs in TMHs: 0.12833
+# HI914_06295A Exp number, first 60 AAs:  0.12036
+# HI914_06295A Total prob of N-in:        0.00639
+HI914_06295A	TMHMM2.0	outside	     1   509
+# HI914_06301A Length: 1462
+# HI914_06301A Number of predicted TMHs:  0
+# HI914_06301A Exp number of AAs in TMHs: 0.06027
+# HI914_06301A Exp number, first 60 AAs:  0.02357
+# HI914_06301A Total prob of N-in:        0.00126
+HI914_06301A	TMHMM2.0	outside	     1  1462
+# HI914_06316A Length: 598
+# HI914_06316A Number of predicted TMHs:  0
+# HI914_06316A Exp number of AAs in TMHs: 19.64592
+# HI914_06316A Exp number, first 60 AAs:  19.61617
+# HI914_06316A Total prob of N-in:        0.58927
+# HI914_06316A POSSIBLE N-term signal sequence
+HI914_06316A	TMHMM2.0	outside	     1   598
+# HI914_06320A Length: 76
+# HI914_06320A Number of predicted TMHs:  0
+# HI914_06320A Exp number of AAs in TMHs: 5.85629
+# HI914_06320A Exp number, first 60 AAs:  5.85629
+# HI914_06320A Total prob of N-in:        0.20482
+HI914_06320A	TMHMM2.0	outside	     1    76
+# HI914_06354A Length: 290
+# HI914_06354A Number of predicted TMHs:  0
+# HI914_06354A Exp number of AAs in TMHs: 11.57662
+# HI914_06354A Exp number, first 60 AAs:  11.57587
+# HI914_06354A Total prob of N-in:        0.53050
+# HI914_06354A POSSIBLE N-term signal sequence
+HI914_06354A	TMHMM2.0	outside	     1   290
+# HI914_06367A Length: 252
+# HI914_06367A Number of predicted TMHs:  0
+# HI914_06367A Exp number of AAs in TMHs: 1.23925
+# HI914_06367A Exp number, first 60 AAs:  1.23246
+# HI914_06367A Total prob of N-in:        0.06409
+HI914_06367A	TMHMM2.0	outside	     1   252
+# HI914_06371A Length: 186
+# HI914_06371A Number of predicted TMHs:  0
+# HI914_06371A Exp number of AAs in TMHs: 0.62928
+# HI914_06371A Exp number, first 60 AAs:  0.59921
+# HI914_06371A Total prob of N-in:        0.06644
+HI914_06371A	TMHMM2.0	outside	     1   186
+# HI914_06374A Length: 197
+# HI914_06374A Number of predicted TMHs:  0
+# HI914_06374A Exp number of AAs in TMHs: 0.76124
+# HI914_06374A Exp number, first 60 AAs:  0.6338
+# HI914_06374A Total prob of N-in:        0.06566
+HI914_06374A	TMHMM2.0	outside	     1   197
+# HI914_06375A Length: 197
+# HI914_06375A Number of predicted TMHs:  0
+# HI914_06375A Exp number of AAs in TMHs: 0.620240000000000001
+# HI914_06375A Exp number, first 60 AAs:  0.61218
+# HI914_06375A Total prob of N-in:        0.06197
+HI914_06375A	TMHMM2.0	outside	     1   197
+# HI914_06377A Length: 176
+# HI914_06377A Number of predicted TMHs:  0
+# HI914_06377A Exp number of AAs in TMHs: 0.47929
+# HI914_06377A Exp number, first 60 AAs:  0.47929
+# HI914_06377A Total prob of N-in:        0.10116
+HI914_06377A	TMHMM2.0	outside	     1   176
+# HI914_06381A Length: 412
+# HI914_06381A Number of predicted TMHs:  0
+# HI914_06381A Exp number of AAs in TMHs: 0.02471
+# HI914_06381A Exp number, first 60 AAs:  0.02277
+# HI914_06381A Total prob of N-in:        0.00123
+HI914_06381A	TMHMM2.0	outside	     1   412
+# HI914_06387A Length: 201
+# HI914_06387A Number of predicted TMHs:  0
+# HI914_06387A Exp number of AAs in TMHs: 2.89168
+# HI914_06387A Exp number, first 60 AAs:  2.89129
+# HI914_06387A Total prob of N-in:        0.15926
+HI914_06387A	TMHMM2.0	outside	     1   201
+# HI914_06412A Length: 197
+# HI914_06412A Number of predicted TMHs:  0
+# HI914_06412A Exp number of AAs in TMHs: 14.73448
+# HI914_06412A Exp number, first 60 AAs:  14.2997
+# HI914_06412A Total prob of N-in:        0.57089
+# HI914_06412A POSSIBLE N-term signal sequence
+HI914_06412A	TMHMM2.0	outside	     1   197
+# HI914_06413A Length: 215
+# HI914_06413A Number of predicted TMHs:  0
+# HI914_06413A Exp number of AAs in TMHs: 0.76465
+# HI914_06413A Exp number, first 60 AAs:  0.6617
+# HI914_06413A Total prob of N-in:        0.22769
+HI914_06413A	TMHMM2.0	outside	     1   215
+# HI914_06414A Length: 235
+# HI914_06414A Number of predicted TMHs:  0
+# HI914_06414A Exp number of AAs in TMHs: 13.93656
+# HI914_06414A Exp number, first 60 AAs:  13.91169
+# HI914_06414A Total prob of N-in:        0.39233
+# HI914_06414A POSSIBLE N-term signal sequence
+HI914_06414A	TMHMM2.0	outside	     1   235
+# HI914_06415A Length: 600
+# HI914_06415A Number of predicted TMHs:  0
+# HI914_06415A Exp number of AAs in TMHs: 0.05609
+# HI914_06415A Exp number, first 60 AAs:  0.01283
+# HI914_06415A Total prob of N-in:        0.00125
+HI914_06415A	TMHMM2.0	outside	     1   600
+# HI914_06416A Length: 601
+# HI914_06416A Number of predicted TMHs:  0
+# HI914_06416A Exp number of AAs in TMHs: 0.06086
+# HI914_06416A Exp number, first 60 AAs:  0.01283
+# HI914_06416A Total prob of N-in:        0.00126
+HI914_06416A	TMHMM2.0	outside	     1   601
+# HI914_06419A Length: 363
+# HI914_06419A Number of predicted TMHs:  3
+# HI914_06419A Exp number of AAs in TMHs: 56.30874
+# HI914_06419A Exp number, first 60 AAs:  19.89192
+# HI914_06419A Total prob of N-in:        0.87781
+# HI914_06419A POSSIBLE N-term signal sequence
+HI914_06419A	TMHMM2.0	inside	     1     1
+HI914_06419A	TMHMM2.0	TMhelix	     2    24
+HI914_06419A	TMHMM2.0	outside	    25    62
+HI914_06419A	TMHMM2.0	TMhelix	    63    85
+HI914_06419A	TMHMM2.0	inside	    86   342
+HI914_06419A	TMHMM2.0	TMhelix	   343   362
+HI914_06419A	TMHMM2.0	outside	   363   363
+# HI914_06421A Length: 198
+# HI914_06421A Number of predicted TMHs:  0
+# HI914_06421A Exp number of AAs in TMHs: 10.97876
+# HI914_06421A Exp number, first 60 AAs:  10.83275
+# HI914_06421A Total prob of N-in:        0.35030
+# HI914_06421A POSSIBLE N-term signal sequence
+HI914_06421A	TMHMM2.0	outside	     1   198
+# HI914_06427A Length: 116
+# HI914_06427A Number of predicted TMHs:  0
+# HI914_06427A Exp number of AAs in TMHs: 1.01775
+# HI914_06427A Exp number, first 60 AAs:  1.01775
+# HI914_06427A Total prob of N-in:        0.20175
+HI914_06427A	TMHMM2.0	outside	     1   116
+# HI914_06440A Length: 643
+# HI914_06440A Number of predicted TMHs:  1
+# HI914_06440A Exp number of AAs in TMHs: 21.80133
+# HI914_06440A Exp number, first 60 AAs:  20.97006
+# HI914_06440A Total prob of N-in:        0.94454
+# HI914_06440A POSSIBLE N-term signal sequence
+HI914_06440A	TMHMM2.0	inside	     1     4
+HI914_06440A	TMHMM2.0	TMhelix	     5    27
+HI914_06440A	TMHMM2.0	outside	    28   643
+# HI914_06453A Length: 264
+# HI914_06453A Number of predicted TMHs:  0
+# HI914_06453A Exp number of AAs in TMHs: 1.03806
+# HI914_06453A Exp number, first 60 AAs:  0.4068
+# HI914_06453A Total prob of N-in:        0.12326
+HI914_06453A	TMHMM2.0	outside	     1   264
+# HI914_06454A Length: 243
+# HI914_06454A Number of predicted TMHs:  0
+# HI914_06454A Exp number of AAs in TMHs: 0.93419
+# HI914_06454A Exp number, first 60 AAs:  0.92913
+# HI914_06454A Total prob of N-in:        0.05209
+HI914_06454A	TMHMM2.0	outside	     1   243
+# HI914_06455A Length: 264
+# HI914_06455A Number of predicted TMHs:  0
+# HI914_06455A Exp number of AAs in TMHs: 5.97647
+# HI914_06455A Exp number, first 60 AAs:  5.97371
+# HI914_06455A Total prob of N-in:        0.49461
+HI914_06455A	TMHMM2.0	outside	     1   264
+# HI914_06457A Length: 288
+# HI914_06457A Number of predicted TMHs:  0
+# HI914_06457A Exp number of AAs in TMHs: 0.12508
+# HI914_06457A Exp number, first 60 AAs:  0.12189
+# HI914_06457A Total prob of N-in:        0.01592
+HI914_06457A	TMHMM2.0	outside	     1   288
+# HI914_06459A Length: 819
+# HI914_06459A Number of predicted TMHs:  1
+# HI914_06459A Exp number of AAs in TMHs: 29.6544
+# HI914_06459A Exp number, first 60 AAs:  5.93766
+# HI914_06459A Total prob of N-in:        0.27774
+HI914_06459A	TMHMM2.0	outside	     1   717
+HI914_06459A	TMHMM2.0	TMhelix	   718   740
+HI914_06459A	TMHMM2.0	inside	   741   819
+# HI914_06477A Length: 621
+# HI914_06477A Number of predicted TMHs:  0
+# HI914_06477A Exp number of AAs in TMHs: 1.24283
+# HI914_06477A Exp number, first 60 AAs:  0.68495
+# HI914_06477A Total prob of N-in:        0.03908
+HI914_06477A	TMHMM2.0	outside	     1   621
+# HI914_06526A Length: 516
+# HI914_06526A Number of predicted TMHs:  1
+# HI914_06526A Exp number of AAs in TMHs: 21.3417
+# HI914_06526A Exp number, first 60 AAs:  21.3417
+# HI914_06526A Total prob of N-in:        0.95491
+# HI914_06526A POSSIBLE N-term signal sequence
+HI914_06526A	TMHMM2.0	inside	     1     8
+HI914_06526A	TMHMM2.0	TMhelix	     9    31
+HI914_06526A	TMHMM2.0	outside	    32   516
+# HI914_06535A Length: 184
+# HI914_06535A Number of predicted TMHs:  0
+# HI914_06535A Exp number of AAs in TMHs: 1.53234
+# HI914_06535A Exp number, first 60 AAs:  1.53234
+# HI914_06535A Total prob of N-in:        0.03173
+HI914_06535A	TMHMM2.0	outside	     1   184
+# HI914_06601A Length: 259
+# HI914_06601A Number of predicted TMHs:  0
+# HI914_06601A Exp number of AAs in TMHs: 7.75904
+# HI914_06601A Exp number, first 60 AAs:  5.88564
+# HI914_06601A Total prob of N-in:        0.27395
+HI914_06601A	TMHMM2.0	outside	     1   259
+# HI914_06621A Length: 382
+# HI914_06621A Number of predicted TMHs:  0
+# HI914_06621A Exp number of AAs in TMHs: 0.00721
+# HI914_06621A Exp number, first 60 AAs:  0.00721
+# HI914_06621A Total prob of N-in:        0.00320
+HI914_06621A	TMHMM2.0	outside	     1   382
+# HI914_06698A Length: 76
+# HI914_06698A Number of predicted TMHs:  0
+# HI914_06698A Exp number of AAs in TMHs: 4.7038
+# HI914_06698A Exp number, first 60 AAs:  4.7038
+# HI914_06698A Total prob of N-in:        0.14284
+HI914_06698A	TMHMM2.0	outside	     1    76
+# HI914_06711A Length: 866
+# HI914_06711A Number of predicted TMHs:  0
+# HI914_06711A Exp number of AAs in TMHs: 0.09675
+# HI914_06711A Exp number, first 60 AAs:  0.00308
+# HI914_06711A Total prob of N-in:        0.00030
+HI914_06711A	TMHMM2.0	outside	     1   866
+# HI914_06757A Length: 504
+# HI914_06757A Number of predicted TMHs:  0
+# HI914_06757A Exp number of AAs in TMHs: 4.80400000000000001
+# HI914_06757A Exp number, first 60 AAs:  2.82719
+# HI914_06757A Total prob of N-in:        0.12856
+HI914_06757A	TMHMM2.0	outside	     1   504
+# HI914_06782A Length: 1002
+# HI914_06782A Number of predicted TMHs:  1
+# HI914_06782A Exp number of AAs in TMHs: 22.50378
+# HI914_06782A Exp number, first 60 AAs:  22.44351
+# HI914_06782A Total prob of N-in:        0.98018
+# HI914_06782A POSSIBLE N-term signal sequence
+HI914_06782A	TMHMM2.0	inside	     1     6
+HI914_06782A	TMHMM2.0	TMhelix	     7    29
+HI914_06782A	TMHMM2.0	outside	    30  1002
+# HI914_06793A Length: 273
+# HI914_06793A Number of predicted TMHs:  0
+# HI914_06793A Exp number of AAs in TMHs: 4.92228
+# HI914_06793A Exp number, first 60 AAs:  0.28211
+# HI914_06793A Total prob of N-in:        0.03594
+HI914_06793A	TMHMM2.0	outside	     1   273
+# HI914_06808A Length: 590
+# HI914_06808A Number of predicted TMHs:  0
+# HI914_06808A Exp number of AAs in TMHs: 10.50322
+# HI914_06808A Exp number, first 60 AAs:  0.12721
+# HI914_06808A Total prob of N-in:        0.34418
+HI914_06808A	TMHMM2.0	outside	     1   590
+# HI914_06824A Length: 90
+# HI914_06824A Number of predicted TMHs:  0
+# HI914_06824A Exp number of AAs in TMHs: 9.31581
+# HI914_06824A Exp number, first 60 AAs:  9.31254
+# HI914_06824A Total prob of N-in:        0.07645
+HI914_06824A	TMHMM2.0	outside	     1    90
+# HI914_06831A Length: 493
+# HI914_06831A Number of predicted TMHs:  0
+# HI914_06831A Exp number of AAs in TMHs: 0.22301
+# HI914_06831A Exp number, first 60 AAs:  0.21726
+# HI914_06831A Total prob of N-in:        0.01217
+HI914_06831A	TMHMM2.0	outside	     1   493
+# HI914_06836A Length: 504
+# HI914_06836A Number of predicted TMHs:  0
+# HI914_06836A Exp number of AAs in TMHs: 5.14892
+# HI914_06836A Exp number, first 60 AAs:  5.05564
+# HI914_06836A Total prob of N-in:        0.27940
+HI914_06836A	TMHMM2.0	outside	     1   504
+# HI914_06893A Length: 546
+# HI914_06893A Number of predicted TMHs:  0
+# HI914_06893A Exp number of AAs in TMHs: 20.0342
+# HI914_06893A Exp number, first 60 AAs:  17.22327
+# HI914_06893A Total prob of N-in:        0.23967
+# HI914_06893A POSSIBLE N-term signal sequence
+HI914_06893A	TMHMM2.0	outside	     1   546
+# HI914_06931A Length: 194
+# HI914_06931A Number of predicted TMHs:  0
+# HI914_06931A Exp number of AAs in TMHs: 0.20479
+# HI914_06931A Exp number, first 60 AAs:  0.20329
+# HI914_06931A Total prob of N-in:        0.04370
+HI914_06931A	TMHMM2.0	outside	     1   194
+# HI914_06942A Length: 94
+# HI914_06942A Number of predicted TMHs:  0
+# HI914_06942A Exp number of AAs in TMHs: 6.02796
+# HI914_06942A Exp number, first 60 AAs:  6.02775
+# HI914_06942A Total prob of N-in:        0.32251
+HI914_06942A	TMHMM2.0	outside	     1    94
+# HI914_06968A Length: 312
+# HI914_06968A Number of predicted TMHs:  2
+# HI914_06968A Exp number of AAs in TMHs: 38.26541
+# HI914_06968A Exp number, first 60 AAs:  14.26399
+# HI914_06968A Total prob of N-in:        0.86083
+# HI914_06968A POSSIBLE N-term signal sequence
+HI914_06968A	TMHMM2.0	inside	     1    12
+HI914_06968A	TMHMM2.0	TMhelix	    13    31
+HI914_06968A	TMHMM2.0	outside	    32   259
+HI914_06968A	TMHMM2.0	TMhelix	   260   282
+HI914_06968A	TMHMM2.0	inside	   283   312
+# HI914_07008A Length: 765
+# HI914_07008A Number of predicted TMHs:  0
+# HI914_07008A Exp number of AAs in TMHs: 8.14023999999999998
+# HI914_07008A Exp number, first 60 AAs:  8.11137
+# HI914_07008A Total prob of N-in:        0.40326
+HI914_07008A	TMHMM2.0	outside	     1   765
+# HI914_07016A Length: 191
+# HI914_07016A Number of predicted TMHs:  0
+# HI914_07016A Exp number of AAs in TMHs: 1.71745
+# HI914_07016A Exp number, first 60 AAs:  1.71032
+# HI914_07016A Total prob of N-in:        0.27414
+HI914_07016A	TMHMM2.0	outside	     1   191
+# HI914_07026A Length: 149
+# HI914_07026A Number of predicted TMHs:  0
+# HI914_07026A Exp number of AAs in TMHs: 0.06102
+# HI914_07026A Exp number, first 60 AAs:  0.06102
+# HI914_07026A Total prob of N-in:        0.04405
+HI914_07026A	TMHMM2.0	outside	     1   149
+# HI914_07030A Length: 962
+# HI914_07030A Number of predicted TMHs:  0
+# HI914_07030A Exp number of AAs in TMHs: 3.50379000000000001
+# HI914_07030A Exp number, first 60 AAs:  3.48485
+# HI914_07030A Total prob of N-in:        0.18575
+HI914_07030A	TMHMM2.0	outside	     1   962
+# HI914_07039A Length: 165
+# HI914_07039A Number of predicted TMHs:  0
+# HI914_07039A Exp number of AAs in TMHs: 0.01662
+# HI914_07039A Exp number, first 60 AAs:  0.01619
+# HI914_07039A Total prob of N-in:        0.10830
+HI914_07039A	TMHMM2.0	outside	     1   165
+# HI914_07050A Length: 61
+# HI914_07050A Number of predicted TMHs:  0
+# HI914_07050A Exp number of AAs in TMHs: 23.89301
+# HI914_07050A Exp number, first 60 AAs:  23.89301
+# HI914_07050A Total prob of N-in:        0.62574
+# HI914_07050A POSSIBLE N-term signal sequence
+HI914_07050A	TMHMM2.0	outside	     1    61
+# HI914_07139A Length: 132
+# HI914_07139A Number of predicted TMHs:  0
+# HI914_07139A Exp number of AAs in TMHs: 2.02795
+# HI914_07139A Exp number, first 60 AAs:  2.02594
+# HI914_07139A Total prob of N-in:        0.39772
+HI914_07139A	TMHMM2.0	outside	     1   132
+# HI914_07149A Length: 149
+# HI914_07149A Number of predicted TMHs:  0
+# HI914_07149A Exp number of AAs in TMHs: 3.52527
+# HI914_07149A Exp number, first 60 AAs:  3.46955
+# HI914_07149A Total prob of N-in:        0.13415
+HI914_07149A	TMHMM2.0	outside	     1   149
+# HI914_07156A Length: 462
+# HI914_07156A Number of predicted TMHs:  1
+# HI914_07156A Exp number of AAs in TMHs: 52.20258
+# HI914_07156A Exp number, first 60 AAs:  22.38967
+# HI914_07156A Total prob of N-in:        0.97934
+# HI914_07156A POSSIBLE N-term signal sequence
+HI914_07156A	TMHMM2.0	inside	     1     1
+HI914_07156A	TMHMM2.0	TMhelix	     2    24
+HI914_07156A	TMHMM2.0	outside	    25   462
+# HI914_07167A Length: 647
+# HI914_07167A Number of predicted TMHs:  10
+# HI914_07167A Exp number of AAs in TMHs: 223.37109
+# HI914_07167A Exp number, first 60 AAs:  19.13631
+# HI914_07167A Total prob of N-in:        0.08092
+# HI914_07167A POSSIBLE N-term signal sequence
+HI914_07167A	TMHMM2.0	outside	     1     9
+HI914_07167A	TMHMM2.0	TMhelix	    10    32
+HI914_07167A	TMHMM2.0	inside	    33   272
+HI914_07167A	TMHMM2.0	TMhelix	   273   295
+HI914_07167A	TMHMM2.0	outside	   296   351
+HI914_07167A	TMHMM2.0	TMhelix	   352   374
+HI914_07167A	TMHMM2.0	inside	   375   380
+HI914_07167A	TMHMM2.0	TMhelix	   381   403
+HI914_07167A	TMHMM2.0	outside	   404   417
+HI914_07167A	TMHMM2.0	TMhelix	   418   440
+HI914_07167A	TMHMM2.0	inside	   441   446
+HI914_07167A	TMHMM2.0	TMhelix	   447   469
+HI914_07167A	TMHMM2.0	outside	   470   510
+HI914_07167A	TMHMM2.0	TMhelix	   511   533
+HI914_07167A	TMHMM2.0	inside	   534   539
+HI914_07167A	TMHMM2.0	TMhelix	   540   562
+HI914_07167A	TMHMM2.0	outside	   563   576
+HI914_07167A	TMHMM2.0	TMhelix	   577   596
+HI914_07167A	TMHMM2.0	inside	   597   608
+HI914_07167A	TMHMM2.0	TMhelix	   609   631
+HI914_07167A	TMHMM2.0	outside	   632   647
+# HI914_07191A Length: 333
+# HI914_07191A Number of predicted TMHs:  0
+# HI914_07191A Exp number of AAs in TMHs: 1.48832
+# HI914_07191A Exp number, first 60 AAs:  1.44839
+# HI914_07191A Total prob of N-in:        0.06013
+HI914_07191A	TMHMM2.0	outside	     1   333
+# HI914_07213A Length: 398
+# HI914_07213A Number of predicted TMHs:  0
+# HI914_07213A Exp number of AAs in TMHs: 0.983810000000000002
+# HI914_07213A Exp number, first 60 AAs:  0.88264
+# HI914_07213A Total prob of N-in:        0.05285
+HI914_07213A	TMHMM2.0	outside	     1   398
+# HI914_07215A Length: 395
+# HI914_07215A Number of predicted TMHs:  2
+# HI914_07215A Exp number of AAs in TMHs: 38.8134
+# HI914_07215A Exp number, first 60 AAs:  20.00742
+# HI914_07215A Total prob of N-in:        0.68026
+# HI914_07215A POSSIBLE N-term signal sequence
+HI914_07215A	TMHMM2.0	inside	     1     6
+HI914_07215A	TMHMM2.0	TMhelix	     7    24
+HI914_07215A	TMHMM2.0	outside	    25   373
+HI914_07215A	TMHMM2.0	TMhelix	   374   393
+HI914_07215A	TMHMM2.0	inside	   394   395
+# HI914_07218A Length: 392
+# HI914_07218A Number of predicted TMHs:  0
+# HI914_07218A Exp number of AAs in TMHs: 1.49892
+# HI914_07218A Exp number, first 60 AAs:  1.37204
+# HI914_07218A Total prob of N-in:        0.07117
+HI914_07218A	TMHMM2.0	outside	     1   392
+# HI914_07241A Length: 76
+# HI914_07241A Number of predicted TMHs:  0
+# HI914_07241A Exp number of AAs in TMHs: 6.19482
+# HI914_07241A Exp number, first 60 AAs:  6.19482
+# HI914_07241A Total prob of N-in:        0.23304
+HI914_07241A	TMHMM2.0	outside	     1    76
+# HI914_07252A Length: 482
+# HI914_07252A Number of predicted TMHs:  0
+# HI914_07252A Exp number of AAs in TMHs: 11.8867
+# HI914_07252A Exp number, first 60 AAs:  11.71629
+# HI914_07252A Total prob of N-in:        0.50148
+# HI914_07252A POSSIBLE N-term signal sequence
+HI914_07252A	TMHMM2.0	outside	     1   482
+# HI914_07256A Length: 266
+# HI914_07256A Number of predicted TMHs:  2
+# HI914_07256A Exp number of AAs in TMHs: 46.57165
+# HI914_07256A Exp number, first 60 AAs:  21.55811
+# HI914_07256A Total prob of N-in:        0.38156
+# HI914_07256A POSSIBLE N-term signal sequence
+HI914_07256A	TMHMM2.0	outside	     1     3
+HI914_07256A	TMHMM2.0	TMhelix	     4    26
+HI914_07256A	TMHMM2.0	inside	    27   183
+HI914_07256A	TMHMM2.0	TMhelix	   184   206
+HI914_07256A	TMHMM2.0	outside	   207   266
+# HI914_07258A Length: 461
+# HI914_07258A Number of predicted TMHs:  10
+# HI914_07258A Exp number of AAs in TMHs: 209.92704
+# HI914_07258A Exp number, first 60 AAs:  23.00547
+# HI914_07258A Total prob of N-in:        0.87689
+# HI914_07258A POSSIBLE N-term signal sequence
+HI914_07258A	TMHMM2.0	inside	     1    46
+HI914_07258A	TMHMM2.0	TMhelix	    47    69
+HI914_07258A	TMHMM2.0	outside	    70    72
+HI914_07258A	TMHMM2.0	TMhelix	    73    95
+HI914_07258A	TMHMM2.0	inside	    96   106
+HI914_07258A	TMHMM2.0	TMhelix	   107   129
+HI914_07258A	TMHMM2.0	outside	   130   143
+HI914_07258A	TMHMM2.0	TMhelix	   144   166
+HI914_07258A	TMHMM2.0	inside	   167   186
+HI914_07258A	TMHMM2.0	TMhelix	   187   209
+HI914_07258A	TMHMM2.0	outside	   210   245
+HI914_07258A	TMHMM2.0	TMhelix	   246   265
+HI914_07258A	TMHMM2.0	inside	   266   276
+HI914_07258A	TMHMM2.0	TMhelix	   277   294
+HI914_07258A	TMHMM2.0	outside	   295   303
+HI914_07258A	TMHMM2.0	TMhelix	   304   326
+HI914_07258A	TMHMM2.0	inside	   327   338
+HI914_07258A	TMHMM2.0	TMhelix	   339   358
+HI914_07258A	TMHMM2.0	outside	   359   377
+HI914_07258A	TMHMM2.0	TMhelix	   378   400
+HI914_07258A	TMHMM2.0	inside	   401   461
+# HI914_07286A Length: 434
+# HI914_07286A Number of predicted TMHs:  0
+# HI914_07286A Exp number of AAs in TMHs: 3.18071
+# HI914_07286A Exp number, first 60 AAs:  3.16742
+# HI914_07286A Total prob of N-in:        0.16289
+HI914_07286A	TMHMM2.0	outside	     1   434
+# HI914_07287A Length: 767
+# HI914_07287A Number of predicted TMHs:  0
+# HI914_07287A Exp number of AAs in TMHs: 2.01698
+# HI914_07287A Exp number, first 60 AAs:  1.99533
+# HI914_07287A Total prob of N-in:        0.09972
+HI914_07287A	TMHMM2.0	outside	     1   767
+# HI914_07291A Length: 282
+# HI914_07291A Number of predicted TMHs:  1
+# HI914_07291A Exp number of AAs in TMHs: 26.27071
+# HI914_07291A Exp number, first 60 AAs:  0.11566
+# HI914_07291A Total prob of N-in:        0.23188
+HI914_07291A	TMHMM2.0	outside	     1   149
+HI914_07291A	TMHMM2.0	TMhelix	   150   172
+HI914_07291A	TMHMM2.0	inside	   173   282
+# HI914_07301A Length: 407
+# HI914_07301A Number of predicted TMHs:  0
+# HI914_07301A Exp number of AAs in TMHs: 0.88139
+# HI914_07301A Exp number, first 60 AAs:  0.86838
+# HI914_07301A Total prob of N-in:        0.04385
+HI914_07301A	TMHMM2.0	outside	     1   407
+# HI914_07308A Length: 503
+# HI914_07308A Number of predicted TMHs:  0
+# HI914_07308A Exp number of AAs in TMHs: 0.15341
+# HI914_07308A Exp number, first 60 AAs:  0.05107
+# HI914_07308A Total prob of N-in:        0.00353
+HI914_07308A	TMHMM2.0	outside	     1   503
+# HI914_07309A Length: 1278
+# HI914_07309A Number of predicted TMHs:  13
+# HI914_07309A Exp number of AAs in TMHs: 305.87185
+# HI914_07309A Exp number, first 60 AAs:  0.634950000000000001
+# HI914_07309A Total prob of N-in:        0.10799
+HI914_07309A	TMHMM2.0	outside	     1   263
+HI914_07309A	TMHMM2.0	TMhelix	   264   286
+HI914_07309A	TMHMM2.0	inside	   287   343
+HI914_07309A	TMHMM2.0	TMhelix	   344   366
+HI914_07309A	TMHMM2.0	outside	   367   594
+HI914_07309A	TMHMM2.0	TMhelix	   595   617
+HI914_07309A	TMHMM2.0	inside	   618   637
+HI914_07309A	TMHMM2.0	TMhelix	   638   660
+HI914_07309A	TMHMM2.0	outside	   661   663
+HI914_07309A	TMHMM2.0	TMhelix	   664   686
+HI914_07309A	TMHMM2.0	inside	   687   711
+HI914_07309A	TMHMM2.0	TMhelix	   712   734
+HI914_07309A	TMHMM2.0	outside	   735   743
+HI914_07309A	TMHMM2.0	TMhelix	   744   766
+HI914_07309A	TMHMM2.0	inside	   767   831
+HI914_07309A	TMHMM2.0	TMhelix	   832   854
+HI914_07309A	TMHMM2.0	outside	   855  1073
+HI914_07309A	TMHMM2.0	TMhelix	  1074  1096
+HI914_07309A	TMHMM2.0	inside	  1097  1102
+HI914_07309A	TMHMM2.0	TMhelix	  1103  1125
+HI914_07309A	TMHMM2.0	outside	  1126  1134
+HI914_07309A	TMHMM2.0	TMhelix	  1135  1157
+HI914_07309A	TMHMM2.0	inside	  1158  1177
+HI914_07309A	TMHMM2.0	TMhelix	  1178  1200
+HI914_07309A	TMHMM2.0	outside	  1201  1214
+HI914_07309A	TMHMM2.0	TMhelix	  1215  1237
+HI914_07309A	TMHMM2.0	inside	  1238  1278
+# HI914_07316A Length: 241
+# HI914_07316A Number of predicted TMHs:  1
+# HI914_07316A Exp number of AAs in TMHs: 18.93367
+# HI914_07316A Exp number, first 60 AAs:  18.82676
+# HI914_07316A Total prob of N-in:        0.73973
+# HI914_07316A POSSIBLE N-term signal sequence
+HI914_07316A	TMHMM2.0	inside	     1     4
+HI914_07316A	TMHMM2.0	TMhelix	     5    27
+HI914_07316A	TMHMM2.0	outside	    28   241
+# HI914_07341A Length: 256
+# HI914_07341A Number of predicted TMHs:  1
+# HI914_07341A Exp number of AAs in TMHs: 15.28888
+# HI914_07341A Exp number, first 60 AAs:  15.27862
+# HI914_07341A Total prob of N-in:        0.59538
+# HI914_07341A POSSIBLE N-term signal sequence
+HI914_07341A	TMHMM2.0	inside	     1     6
+HI914_07341A	TMHMM2.0	TMhelix	     7    29
+HI914_07341A	TMHMM2.0	outside	    30   256
+# HI914_07342A Length: 250
+# HI914_07342A Number of predicted TMHs:  0
+# HI914_07342A Exp number of AAs in TMHs: 9.40275
+# HI914_07342A Exp number, first 60 AAs:  8.58506
+# HI914_07342A Total prob of N-in:        0.15107
+HI914_07342A	TMHMM2.0	outside	     1   250
+# HI914_07343A Length: 253
+# HI914_07343A Number of predicted TMHs:  0
+# HI914_07343A Exp number of AAs in TMHs: 3.3132
+# HI914_07343A Exp number, first 60 AAs:  3.21547
+# HI914_07343A Total prob of N-in:        0.14859
+HI914_07343A	TMHMM2.0	outside	     1   253
+# HI914_07366A Length: 358
+# HI914_07366A Number of predicted TMHs:  0
+# HI914_07366A Exp number of AAs in TMHs: 15.81905
+# HI914_07366A Exp number, first 60 AAs:  15.69752
+# HI914_07366A Total prob of N-in:        0.71928
+# HI914_07366A POSSIBLE N-term signal sequence
+HI914_07366A	TMHMM2.0	outside	     1   358
+# HI914_07400A Length: 188
+# HI914_07400A Number of predicted TMHs:  0
+# HI914_07400A Exp number of AAs in TMHs: 5.7604
+# HI914_07400A Exp number, first 60 AAs:  5.76017
+# HI914_07400A Total prob of N-in:        0.30103
+HI914_07400A	TMHMM2.0	outside	     1   188
+# HI914_07447A Length: 541
+# HI914_07447A Number of predicted TMHs:  0
+# HI914_07447A Exp number of AAs in TMHs: 9.80596000000000001
+# HI914_07447A Exp number, first 60 AAs:  4.62446
+# HI914_07447A Total prob of N-in:        0.11967
+HI914_07447A	TMHMM2.0	outside	     1   541
+# HI914_07454A Length: 184
+# HI914_07454A Number of predicted TMHs:  0
+# HI914_07454A Exp number of AAs in TMHs: 4.23004
+# HI914_07454A Exp number, first 60 AAs:  4.22665
+# HI914_07454A Total prob of N-in:        0.14153
+HI914_07454A	TMHMM2.0	outside	     1   184
+# HI914_07459A Length: 380
+# HI914_07459A Number of predicted TMHs:  0
+# HI914_07459A Exp number of AAs in TMHs: 11.30294
+# HI914_07459A Exp number, first 60 AAs:  11.07999
+# HI914_07459A Total prob of N-in:        0.53870
+# HI914_07459A POSSIBLE N-term signal sequence
+HI914_07459A	TMHMM2.0	outside	     1   380
+# HI914_07461A Length: 190
+# HI914_07461A Number of predicted TMHs:  1
+# HI914_07461A Exp number of AAs in TMHs: 15.90459
+# HI914_07461A Exp number, first 60 AAs:  15.89838
+# HI914_07461A Total prob of N-in:        0.73809
+# HI914_07461A POSSIBLE N-term signal sequence
+HI914_07461A	TMHMM2.0	inside	     1     4
+HI914_07461A	TMHMM2.0	TMhelix	     5    24
+HI914_07461A	TMHMM2.0	outside	    25   190
+# HI914_07489A Length: 151
+# HI914_07489A Number of predicted TMHs:  0
+# HI914_07489A Exp number of AAs in TMHs: 11.88562
+# HI914_07489A Exp number, first 60 AAs:  11.87937
+# HI914_07489A Total prob of N-in:        0.20585
+# HI914_07489A POSSIBLE N-term signal sequence
+HI914_07489A	TMHMM2.0	outside	     1   151
+# HI914_07492A Length: 636
+# HI914_07492A Number of predicted TMHs:  0
+# HI914_07492A Exp number of AAs in TMHs: 7.25548
+# HI914_07492A Exp number, first 60 AAs:  7.23268
+# HI914_07492A Total prob of N-in:        0.37278
+HI914_07492A	TMHMM2.0	outside	     1   636
+# HI914_07494A Length: 609
+# HI914_07494A Number of predicted TMHs:  0
+# HI914_07494A Exp number of AAs in TMHs: 0.02503
+# HI914_07494A Exp number, first 60 AAs:  0
+# HI914_07494A Total prob of N-in:        0.00028
+HI914_07494A	TMHMM2.0	outside	     1   609
+# HI914_07495A Length: 609
+# HI914_07495A Number of predicted TMHs:  0
+# HI914_07495A Exp number of AAs in TMHs: 0.05557
+# HI914_07495A Exp number, first 60 AAs:  0
+# HI914_07495A Total prob of N-in:        0.00012
+HI914_07495A	TMHMM2.0	outside	     1   609
+# HI914_07503A Length: 609
+# HI914_07503A Number of predicted TMHs:  0
+# HI914_07503A Exp number of AAs in TMHs: 0.57155
+# HI914_07503A Exp number, first 60 AAs:  0
+# HI914_07503A Total prob of N-in:        0.00012
+HI914_07503A	TMHMM2.0	outside	     1   609
+# HI914_07505A Length: 245
+# HI914_07505A Number of predicted TMHs:  0
+# HI914_07505A Exp number of AAs in TMHs: 0.02596
+# HI914_07505A Exp number, first 60 AAs:  0.01911
+# HI914_07505A Total prob of N-in:        0.02699
+HI914_07505A	TMHMM2.0	outside	     1   245
+# HI914_07511A Length: 719
+# HI914_07511A Number of predicted TMHs:  1
+# HI914_07511A Exp number of AAs in TMHs: 22.61018
+# HI914_07511A Exp number, first 60 AAs:  3.34193
+# HI914_07511A Total prob of N-in:        0.16845
+HI914_07511A	TMHMM2.0	outside	     1   669
+HI914_07511A	TMHMM2.0	TMhelix	   670   689
+HI914_07511A	TMHMM2.0	inside	   690   719
+# HI914_07515A Length: 561
+# HI914_07515A Number of predicted TMHs:  0
+# HI914_07515A Exp number of AAs in TMHs: 2.86396
+# HI914_07515A Exp number, first 60 AAs:  1.21052
+# HI914_07515A Total prob of N-in:        0.06383
+HI914_07515A	TMHMM2.0	outside	     1   561
+# HI914_07551A Length: 191
+# HI914_07551A Number of predicted TMHs:  0
+# HI914_07551A Exp number of AAs in TMHs: 9.49475
+# HI914_07551A Exp number, first 60 AAs:  9.49276
+# HI914_07551A Total prob of N-in:        0.06840
+HI914_07551A	TMHMM2.0	outside	     1   191
+
